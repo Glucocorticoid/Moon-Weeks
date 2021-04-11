@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+	<MW_showDebugOutput>Show debug output</MW_showDebugOutput>
+    <MW_showDebugOutput_ToolTip>Show weeks debug info in game log</MW_showDebugOutput_ToolTip>
+
+    <MW_refireAfterWeekEnds>Week by week</MW_refireAfterWeekEnds>
+    <MW_refireAfterWeekEnds_ToolTip>Start another week when current week ended</MW_refireAfterWeekEnds_ToolTip>
+
+    <MW_autoOpenWeekWindow>Auto open week window</MW_autoOpenWeekWindow>
+    <MW_autoOpenWeekWindow_ToolTip>Enable and disable auto opening of week window. You can open this window manually by click on game condition in right message column.</MW_autoOpenWeekWindow_ToolTip>
+
+    <MW_ResetButton>Reset</MW_ResetButton>
+
+</LanguageData>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+	<MW_showDebugOutput>Вывод отладочной информации</MW_showDebugOutput>
+    <MW_showDebugOutput_ToolTip>Выводит в консоль отладочную информацию о работе модификаторов события недели</MW_showDebugOutput_ToolTip>
+
+    <MW_refireAfterWeekEnds>Неделя за неделей</MW_refireAfterWeekEnds>
+    <MW_refireAfterWeekEnds_ToolTip>Стартовать новую неделю сразу после завершения текущей недели</MW_refireAfterWeekEnds_ToolTip>
+
+    <MW_autoOpenWeekWindow>Автоматически открывать окно недели</MW_autoOpenWeekWindow>
+    <MW_autoOpenWeekWindow_ToolTip>Включает и отключает автоматическое открытие окна недели при наступлении события</MW_autoOpenWeekWindow_ToolTip>
+
+    <MW_ResetButton>Сброс</MW_ResetButton>
+
+</LanguageData>

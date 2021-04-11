@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+    <!--Weather-->
+    <MW_Weather_effects>Погодные эффекты</MW_Weather_effects>
+    <MW_Weather>Погода</MW_Weather>
+    <MW_W_PickRule>Выбирается</MW_W_PickRule>
+    <MW_W_First>первая</MW_W_First>
+    <MW_W_Random>произвольная</MW_W_Random>
+    <MW_W_Scaled>в зависимости от</MW_W_Scaled>
+    <MW_W_ColonyAgeInDays> возраста колонии</MW_W_ColonyAgeInDays>
+    <MW_W_ColonyWealth> стоимости колонии</MW_W_ColonyWealth>
+    <MW_W_NumberOfColonists> количества колонистов</MW_W_NumberOfColonists>
+    <MW_W_RaidPower> силы рейда</MW_W_RaidPower>
+    <MW_W_GameDifficulty> сложности игры</MW_W_GameDifficulty>
+
+</LanguageData>

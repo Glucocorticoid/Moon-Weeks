@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+    <!--Inspiration-->
+    <MW_I_Inspiration_effects>Эффекты воодушевления</MW_I_Inspiration_effects>
+    <MW_I_Apply_inspiration>Приеняет воодушевление</MW_I_Apply_inspiration>
+    <MW_I_PickRule>Применяется</MW_I_PickRule>
+
+    <MW_I_PR_First>первое</MW_I_PR_First>
+    <MW_I_PR_Random>произвольное</MW_I_PR_Random>
+    <MW_I_PR_Scaled>в зависимости от</MW_I_PR_Scaled>
+
+    <MW_I_ColonyAgeInDays>возраста колонии</MW_I_ColonyAgeInDays>
+    <MW_I_ColonyWealth>стоимости колонии</MW_I_ColonyWealth>
+    <MW_I_NumberOfColonists>количества колонистов</MW_I_NumberOfColonists>
+    <MW_I_RaidPower>силы рейда</MW_I_RaidPower>
+    <MW_I_GameDifficulty>сложности игры</MW_I_GameDifficulty>
+
+    <MW_I_Affected>Подвержены</MW_I_Affected>
+    <MW_I_PPR_Random>произвольно</MW_I_PPR_Random>
+    <MW_I_PPR_All>все</MW_I_PPR_All>
+    <MW_I_female>женщины</MW_I_female>
+    <MW_I_male>мужчины</MW_I_male>
+    <MW_I_every>мужчины и женщины</MW_I_every>
+    <MW_I_colonist>колонисты</MW_I_colonist>
+
+</LanguageData>

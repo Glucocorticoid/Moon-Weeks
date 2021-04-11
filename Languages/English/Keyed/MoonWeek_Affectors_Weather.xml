@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+    <!--Weather-->
+    <MW_Weather_effects>Weather effects</MW_Weather_effects>
+    <MW_Weather>Weather</MW_Weather>
+    <MW_W_PickRule>Take</MW_W_PickRule>
+    <MW_W_First>first</MW_W_First>
+    <MW_W_Random>random</MW_W_Random>
+    <MW_W_Scaled>depend on</MW_W_Scaled>
+    <MW_W_ColonyAgeInDays>colony age</MW_W_ColonyAgeInDays>
+    <MW_W_ColonyWealth>colony wealth</MW_W_ColonyWealth>
+    <MW_W_NumberOfColonists>number of colonists</MW_W_NumberOfColonists>
+    <MW_W_RaidPower>raid power</MW_W_RaidPower>
+    <MW_W_GameDifficulty>game difficulty</MW_W_GameDifficulty>
+
+</LanguageData>

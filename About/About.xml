@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<packageId>glucocorticoid.moonweeks</packageId>
+	<name>Moon weeks</name>
+	<author>Glucocorticoid</author>
+	<supportedVersions>
+		<li>1.2</li>
+	</supportedVersions>
+
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<downloadUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</downloadUrl>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+
+	<incompatibleWith>
+	</incompatibleWith>
+
+	<description>Weekly events.</description>
+</ModMetaData>

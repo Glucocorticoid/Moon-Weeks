@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+    <!--General-->
+	<MW_Executes>Выполняется</MW_Executes>
+	<MW_Once>единожды</MW_Once>
+	<MW_EveryXHours>каждые</MW_EveryXHours>
+	<MW_hours>ч.</MW_hours>
+	<MW_Permanent>постоянно</MW_Permanent>
+    
+</LanguageData>

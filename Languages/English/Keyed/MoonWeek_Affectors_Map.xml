@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+    <!--Map-->
+    <MW_Map_effects>Map effects</MW_Map_effects>
+    <MW_Animal_density_multiplier>Animal density multiplier</MW_Animal_density_multiplier>
+    <MW_Disables_electricity>Disables electricity</MW_Disables_electricity>
+
+</LanguageData>

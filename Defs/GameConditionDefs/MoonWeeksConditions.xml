@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<GameConditionDef>
+		<defName>MoonWeekCondition</defName>
+		<conditionClass>MoonWeeks.GameCondition_MoonWeek</conditionClass>
+		<label>Moon week</label> <!--basic condition label, displays when something go wrong-->
+		<letterDef>NeutralEvent</letterDef> <!--basic message type, displays when something go wrong-->
+		<letterText>Week started</letterText> <!--basic letter text, displays when something go wrong-->
+		<description>Description.</description> <!--basic condition description, displays when something go wrong-->
+		<descriptionFuture>Another description</descriptionFuture> <!--basic condition description, displays when something go wrong-->
+		<endMessage>ended.</endMessage> <!--Usefull message when week ends-->
+		<canBePermanent>false</canBePermanent>
+	</GameConditionDef>
+
+</Defs>

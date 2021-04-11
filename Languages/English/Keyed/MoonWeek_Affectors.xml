@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+    <!--General-->
+	<MW_Executes>Executes</MW_Executes>
+	<MW_Once>once</MW_Once>
+	<MW_EveryXHours>every</MW_EveryXHours>
+	<MW_hours>h.</MW_hours>
+	<MW_Permanent>permanent</MW_Permanent>
+    
+</LanguageData>

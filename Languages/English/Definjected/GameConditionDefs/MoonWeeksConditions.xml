@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MoonWeekCondition.label>Week</MoonWeekCondition.label>
+  <MoonWeekCondition.letterText>Week started</MoonWeekCondition.letterText>
+  <MoonWeekCondition.description>Week description</MoonWeekCondition.description>
+  <MoonWeekCondition.descriptionFuture>Another one description</MoonWeekCondition.descriptionFuture>
+  <MoonWeekCondition.endMessage>ended</MoonWeekCondition.endMessage>
+
+</LanguageData>

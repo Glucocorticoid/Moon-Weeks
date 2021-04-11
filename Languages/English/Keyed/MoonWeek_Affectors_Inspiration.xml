@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+    <!--Inspiration-->
+    <MW_I_Inspiration_effects>Inspiration effects</MW_I_Inspiration_effects>
+    <MW_I_Apply_inspiration>Apply inspiration</MW_I_Apply_inspiration>
+    <MW_I_PickRule>Apply</MW_I_PickRule>
+
+    <MW_I_PR_First>first</MW_I_PR_First>
+    <MW_I_PR_Random>random</MW_I_PR_Random>
+    <MW_I_PR_Scaled>depend on</MW_I_PR_Scaled>
+
+    <MW_I_ColonyAgeInDays>colony age</MW_I_ColonyAgeInDays>
+    <MW_I_ColonyWealth>colony wealth</MW_I_ColonyWealth>
+    <MW_I_NumberOfColonists>number of colonists</MW_I_NumberOfColonists>
+    <MW_I_RaidPower>raid power</MW_I_RaidPower>
+    <MW_I_GameDifficulty>game difficulty</MW_I_GameDifficulty>
+
+    <MW_I_Affected>Affected</MW_I_Affected>
+    <MW_I_PPR_Random>random</MW_I_PPR_Random>
+    <MW_I_PPR_All>all</MW_I_PPR_All>
+    <MW_I_female>women</MW_I_female>
+    <MW_I_male>men</MW_I_male>
+    <MW_I_every>men and women</MW_I_every>
+    <MW_I_colonist>colonists</MW_I_colonist>
+
+</LanguageData>

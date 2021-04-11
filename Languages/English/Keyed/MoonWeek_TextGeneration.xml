@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <!--Test feature.-->
+
+    <MW_Words_Where>в далекой галактике; в пыли; в кустах; в туалете; в темноте; в чистом поле; в кровати; в воде; в воздухе; во сне; в гнезде; в пещере; в траве</MW_Words_Where>
+    <MW_Words_WhenPast>давным давно; вчера; завтра; в былые времена; в древности; час назад; только что</MW_Words_WhenPast>
+    <MW_Words_Verbs>сделал; изготовил; украл; поймал; спилил; сломал; починил; похитил</MW_Words_Verbs>
+    <MW_Words_UVerbs>ждать; искать; делать; воспевать; скрывать; обдумывать</MW_Words_UVerbs>
+
+    <MW_Legend>{MWWHEN} в эту неделю {MWFACTION} {MWVERB}и {MWTHING}.</MW_Legend>
+
+</LanguageData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+    <!--Map-->
+    <MW_Map_effects>Эффекты карты</MW_Map_effects>
+    <MW_Animal_density_multiplier>Множитель количества животных</MW_Animal_density_multiplier>
+    <MW_Disables_electricity>Отключено электричество</MW_Disables_electricity>
+
+</LanguageData>
