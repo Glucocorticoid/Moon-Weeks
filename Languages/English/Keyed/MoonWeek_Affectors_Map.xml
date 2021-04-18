@@ -2,8 +2,14 @@
 <LanguageData>
 	
     <!--Map-->
-    <MW_Map_effects>Map effects</MW_Map_effects>
-    <MW_Animal_density_multiplier>Animal density multiplier</MW_Animal_density_multiplier>
-    <MW_Disables_electricity>Disables electricity</MW_Disables_electricity>
+    <MW_M_Map_effects>Map effects</MW_M_Map_effects>
+    <MW_M_Animal_density_multiplier>Animal density multiplier</MW_M_Animal_density_multiplier>
+    <MW_M_Disables_electricity>Disables electricity</MW_M_Disables_electricity>
+    <MW_M_ChangeSky>Affects the sky</MW_M_ChangeSky>
+    <MW_M_Executes>Executes</MW_M_Executes>
+	<MW_M_Once>once</MW_M_Once>
+	<MW_M_EveryXHours>every</MW_M_EveryXHours>
+	<MW_M_hours>h.</MW_M_hours>
+	<MW_M_Permanent>permanent</MW_M_Permanent>
 
 </LanguageData>

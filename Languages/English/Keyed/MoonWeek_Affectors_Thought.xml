@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+    <!--Thought-->
+    <MW_T_EffectHeader>Thoughts</MW_T_EffectHeader>
+    <MW_T_ApplyEffectListLabel>Apply thought</MW_T_ApplyEffectListLabel>
+    <MW_T_EffectPickRuleLabel>Take</MW_T_EffectPickRuleLabel>
+
+    <MW_T_PR_First>first</MW_T_PR_First>
+    <MW_T_PR_Random>random</MW_T_PR_Random>
+    <MW_T_PR_Scaled>depends on</MW_T_PR_Scaled>
+
+    <MW_T_ColonyAgeInDays>colony age</MW_T_ColonyAgeInDays>
+    <MW_T_ColonyWealth>colony wealth</MW_T_ColonyWealth>
+    <MW_T_NumberOfColonists>number of colonists</MW_T_NumberOfColonists>
+    <MW_T_RaidPower>raid power</MW_T_RaidPower>
+    <MW_T_GameDifficulty>game difficulty</MW_T_GameDifficulty>
+
+    <MW_T_Affected>Affected</MW_T_Affected>
+    <MW_T_PPR_Random>random</MW_T_PPR_Random>
+    <MW_T_PPR_All>all</MW_T_PPR_All>
+    <MW_T_female>women</MW_T_female>
+    <MW_T_male>men</MW_T_male>
+    <MW_T_every>women and men</MW_T_every>
+    <MW_T_colonist>colonist</MW_T_colonist>
+    <MW_T_non_colonist>non colonist</MW_T_non_colonist>
+    <MW_T_animal>animal</MW_T_animal>
+    <MW_T_non_animal>non animal</MW_T_non_animal>
+    <MW_T_enemy>enemy</MW_T_enemy>
+    <MW_T_non_enemy>non enemy</MW_T_non_enemy>
+    <MW_T_mechanoids>mechanoid</MW_T_mechanoids>
+    <MW_T_non_mechanoids>non mechanoid</MW_T_non_mechanoids>
+    <MW_T_empty_label>empty</MW_T_empty_label>
+    <MW_T_pawns_from_list>from list</MW_T_pawns_from_list>
+    
+    <MW_T_Executes>Executes</MW_T_Executes>
+	<MW_T_Once>once</MW_T_Once>
+	<MW_T_EveryXHours>every</MW_T_EveryXHours>
+	<MW_T_hours>h.</MW_T_hours>
+	<MW_T_Permanent>permanent</MW_T_Permanent>
+
+</LanguageData>

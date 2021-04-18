@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-    <!--Test feature.-->
+    <MW_Words_Where>in a galaxy far far away;in dust;in bush;in a toilet;in the dark;in an open field;in bed;in water;in the air;in a dream;in a nest;in a cave;in the grass</MW_Words_Where>
+    <MW_Words_WhenPast>a long time ago;yesterday;tomorrow;in the old days;in ancient times;hour ago;just now</MW_Words_WhenPast>
+    <MW_Words_Verbs>done;made;stole;caught;sawed off;broke;repaired;kidnapped</MW_Words_Verbs>
+    <MW_Words_UVerbs>wait;search;do;carol;hide;ponder</MW_Words_UVerbs>
 
-    <MW_Words_Where>в далекой галактике; в пыли; в кустах; в туалете; в темноте; в чистом поле; в кровати; в воде; в воздухе; во сне; в гнезде; в пещере; в траве</MW_Words_Where>
-    <MW_Words_WhenPast>давным давно; вчера; завтра; в былые времена; в древности; час назад; только что</MW_Words_WhenPast>
-    <MW_Words_Verbs>сделал; изготовил; украл; поймал; спилил; сломал; починил; похитил</MW_Words_Verbs>
-    <MW_Words_UVerbs>ждать; искать; делать; воспевать; скрывать; обдумывать</MW_Words_UVerbs>
+    <MW_Legend>{MWWHEN} this week, the rulers of {MWFACTION} {MWVERB} a {MWTHING}.</MW_Legend>
 
-    <MW_Legend>{MWWHEN} в эту неделю {MWFACTION} {MWVERB}и {MWTHING}.</MW_Legend>
+    <MW_Words_ProverbA>a bad workman always blames;a cat has;actions speak louder than;a drowning man will clutch at;all good things come to;always put forward;an empty vessel makes;a picture is worth;a rolling stone gathers;beauty is in</MW_Words_ProverbA>
+    <MW_Words_ProverbB>Sidfu's salt;his tools;nine lives;words;a straw;an end;a bad storyteller;Sky's bugs;your best foot;much noise;a thousand words;no moss;the eye of the beholder</MW_Words_ProverbB>
+
+    <MW_Wisdom>After taking a {MWDRUG}, {MWCOLONOST} said: "{MWProverbA} {MWProverbB}".</MW_Wisdom>
+
+    <MW_Wired_Stat>{MWSTAT} for all, who is a {MWPAWN}, increases up to {MWMODVAUE}.</MW_Wired_Stat>
 
 </LanguageData>

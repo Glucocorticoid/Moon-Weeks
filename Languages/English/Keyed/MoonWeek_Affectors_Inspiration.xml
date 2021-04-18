@@ -2,9 +2,9 @@
 <LanguageData>
 	
     <!--Inspiration-->
-    <MW_I_Inspiration_effects>Inspiration effects</MW_I_Inspiration_effects>
-    <MW_I_Apply_inspiration>Apply inspiration</MW_I_Apply_inspiration>
-    <MW_I_PickRule>Apply</MW_I_PickRule>
+    <MW_I_EffectHeader>Inspiration effects</MW_I_EffectHeader>
+    <MW_I_ApplyEffectListLabel>Apply inspiration</MW_I_ApplyEffectListLabel>
+    <MW_I_EffectPickRuleLabel>Apply</MW_I_EffectPickRuleLabel>
 
     <MW_I_PR_First>first</MW_I_PR_First>
     <MW_I_PR_Random>random</MW_I_PR_Random>
@@ -23,5 +23,11 @@
     <MW_I_male>men</MW_I_male>
     <MW_I_every>men and women</MW_I_every>
     <MW_I_colonist>colonists</MW_I_colonist>
+
+    <MW_I_Executes>Executes</MW_I_Executes>
+	<MW_I_Once>once</MW_I_Once>
+	<MW_I_EveryXHours>every</MW_I_EveryXHours>
+	<MW_I_hours>h.</MW_Inc_hours>
+	<MW_I_Permanent>permanent</MW_I_Permanent>
 
 </LanguageData>

@@ -2,17 +2,20 @@
 <LanguageData>
 	
     <!--Hediff-->
-    <MW_H_Hediff_effects>Pawn effects</MW_H_Hediff_effects>
-    <MW_H_Apply_hediff>Apply effect</MW_H_Apply_hediff>
-    <MW_H_PickRule>Apply</MW_H_PickRule>
+    <MW_H_EffectHeader>Pawn effects</MW_H_EffectHeader>
+    <MW_H_ApplyEffectListLabel>Apply effect</MW_H_ApplyEffectListLabel>
+    <MW_H_EffectPickRuleLabel>Apply</MW_H_EffectPickRuleLabel>
+
     <MW_H_PR_First>first</MW_H_PR_First>
     <MW_H_PR_Random>random</MW_H_PR_Random>
     <MW_H_PR_Scaled>depends on</MW_H_PR_Scaled>
+
     <MW_H_ColonyAgeInDays>colony age</MW_H_ColonyAgeInDays>
     <MW_H_ColonyWealth>colony wealth</MW_H_ColonyWealth>
     <MW_H_NumberOfColonists>number of colonists</MW_H_NumberOfColonists>
     <MW_H_RaidPower>raid power</MW_H_RaidPower>
     <MW_H_GameDifficulty>game difficulty</MW_H_GameDifficulty>
+
     <MW_H_Affected>Affected</MW_H_Affected>
     <MW_H_PPR_Random>random</MW_H_PPR_Random>
     <MW_H_PPR_All>all</MW_H_PPR_All>
@@ -29,5 +32,11 @@
     <MW_H_non_mechanoids>non mechanoid</MW_H_non_mechanoids>
     <MW_H_empty_label>empty</MW_H_empty_label>
     <MW_H_pawns_from_list>from list</MW_H_pawns_from_list>
+    
+    <MW_H_Executes>Executes</MW_H_Executes>
+	<MW_H_Once>once</MW_H_Once>
+	<MW_H_EveryXHours>every</MW_H_EveryXHours>
+	<MW_H_hours>h.</MW_H_hours>
+	<MW_H_Permanent>permanent</MW_H_Permanent>
 
 </LanguageData>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <!--Weather-->
+    <MW_Inc_EventHeader>Events</MW_Inc_EventHeader>
+    <MW_Inc_EventListLabel>Incident</MW_Inc_EventListLabel>
+    <MW_Inc_PickRule>Select</MW_Inc_PickRule>
+
+    <MW_Inc_First>first</MW_Inc_First>
+    <MW_Inc_Random>random</MW_Inc_Random>
+    <MW_Inc_Scaled>depend on</MW_Inc_Scaled>
+
+    <MW_Inc_ColonyAgeInDays>colony age</MW_Inc_ColonyAgeInDays>
+    <MW_Inc_ColonyWealth>colony wealth</MW_Inc_ColonyWealth>
+    <MW_Inc_NumberOfColonists>number of colonists</MW_Inc_NumberOfColonists>
+    <MW_Inc_RaidPower>raid power</MW_Inc_RaidPower>
+    <MW_Inc_GameDifficulty>game difficulty</MW_Inc_GameDifficulty>
+
+    <MW_Inc_Executes>Executes</MW_Inc_Executes>
+	<MW_Inc_Once>once</MW_Inc_Once>
+	<MW_Inc_EveryXHours>every</MW_Inc_EveryXHours>
+	<MW_Inc_hours>h.</MW_Inc_hours>
+	<MW_Inc_Permanent>permanent</MW_Inc_Permanent>
+
+</LanguageData>
