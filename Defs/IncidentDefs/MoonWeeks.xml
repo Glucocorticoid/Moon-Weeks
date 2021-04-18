@@ -45,31 +45,42 @@
 						<affectPopulation>true</affectPopulation>
 						<populationMultiplier>0.85</populationMultiplier>
 						<disableElectricity>true</disableElectricity>
+						<targetSky>
+							<glow>0.7</glow>
+							<colors>
+								<sky>(0.8,0.8,0.8)</sky>
+      							<shadow>(0.92,0.92,0.92)</shadow>
+      							<overlay>(0.7,0.7,0.7)</overlay>
+      							<saturation>0.9</saturation>
+							</colors>
+							<lightsourceShineSize>0.9</lightsourceShineSize>
+							<lightsourceShineIntensity>0.8</lightsourceShineIntensity>
+						</targetSky>
 					</li>
 					<li Class="MoonWeeks.WeekAffector_Weather">
 						<excecutionType>EveryXHours</excecutionType>
 						<reApplyEveryXHours>6</reApplyEveryXHours>
-						<weathers>
+						<eventDefs>
 							<li>ToxicRain</li>
-						</weathers>
+						</eventDefs>
 					</li>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>Once</excecutionType>
-						<applyHediff>
+						<effectDefs>
 							<li>FoodPoisoning</li>
 							<li>IbuprofenHigh</li>
 							<li>Berserk_herb_high</li>
 							<li>MethadoneHigh</li>
-						</applyHediff>
+						</effectDefs>
 						<affectGenderOnly>Male</affectGenderOnly>
-						<isHediffAffectColonists>true</isHediffAffectColonists>
+						<isAffectColonists>true</isAffectColonists>
 					</li>
 					<li Class="MoonWeeks.WeekAffector_Inspiration">
 						<excecutionType>EveryXHours</excecutionType>
 						<reApplyEveryXHours>12</reApplyEveryXHours>
-						<inspirations>
+						<effectDefs>
 							<li>Frenzy_Shoot</li>
-						</inspirations>
+						</effectDefs>
 						<affectGenderOnly>Female</affectGenderOnly>
 					</li>
 				</affectors>
@@ -151,6 +162,21 @@
 						<!--Disable electricity on map if it True-->
 						<!--false by default-->
 						<disableElectricity>true</disableElectricity>
+
+						<!--targetSky is a affector specific field, avaliable only for Map affector-->
+						<!--Change SkyTarget if set up-->
+						<!--null by default-->
+						<targetSky>
+							<glow>0.1</glow>
+							<colors>
+								<sky>(0.1,0.1,0.1)</sky>
+      							<shadow>(0.1,0.1,0.1)</shadow>
+      							<overlay>(0.1,0.1,0.1)</overlay>
+      							<saturation>0.1</saturation>
+							</colors>
+							<lightsourceShineSize>0.1</lightsourceShineSize>
+							<lightsourceShineIntensity>0.1</lightsourceShineIntensity>
+						</targetSky>
 					</li>
 				</affectors>
             </li>
@@ -196,12 +222,12 @@
 
 						<!--weathers is a affector specific field, avaliable only for Weather affector-->
 						<!--Can containt only one def if you choose First rule below-->
-						<weathers>
+						<eventDefs>
 							<li>NuclearWinter</li>
 							<li>ToxicRain</li>
 							<li>Rain</li>
 							<li>RainyThunderstorm</li>
-						</weathers>
+						</eventDefs>
 
 						<!--pickRule is a affector specific field, avaliable only for affectors with def lists-->
 						<!--Possible value: First - pick only first weather when you dont need scale weather effects-->
@@ -243,12 +269,12 @@
 				<weekDurationInDays>1</weekDurationInDays>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Weather">
-						<weathers>
+						<eventDefs>
 							<li>NuclearWinter</li>
 							<li>ToxicRain</li>
 							<li>Rain</li>
 							<li>RainyThunderstorm</li>
-						</weathers>
+						</eventDefs>
 						<pickRule>Random</pickRule>
 					</li>
 				</affectors>
@@ -281,9 +307,9 @@
 				<affectors>
 					<!--this will work because of default values for most params -->
 					<li Class="MoonWeeks.WeekAffector_Weather">
-						<weathers>
+						<eventDefs>
 							<li>NuclearWinter</li>
-						</weathers>
+						</eventDefs>
 					</li>
 				</affectors>
             </li>
@@ -318,12 +344,12 @@
 						<excecutionType>EveryXHours</excecutionType>
 						<reApplyEveryXHours>12</reApplyEveryXHours>
 						<!--List of avaliable inspirations-->
-						<inspirations>
+						<effectDefs>
 							<li>Frenzy_Work</li>
 							<li>Frenzy_Go</li>
 							<li>Frenzy_Shoot</li>
 							<li>Inspired_Trade</li>
-						</inspirations>
+						</effectDefs>
 
 						<!--Define who will be inspired-->
 						<!--Male, Female or BothMaleFemale values avaliable-->
@@ -372,12 +398,12 @@
 						<excecutionType>EveryXHours</excecutionType>
 						<reApplyEveryXHours>12</reApplyEveryXHours>
 						<scalable>true</scalable>
-						<inspirations>
+						<effectDefs>
 							<li>Frenzy_Work</li>
 							<li>Frenzy_Go</li>
 							<li>Frenzy_Shoot</li>
 							<li>Inspired_Trade</li>
-						</inspirations>
+						</effectDefs>
 						<pickRule>Scaled</pickRule>
 						<scaleRule>NumberOfColonists</scaleRule>
 						<scalePoints>
@@ -420,9 +446,9 @@
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Inspiration">
 						<!--Also will work because of default values-->
-						<inspirations>
+						<effectDefs>
 							<li>Frenzy_Work</li>
-						</inspirations>
+						</effectDefs>
 					</li>
 				</affectors>
             </li>
@@ -456,21 +482,21 @@
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>Once</excecutionType>
 						<!--List of avaliable hediffs-->
-						<applyHediff>
+						<effectDefs>
 							<li>FoodPoisoning</li>
 							<li>IbuprofenHigh</li>
 							<li>Berserk_herb_high</li>
 							<li>MethadoneHigh</li>
-						</applyHediff>
+						</effectDefs>
 
 						<!--You can select Male, Female or BothMaleFemale pawns-->
 						<affectGenderOnly>Male</affectGenderOnly>
 
 						<!--Hediff can affect colonists or not affect-->
-						<isHediffAffectColonists>false</isHediffAffectColonists>
+						<isAffectColonists>false</isAffectColonists>
 
 						<!--Hediff can affect enemies or not affect-->
-						<isHediffAffectEnemies>true</isHediffAffectEnemies>
+						<isAffectEnemies>true</isAffectEnemies>
 
 						<!--Describe which hediff will be applied-->
 						<!--Same values af before: First, Random or Scaled -->
@@ -497,13 +523,105 @@
 						</allowPawnDefs>
 
 						<!--Yep, you can try to affect mechanoids. Why not?-->
-						<isHediffAffectMechanoids>True</isHediffAffectMechanoids>
+						<isAffectMechanoids>True</isAffectMechanoids>
 
 						<!--Want to enrage animals? Do it!-->
-						<isHediffAffectAnimals>True</isHediffAffectAnimals>
+						<isAffectAnimals>True</isAffectAnimals>
 
+					</li>
+				</affectors>
+            </li>
+        </modExtensions>
+	</IncidentDef>
 
+	<IncidentDef>
+	<!--This is a test week-->
+		<defName>MoonWeekIncident_Thought_1</defName>
+		<label>Thought week started_1</label> 
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>MoonWeeks.IncidentWorker_WeekStarts</workerClass>
+		<baseChance>0.5</baseChance>
+		<pointsScaleable>true</pointsScaleable>
+		<earliestDay>1</earliestDay>
+		<minPopulation>1</minPopulation>
+		<minRefireDays>8</minRefireDays>
+		<letterDef>PurpleEvent</letterDef>
+        <letterLabel>Thought week_1</letterLabel> 
+        <letterText>This is a test thought week to test map affector</letterText>
 
+        <modExtensions>
+            <li Class="MoonWeeks.WeekParams">
+                <weekLabel>weekLabel_TestThought_1</weekLabel>
+				<weekDescription>weekDescription_TestThought_1</weekDescription>
+				<weekDurationInDays>1</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Thought">
+						<excecutionType>Once</excecutionType>
+						<effectDefs>
+							<li>EclipseSubEventAFeral</li>
+							<li>Rescued</li>
+							<li>NuclearFalloutThought</li>
+							<li>Amnesia</li>
+							<li>Hotdrink</li>
+						</effectDefs>
+						<affectGenderOnly>Male</affectGenderOnly>
+						<isAffectColonists>true</isAffectColonists>
+						<isAffectEnemies>true</isAffectEnemies>
+						<pickRule>Scaled</pickRule>
+						<scalable>True</scalable>
+						<scaleRule>NumberOfColonists</scaleRule>
+						<scalePoints>
+								<li>(0, 0)</li>
+								<li>(3, 1)</li>
+								<li>(4, 2)</li>
+								<li>(5, 3)</li>
+						</scalePoints>
+						<pawnPickRule>Random</pawnPickRule>
+						<allowPawnDefs>
+							<li>NorbalWarrior</li>
+						</allowPawnDefs>
+						<isAffectMechanoids>True</isAffectMechanoids>
+						<isAffectAnimals>True</isAffectAnimals>
+					</li>
+				</affectors>
+            </li>
+        </modExtensions>
+	</IncidentDef>
+
+	<IncidentDef>
+	<!--This is a test week-->
+		<defName>MoonWeekIncident_Events_1</defName>
+		<label>Events week started</label> 
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>MoonWeeks.IncidentWorker_WeekStarts</workerClass>
+		<baseChance>0.5</baseChance>
+		<pointsScaleable>true</pointsScaleable>
+		<earliestDay>1</earliestDay>
+		<minPopulation>1</minPopulation>
+		<minRefireDays>8</minRefireDays>
+		<letterDef>PurpleEvent</letterDef>
+        <letterLabel>Events week_2</letterLabel> 
+        <letterText>This is a test incident to test map affector</letterText>
+		<modExtensions>
+            <li Class="MoonWeeks.WeekParams">
+                <weekLabel>weekLabel_TestMap_2</weekLabel>
+				<weekDescription>weekDescription_TestMap_2</weekDescription>
+				<weekDurationInDays>1</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Incident">
+						<eventDefs>
+							<li>SelfTame</li>
+							<li>ThrumboPasses</li>
+							<li>HerdMigration</li>
+							<li>HeatWave</li>
+						</eventDefs>
+						<pickRule>Random</pickRule>
 					</li>
 				</affectors>
             </li>

@@ -2,9 +2,9 @@
 <LanguageData>
 	
     <!--Inspiration-->
-    <MW_I_Inspiration_effects>Эффекты воодушевления</MW_I_Inspiration_effects>
-    <MW_I_Apply_inspiration>Приеняет воодушевление</MW_I_Apply_inspiration>
-    <MW_I_PickRule>Применяется</MW_I_PickRule>
+    <MW_I_EffectHeader>Эффекты воодушевления</MW_I_EffectHeader>
+    <MW_I_ApplyEffectListLabel>Приеняет воодушевление</MW_I_ApplyEffectListLabel>
+    <MW_I_EffectPickRuleLabel>Применяется</MW_I_EffectPickRuleLabel>
 
     <MW_I_PR_First>первое</MW_I_PR_First>
     <MW_I_PR_Random>произвольное</MW_I_PR_Random>
@@ -23,5 +23,11 @@
     <MW_I_male>мужчины</MW_I_male>
     <MW_I_every>мужчины и женщины</MW_I_every>
     <MW_I_colonist>колонисты</MW_I_colonist>
+
+    <MW_I_Executes>Выполняется</MW_I_Executes>
+	<MW_I_Once>единожды</MW_I_Once>
+	<MW_I_EveryXHours>каждые</MW_I_EveryXHours>
+	<MW_I_hours>ч.</MW_I_hours>
+	<MW_I_Permanent>постоянно</MW_I_Permanent>
 
 </LanguageData>

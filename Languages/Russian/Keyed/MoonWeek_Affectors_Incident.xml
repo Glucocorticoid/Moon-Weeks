@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <!--Weather-->
+    <MW_Inc_EventHeader>События</MW_Inc_EventHeader>
+    <MW_Inc_EventListLabel>Инцидент</MW_Inc_EventListLabel>
+    <MW_Inc_PickRule>Выбирается</MW_Inc_PickRule>
+
+    <MW_Inc_First>первый</MW_Inc_First>
+    <MW_Inc_Random>произвольный</MW_Inc_Random>
+    <MW_Inc_Scaled>в зависимости от</MW_Inc_Scaled>
+
+    <MW_Inc_ColonyAgeInDays>возраста колонии</MW_Inc_ColonyAgeInDays>
+    <MW_Inc_ColonyWealth>стоимости колонии</MW_Inc_ColonyWealth>
+    <MW_Inc_NumberOfColonists>количества колонистов</MW_Inc_NumberOfColonists>
+    <MW_Inc_RaidPower>силы рейда</MW_Inc_RaidPower>
+    <MW_Inc_GameDifficulty>сложности игры</MW_Inc_GameDifficulty>
+
+    <MW_Inc_Executes>Выполняется</MW_Inc_Executes>
+	<MW_Inc_Once>единожды</MW_Inc_Once>
+	<MW_Inc_EveryXHours>каждые</MW_Inc_EveryXHours>
+	<MW_Inc_hours>ч.</MW_Inc_hours>
+	<MW_Inc_Permanent>постоянно</MW_Inc_Permanent>
+
+</LanguageData>

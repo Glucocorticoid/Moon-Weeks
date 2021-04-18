@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+    <!--Thought-->
+    <MW_T_EffectHeader>Воспоминания</MW_T_EffectHeader>
+    <MW_T_ApplyEffectListLabel>Вселяет воспоминание</MW_T_ApplyEffectListLabel>
+    <MW_T_EffectPickRuleLabel>Выбирается</MW_T_EffectPickRuleLabel>
+
+    <MW_T_PR_First>первый</MW_T_PR_First>
+    <MW_T_PR_Random>произвольный</MW_T_PR_Random>
+    <MW_T_PR_Scaled>в зависимости от</MW_T_PR_Scaled>
+
+    <MW_T_ColonyAgeInDays>возраста колонии</MW_T_ColonyAgeInDays>
+    <MW_T_ColonyWealth>стоимости колонии</MW_T_ColonyWealth>
+    <MW_T_NumberOfColonists>количества колонистов</MW_T_NumberOfColonists>
+    <MW_T_RaidPower>силы рейда</MW_T_RaidPower>
+    <MW_T_GameDifficulty>сложности игры</MW_T_GameDifficulty>
+
+    <MW_T_Affected>Подвержены</MW_T_Affected>
+    <MW_T_PPR_Random>произвольно</MW_T_PPR_Random>
+    <MW_T_PPR_All>все</MW_T_PPR_All>
+    <MW_T_female>женщины</MW_T_female>
+    <MW_T_male>мужчины</MW_T_male>
+    <MW_T_every>женщины и мужчины</MW_T_every>
+    <MW_T_colonist>колонисты</MW_T_colonist>
+    <MW_T_non_colonist>не колонисты</MW_T_non_colonist>
+    <MW_T_animal>животные</MW_T_animal>
+    <MW_T_non_animal> не животные</MW_T_non_animal>
+    <MW_T_enemy>враги</MW_T_enemy>
+    <MW_T_non_enemy> не враги</MW_T_non_enemy>
+    <MW_T_mechanoids>механоиды</MW_T_mechanoids>
+    <MW_T_non_mechanoids>не механоиды</MW_T_non_mechanoids>
+    <MW_T_empty_label>пусто</MW_T_empty_label>
+    <MW_T_pawns_from_list>из списка</MW_T_pawns_from_list>
+    
+    <MW_T_Executes>Выполняется</MW_T_Executes>
+	<MW_T_Once>единожды</MW_T_Once>
+	<MW_T_EveryXHours>каждые</MW_T_EveryXHours>
+	<MW_T_hours>ч.</MW_T_hours>
+	<MW_T_Permanent>постоянно</MW_T_Permanent>
+
+</LanguageData>

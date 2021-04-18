@@ -6,6 +6,13 @@
     <MW_Words_Verbs>сделал; изготовил; украл; поймал; спилил; сломал; починил; похитил</MW_Words_Verbs>
     <MW_Words_UVerbs>ждать; искать; делать; воспевать; скрывать; обдумывать</MW_Words_UVerbs>
 
-    <MW_Legend>{MWWHEN} в эту неделю {MWFACTION} {MWVERB}и {MWTHING}.</MW_Legend>
+    <MW_Legend>{MWWHEN} в эту неделю правители из {MWFACTION} {MWVERB}и {MWTHING}.</MW_Legend>
+
+    <MW_Words_ProverbA>сколько волка ни корми;куй железо;баба с возу;тише едешь;под лежачий камень;без труда;раз в год;встречают по одежке</MW_Words_ProverbA>
+    <MW_Words_ProverbB>все равно в лес смотрит;пока горячо;кобыле легче;дальше будешь;вода не течет;не выловишь и рыбку из пруда;и палка стреляет;провожаю по уму</MW_Words_ProverbB>
+
+    <MW_Wisdom>Употребив {MWDRUG}, {MWCOLONOST} выдал мудрость: "{MWProverbA} - {MWProverbB}".</MW_Wisdom>
+
+    <MW_Wired_Stat>{MWSTAT} у всех, кто {MWPAWN}, увеличивается на {MWMODVAUE}.</MW_Wired_Stat>
 
 </LanguageData>
