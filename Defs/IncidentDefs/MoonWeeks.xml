@@ -233,7 +233,7 @@
 						<!--Possible value: First - pick only first weather when you dont need scale weather effects-->
 						<!--Possible value: Random - pick random weather when you want some chaos-->
 						<!--Possible value: Scaled - pick weather with scaleRule and curve from points-->
-						<!--Double check number of scale pionts and number of weather defs in list-->
+						<!--Check twice number of scale points and number of weather defs in list-->
 						<!--Listed defs counts from 0. Keep it in mind when set up scale points-->
 						<!--If you use Scaled rule you should set up scalable, scaleRule and scalePoints -->
 						<!--First is default value -->

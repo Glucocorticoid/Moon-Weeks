@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-	
+
+	<MW_Label_A>vigorous;skinny;fast;smooth;sour;unleavened;tasty;fried;salty;twisted;singed;captive;stuffy</MW_Label_A>
+  <MW_Label_B>norbal;jackal;boar;brick;lich;mufalo;gufalo;phoenix;mosquito;developer;flayer;leader;donater</MW_Label_B>
+
+  <!--set week label if its actual week-->
   <weekLabel_Dukhota>Fuggy week</weekLabel_Dukhota>
   <weekDescription_Dukhota>Astrologers are choking week after week. A week of stuffiness will warm you up with the most disgusting mechanics</weekDescription_Dukhota>
+
+  <!--or set generated week label for filler week-->
+  <!--{0} and {1} is a random words from lists MW_Label_A and MW_Label_B}-->
+  <weekLabel_TestMap>Week of {0} {1}</weekLabel_TestMap>
 
 </LanguageData>
