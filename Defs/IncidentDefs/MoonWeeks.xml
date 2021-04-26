@@ -536,6 +536,105 @@
 
 	<IncidentDef>
 	<!--This is a test week-->
+		<defName>MoonWeekIncident_Break_1</defName>
+		<label>Break week started_1</label> 
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>MoonWeeks.IncidentWorker_WeekStarts</workerClass>
+		<baseChance>0.5</baseChance>
+		<pointsScaleable>true</pointsScaleable>
+		<earliestDay>1</earliestDay>
+		<minPopulation>1</minPopulation>
+		<minRefireDays>8</minRefireDays>
+		<letterDef>PurpleEvent</letterDef>
+        <letterLabel>Break week_1</letterLabel> 
+        <letterText>This is a test break week to test map affector</letterText>
+
+        <modExtensions>
+            <li Class="MoonWeeks.WeekParams">
+                <weekLabel>weekLabel_TestBreak_1</weekLabel>
+				<weekDescription>weekDescription_TestBreak_1</weekDescription>
+				<weekDurationInDays>1</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_MentalBreak">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>5</reApplyEveryXHours>
+						<!--List of avaliable Mental Breaks-->
+						<!--Its MentalBreakDef, not MentalStateDef-->
+						<effectDefs>
+							<li>Berserk</li>
+							<li>Binging_DrugExtreme</li>
+							<li>MurderousRage</li>
+							<li>RunWild</li>
+						</effectDefs>
+
+						<!--Other params are same as before-->
+						<affectGenderOnly>Male</affectGenderOnly>
+						<pickRule>Scaled</pickRule>
+						<scalable>True</scalable>
+						<scaleRule>NumberOfColonists</scaleRule>
+						<scalePoints>
+								<li>(0, 0)</li>
+								<li>(3, 1)</li>
+								<li>(4, 2)</li>
+								<li>(5, 3)</li>
+						</scalePoints>
+						<pawnPickRule>Random</pawnPickRule>
+					</li>
+				</affectors>
+            </li>
+        </modExtensions>
+	</IncidentDef>
+
+	<IncidentDef>
+	<!--This is a test week-->
+		<defName>MoonWeekIncident_Break_2</defName>
+		<label>Break week started_2</label> 
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>MoonWeeks.IncidentWorker_WeekStarts</workerClass>
+		<baseChance>0.5</baseChance>
+		<pointsScaleable>true</pointsScaleable>
+		<earliestDay>1</earliestDay>
+		<minPopulation>1</minPopulation>
+		<minRefireDays>8</minRefireDays>
+		<letterDef>PurpleEvent</letterDef>
+        <letterLabel>Break week_2</letterLabel> 
+        <letterText>This is a test break week to test map affector</letterText>
+
+        <modExtensions>
+            <li Class="MoonWeeks.WeekParams">
+                <weekLabel>weekLabel_TestBreak_2</weekLabel>
+				<weekDescription>weekDescription_TestBreak_2</weekDescription>
+				<weekDurationInDays>1</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_MentalBreak">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>5</reApplyEveryXHours>
+						<!--List of avaliable Mental Breaks-->
+						<!--Its MentalBreakDef, not MentalStateDef-->
+						<effectDefs>
+							<li>Berserk</li>
+							<li>MurderousRage</li>
+							<li>Wander_Sad</li>
+						</effectDefs>
+
+						<!--Other params are same as before-->
+						<isAffectEnemies>true</isAffectEnemies>
+						<pickRule>Random</pickRule>
+						<pawnPickRule>Random</pawnPickRule>
+					</li>
+				</affectors>
+            </li>
+        </modExtensions>
+	</IncidentDef>
+
+	<IncidentDef>
+	<!--This is a test week-->
 		<defName>MoonWeekIncident_Thought_1</defName>
 		<label>Thought week started_1</label> 
 		<category>Misc</category>
@@ -622,6 +721,53 @@
 							<li>HeatWave</li>
 						</eventDefs>
 						<pickRule>Random</pickRule>
+					</li>
+				</affectors>
+            </li>
+        </modExtensions>
+	</IncidentDef>
+
+	<IncidentDef>
+		<!--This is demonstration week-->
+		<defName>MW_MayWorks</defName>
+		<label>Week of hard work</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>MoonWeeks.IncidentWorker_WeekStarts</workerClass>
+		<baseChance>0.5</baseChance>
+		<pointsScaleable>true</pointsScaleable>
+		<earliestDay>1</earliestDay>
+		<minPopulation>1</minPopulation>
+		<minRefireDays>8</minRefireDays>
+		<letterDef>PositiveEvent</letterDef>	
+        <letterLabel>Week of hard work</letterLabel> 
+        <letterText>Week of hard work started. Pawns will get bonus to do thier job more quickly.</letterText> 
+        <modExtensions>
+            <li Class="MoonWeeks.WeekParams">
+                <weekLabel>MW_HardWork_Label</weekLabel>
+				<weekDescription>MW_HardWork_Desc</weekDescription> 
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<!--Each each affector must have a class-->
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>Once</excecutionType>
+						<effectDefs>
+							<li>FoodPoisoning</li>
+							<li>IbuprofenHigh</li>
+							<li>Berserk_herb_high</li>
+							<li>MethadoneHigh</li>
+						</effectDefs>
+						<affectGenderOnly>Male</affectGenderOnly>
+						<isAffectColonists>true</isAffectColonists>
+					</li>
+					<li Class="MoonWeeks.WeekAffector_Inspiration">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>12</reApplyEveryXHours>
+						<effectDefs>
+							<li>Frenzy_Work</li>
+						</effectDefs>
 					</li>
 				</affectors>
             </li>
