@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+    <!--Trait-->
+    <MW_Tr_EffectHeader>Черты характера</MW_Tr_EffectHeader>
+    <MW_Tr_ApplyEffectListLabel>Добавляет черту характера</MW_Tr_ApplyEffectListLabel>
+    <MW_Tr_EffectPickRuleLabel>Применяется</MW_Tr_EffectPickRuleLabel>
+
+    <MW_Tr_PR_First>первая</MW_Tr_PR_First>
+    <MW_Tr_PR_Random>произвольная</MW_Tr_PR_Random>
+    <MW_Tr_PR_Scaled>в зависимости от</MW_Tr_PR_Scaled>
+
+    <MW_Tr_ColonyAgeInDays>возраста колонии</MW_Tr_ColonyAgeInDays>
+    <MW_Tr_ColonyWealth>стоимости колонии</MW_Tr_ColonyWealth>
+    <MW_Tr_NumberOfColonists>количества колонистов</MW_Tr_NumberOfColonists>
+    <MW_Tr_RaidPower>силы рейда</MW_Tr_RaidPower>
+    <MW_Tr_GameDifficulty>сложности игры</MW_Tr_GameDifficulty>
+
+    <MW_Tr_Affected>Подвержены</MW_Tr_Affected>
+    <MW_Tr_PPR_Random>произвольно</MW_Tr_PPR_Random>
+    <MW_Tr_PPR_All>все</MW_Tr_PPR_All>
+    <MW_Tr_female>женщины</MW_Tr_female>
+    <MW_Tr_male>мужчины</MW_Tr_male>
+    <MW_Tr_every>женщины и мужчины</MW_Tr_every>
+    <MW_Tr_colonist>колонисты</MW_Tr_colonist>
+    <MW_Tr_non_colonist>не колонисты</MW_Tr_non_colonist>
+    <MW_Tr_animal>животные</MW_Tr_animal>
+    <MW_Tr_non_animal> не животные</MW_Tr_non_animal>
+    <MW_Tr_enemy>враги</MW_Tr_enemy>
+    <MW_Tr_non_enemy> не враги</MW_Tr_non_enemy>
+    <MW_Tr_mechanoids>механоиды</MW_Tr_mechanoids>
+    <MW_Tr_non_mechanoids>не механоиды</MW_Tr_non_mechanoids>
+    <MW_Tr_empty_label>пусто</MW_Tr_empty_label>
+    <MW_Tr_pawns_from_list>из списка</MW_Tr_pawns_from_list>
+    
+    <MW_Tr_Executes>Выполняется</MW_Tr_Executes>
+	<MW_Tr_Once>единожды</MW_Tr_Once>
+	<MW_Tr_EveryXHours>каждые</MW_Tr_EveryXHours>
+	<MW_Tr_hours>ч.</MW_Tr_hours>
+	<MW_Tr_Permanent>постоянно</MW_Tr_Permanent>
+
+</LanguageData>

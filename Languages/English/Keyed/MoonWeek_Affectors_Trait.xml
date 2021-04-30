@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+    <!--Trait-->
+    <MW_Tr_EffectHeader>Pawn traits</MW_Tr_EffectHeader>
+    <MW_Tr_ApplyEffectListLabel>Give trait</MW_Tr_ApplyEffectListLabel>
+    <MW_Tr_EffectPickRuleLabel>Select</MW_Tr_EffectPickRuleLabel>
+
+    <MW_Tr_PR_First>first</MW_Tr_PR_First>
+    <MW_Tr_PR_Random>random</MW_Tr_PR_Random>
+    <MW_Tr_PR_Scaled>depends on</MW_Tr_PR_Scaled>
+
+    <MW_Tr_ColonyAgeInDays>colony age</MW_Tr_ColonyAgeInDays>
+    <MW_Tr_ColonyWealth>colony wealth</MW_Tr_ColonyWealth>
+    <MW_Tr_NumberOfColonists>number of colonists</MW_Tr_NumberOfColonists>
+    <MW_Tr_RaidPower>raid power</MW_Tr_RaidPower>
+    <MW_Tr_GameDifficulty>game difficulty</MW_Tr_GameDifficulty>
+
+    <MW_Tr_Affected>Affected</MW_Tr_Affected>
+    <MW_Tr_PPR_Random>random</MW_Tr_PPR_Random>
+    <MW_Tr_PPR_All>all</MW_Tr_PPR_All>
+    <MW_Tr_female>women</MW_Tr_female>
+    <MW_Tr_male>men</MW_Tr_male>
+    <MW_Tr_every>women and men</MW_Tr_every>
+    <MW_Tr_colonist>colonist</MW_Tr_colonist>
+    <MW_Tr_non_colonist>non colonist</MW_Tr_non_colonist>
+    <MW_Tr_animal>animal</MW_Tr_animal>
+    <MW_Tr_non_animal>non animal</MW_Tr_non_animal>
+    <MW_Tr_enemy>enemy</MW_Tr_enemy>
+    <MW_Tr_non_enemy>non enemy</MW_Tr_non_enemy>
+    <MW_Tr_mechanoids>mechanoid</MW_Tr_mechanoids>
+    <MW_Tr_non_mechanoids>non mechanoid</MW_Tr_non_mechanoids>
+    <MW_Tr_empty_label>empty</MW_Tr_empty_label>
+    <MW_Tr_pawns_from_list>from list</MW_Tr_pawns_from_list>
+    
+    <MW_Tr_Executes>Executes</MW_Tr_Executes>
+	<MW_Tr_Once>once</MW_Tr_Once>
+	<MW_Tr_EveryXHours>every</MW_Tr_EveryXHours>
+	<MW_Tr_hours>h.</MW_Tr_hours>
+	<MW_Tr_Permanent>permanent</MW_Tr_Permanent>
+
+</LanguageData>
