@@ -847,6 +847,7 @@
 					<li Class="MoonWeeks.WeekAffector_Trait">
 						<excecutionType>EveryXHours</excecutionType>
 						<reApplyEveryXHours>3~5</reApplyEveryXHours>
+						<delayInTicks>2500</delayInTicks>
 						<effectDefs>
 							<li>
 								<effectDef>Aptitude</effectDef>
