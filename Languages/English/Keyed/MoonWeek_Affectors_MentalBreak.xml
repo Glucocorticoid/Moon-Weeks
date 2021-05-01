@@ -2,41 +2,41 @@
 <LanguageData>
 	
     <!--Mental break-->
-    <MW_H_EffectHeader>Mental breaks</MW_H_EffectHeader>
-    <MW_H_ApplyEffectListLabel>Cause mental breaks</MW_H_ApplyEffectListLabel>
-    <MW_H_EffectPickRuleLabel>Apply</MW_H_EffectPickRuleLabel>
+    <MW_BR_EffectHeader>Mental breaks</MW_BR_EffectHeader>
+    <MW_BR_ApplyEffectListLabel>Cause mental breaks</MW_BR_ApplyEffectListLabel>
+    <MW_BR_EffectPickRuleLabel>Apply</MW_BR_EffectPickRuleLabel>
 
-    <MW_H_PR_First>first</MW_H_PR_First>
-    <MW_H_PR_Random>random</MW_H_PR_Random>
-    <MW_H_PR_Scaled>depends on</MW_H_PR_Scaled>
+    <MW_BR_PR_First>first</MW_BR_PR_First>
+    <MW_BR_PR_Random>random</MW_BR_PR_Random>
+    <MW_BR_PR_Scaled>depends on</MW_BR_PR_Scaled>
 
-    <MW_H_ColonyAgeInDays>colony age</MW_H_ColonyAgeInDays>
-    <MW_H_ColonyWealth>colony wealth</MW_H_ColonyWealth>
-    <MW_H_NumberOfColonists>number of colonists</MW_H_NumberOfColonists>
-    <MW_H_RaidPower>raid power</MW_H_RaidPower>
-    <MW_H_GameDifficulty>game difficulty</MW_H_GameDifficulty>
+    <MW_BR_ColonyAgeInDays>colony age</MW_BR_ColonyAgeInDays>
+    <MW_BR_ColonyWealth>colony wealth</MW_BR_ColonyWealth>
+    <MW_BR_NumberOfColonists>number of colonists</MW_BR_NumberOfColonists>
+    <MW_BR_RaidPower>raid power</MW_BR_RaidPower>
+    <MW_BR_GameDifficulty>game difficulty</MW_BR_GameDifficulty>
 
-    <MW_H_Affected>Affected</MW_H_Affected>
-    <MW_H_PPR_Random>random</MW_H_PPR_Random>
-    <MW_H_PPR_All>all</MW_H_PPR_All>
-    <MW_H_female>women</MW_H_female>
-    <MW_H_male>men</MW_H_male>
-    <MW_H_every>women and men</MW_H_every>
-    <MW_H_colonist>colonist</MW_H_colonist>
-    <MW_H_non_colonist>non colonist</MW_H_non_colonist>
-    <MW_H_animal>animal</MW_H_animal>
-    <MW_H_non_animal>non animal</MW_H_non_animal>
-    <MW_H_enemy>enemy</MW_H_enemy>
-    <MW_H_non_enemy>non enemy</MW_H_non_enemy>
-    <MW_H_mechanoids>mechanoid</MW_H_mechanoids>
-    <MW_H_non_mechanoids>non mechanoid</MW_H_non_mechanoids>
-    <MW_H_empty_label>empty</MW_H_empty_label>
-    <MW_H_pawns_from_list>from list</MW_H_pawns_from_list>
+    <MW_BR_Affected>Affected</MW_BR_Affected>
+    <MW_BR_PPR_Random>random</MW_BR_PPR_Random>
+    <MW_BR_PPR_All>all</MW_BR_PPR_All>
+    <MW_BR_female>women</MW_BR_female>
+    <MW_BR_male>men</MW_BR_male>
+    <MW_BR_every>women and men</MW_BR_every>
+    <MW_BR_colonist>colonist</MW_BR_colonist>
+    <MW_BR_non_colonist>non colonist</MW_BR_non_colonist>
+    <MW_BR_animal>animal</MW_BR_animal>
+    <MW_BR_non_animal>non animal</MW_BR_non_animal>
+    <MW_BR_enemy>enemy</MW_BR_enemy>
+    <MW_BR_non_enemy>non enemy</MW_BR_non_enemy>
+    <MW_BR_mechanoids>mechanoid</MW_BR_mechanoids>
+    <MW_BR_non_mechanoids>non mechanoid</MW_BR_non_mechanoids>
+    <MW_BR_empty_label>empty</MW_BR_empty_label>
+    <MW_BR_pawns_from_list>from list</MW_BR_pawns_from_list>
     
-    <MW_H_Executes>Executes</MW_H_Executes>
-	<MW_H_Once>once</MW_H_Once>
-	<MW_H_EveryXHours>every</MW_H_EveryXHours>
-	<MW_H_hours>h.</MW_H_hours>
-	<MW_H_Permanent>permanent</MW_H_Permanent>
+    <MW_BR_Executes>Executes</MW_BR_Executes>
+	<MW_BR_Once>once</MW_BR_Once>
+	<MW_BR_EveryXHours>every</MW_BR_EveryXHours>
+	<MW_BR_hours>h.</MW_BR_hours>
+	<MW_BR_Permanent>permanent</MW_BR_Permanent>
 
 </LanguageData>
