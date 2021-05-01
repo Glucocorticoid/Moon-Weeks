@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <MayWorks.label>Улучшение работы</MayWorks.label>
+  <MayWorks.description>Мир! Труд! Май! Давайте займемся чем-нибудь полезным!</MayWorks.description>
+  <MayWorks.stages.0.label>Хочу чем-нибудь заняться</MayWorks.stages.0.label>
+  <MayWorks.stages.1.label>Работать - здорово!</MayWorks.stages.1.label>
+  <MayWorks.stages.2.label>Работа! Работка! Работочка!</MayWorks.stages.2.label>
+  <MayWorks.stages.3.label>ЧЕЛОВЕК-МАШИНА!</MayWorks.stages.3.label>
+
+</LanguageData>

@@ -3,7 +3,7 @@
 	
     <!--Trait-->
     <MW_Tr_EffectHeader>Pawn traits</MW_Tr_EffectHeader>
-    <MW_Tr_ApplyEffectListLabel>Give trait</MW_Tr_ApplyEffectListLabel>
+    <MW_Tr_ApplyEffectListLabel>Give traits</MW_Tr_ApplyEffectListLabel>
     <MW_Tr_EffectPickRuleLabel>Select</MW_Tr_EffectPickRuleLabel>
 
     <MW_Tr_PR_First>first</MW_Tr_PR_First>
@@ -38,5 +38,8 @@
 	<MW_Tr_EveryXHours>every</MW_Tr_EveryXHours>
 	<MW_Tr_hours>h.</MW_Tr_hours>
 	<MW_Tr_Permanent>permanent</MW_Tr_Permanent>
+
+    <MW_Tr_PerkAddedLabel>Trait</MW_Tr_PerkAddedLabel>
+    <MW_Tr_PerkAddedText>{0} caused {1} to unveil a hidden trait: {2}</MW_Tr_PerkAddedText>
 
 </LanguageData>

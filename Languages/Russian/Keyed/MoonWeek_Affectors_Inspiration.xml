@@ -3,7 +3,7 @@
 	
     <!--Inspiration-->
     <MW_I_EffectHeader>Эффекты воодушевления</MW_I_EffectHeader>
-    <MW_I_ApplyEffectListLabel>Приеняет воодушевление</MW_I_ApplyEffectListLabel>
+    <MW_I_ApplyEffectListLabel>Приеняет воодушевления</MW_I_ApplyEffectListLabel>
     <MW_I_EffectPickRuleLabel>Применяется</MW_I_EffectPickRuleLabel>
 
     <MW_I_PR_First>первое</MW_I_PR_First>
@@ -17,7 +17,7 @@
     <MW_I_GameDifficulty>сложности игры</MW_I_GameDifficulty>
 
     <MW_I_Affected>Подвержены</MW_I_Affected>
-    <MW_I_PPR_Random>произвольно</MW_I_PPR_Random>
+    <MW_I_PPR_Random>случайно</MW_I_PPR_Random>
     <MW_I_PPR_All>все</MW_I_PPR_All>
     <MW_I_female>женщины</MW_I_female>
     <MW_I_male>мужчины</MW_I_male>

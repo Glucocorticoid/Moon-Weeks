@@ -3,7 +3,7 @@
 	
     <!--Mental break-->
     <MW_H_EffectHeader>Mental breaks</MW_H_EffectHeader>
-    <MW_H_ApplyEffectListLabel>Apply mental break</MW_H_ApplyEffectListLabel>
+    <MW_H_ApplyEffectListLabel>Cause mental breaks</MW_H_ApplyEffectListLabel>
     <MW_H_EffectPickRuleLabel>Apply</MW_H_EffectPickRuleLabel>
 
     <MW_H_PR_First>first</MW_H_PR_First>

@@ -3,7 +3,7 @@
 
     <!--Weather-->
     <MW_W_EventHeader>Погодные эффекты</MW_W_EventHeader>
-    <MW_W_EventListLabel>Погода</MW_W_EventListLabel>
+    <MW_W_EventListLabel>Меняет погоду</MW_W_EventListLabel>
     <MW_W_PickRule>Выбирается</MW_W_PickRule>
 
     <MW_W_First>первая</MW_W_First>

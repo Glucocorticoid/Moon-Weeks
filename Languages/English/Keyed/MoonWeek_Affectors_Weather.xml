@@ -3,7 +3,7 @@
 	
     <!--Weather-->
     <MW_W_EventHeader>Weather effects</MW_W_EventHeader>
-    <MW_W_EventListLabel>Weather</MW_W_EventListLabel>
+    <MW_W_EventListLabel>Change weather</MW_W_EventListLabel>
     <MW_W_PickRule>Take</MW_W_PickRule>
 
     <MW_W_First>first</MW_W_First>

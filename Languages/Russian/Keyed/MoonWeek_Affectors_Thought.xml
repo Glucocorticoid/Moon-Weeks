@@ -3,11 +3,11 @@
 	
     <!--Thought-->
     <MW_T_EffectHeader>Воспоминания</MW_T_EffectHeader>
-    <MW_T_ApplyEffectListLabel>Вселяет воспоминание</MW_T_ApplyEffectListLabel>
+    <MW_T_ApplyEffectListLabel>Вселяет мысли</MW_T_ApplyEffectListLabel>
     <MW_T_EffectPickRuleLabel>Выбирается</MW_T_EffectPickRuleLabel>
 
-    <MW_T_PR_First>первый</MW_T_PR_First>
-    <MW_T_PR_Random>произвольный</MW_T_PR_Random>
+    <MW_T_PR_First>первая</MW_T_PR_First>
+    <MW_T_PR_Random>произвольная</MW_T_PR_Random>
     <MW_T_PR_Scaled>в зависимости от</MW_T_PR_Scaled>
 
     <MW_T_ColonyAgeInDays>возраста колонии</MW_T_ColonyAgeInDays>
@@ -17,7 +17,7 @@
     <MW_T_GameDifficulty>сложности игры</MW_T_GameDifficulty>
 
     <MW_T_Affected>Подвержены</MW_T_Affected>
-    <MW_T_PPR_Random>произвольно</MW_T_PPR_Random>
+    <MW_T_PPR_Random>случайно</MW_T_PPR_Random>
     <MW_T_PPR_All>все</MW_T_PPR_All>
     <MW_T_female>женщины</MW_T_female>
     <MW_T_male>мужчины</MW_T_male>

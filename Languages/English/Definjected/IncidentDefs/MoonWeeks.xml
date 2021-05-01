@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <MoonWeekIncident_Dukhota.label>Fuggy week</MoonWeekIncident_Dukhota.label>
-  <MoonWeekIncident_Dukhota.letterLabel>Week of fugginess</MoonWeekIncident_Dukhota.letterLabel>
-  <MoonWeekIncident_Dukhota.letterText>The nastiest mechanics will be on for 7 days. Suffer!</MoonWeekIncident_Dukhota.letterText>
+  <MW_MayWorks.label>Week of hard work</MW_MayWorks.label>
+  <MW_MayWorks.letterLabel>Labour week</MW_MayWorks.letterLabel>
+  <MW_MayWorks.letterText>The leaders of the galactic proletariat have bequeathed to work for the common good. \n\nWorker Galactic Solidarity Week inspires heroic deeds. \n\nIt was labor that made Norbal a human. \n\nThroughout the week, the colonists will receive various bonuses for their work, but beware of the lazy ones!</MW_MayWorks.letterText>
 
 </LanguageData>
 

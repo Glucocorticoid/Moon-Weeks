@@ -3,7 +3,7 @@
 	
     <!--MentalBreak-->
     <MW_BR_EffectHeader>Нервные срывы</MW_BR_EffectHeader>
-    <MW_BR_ApplyEffectListLabel>Применяет срыв</MW_BR_ApplyEffectListLabel>
+    <MW_BR_ApplyEffectListLabel>Вызывает срывы</MW_BR_ApplyEffectListLabel>
     <MW_BR_EffectPickRuleLabel>Применяется</MW_BR_EffectPickRuleLabel>
 
     <MW_BR_PR_First>первый</MW_BR_PR_First>
@@ -17,7 +17,7 @@
     <MW_BR_GameDifficulty>сложности игры</MW_BR_GameDifficulty>
 
     <MW_BR_Affected>Подвержены</MW_BR_Affected>
-    <MW_BR_PPR_Random>произвольно</MW_BR_PPR_Random>
+    <MW_BR_PPR_Random>случайно</MW_BR_PPR_Random>
     <MW_BR_PPR_All>все</MW_BR_PPR_All>
     <MW_BR_female>женщины</MW_BR_female>
     <MW_BR_male>мужчины</MW_BR_male>

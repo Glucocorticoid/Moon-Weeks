@@ -24,32 +24,87 @@
 				<weekDurationInDays>7</weekDurationInDays>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
-						<excecutionType>Once</excecutionType>
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>10~14</reApplyEveryXHours>
 						<effectDefs>
 							<li>
-								<effectDef>FoodPoisoning</effectDef>
+								<effectDef>MayWorks</effectDef>
+								<stage>0</stage>
 							</li>
 							<li>
-								<effectDef>IbuprofenHigh</effectDef>
+								<effectDef>MayWorks</effectDef>
+								<stage>1</stage>
 							</li>
 							<li>
-								<effectDef>Berserk_herb_high</effectDef>
+								<effectDef>MayWorks</effectDef>
+								<stage>2</stage>
 							</li>
 							<li>
-								<effectDef>MethadoneHigh</effectDef>
+								<effectDef>MayWorks</effectDef>
+								<stage>3</stage>
 							</li>
 						</effectDefs>
-						<affectGenderOnly>Male</affectGenderOnly>
+						<pickRule>Random</pickRule>
 						<isAffectColonists>true</isAffectColonists>
 					</li>
 					<li Class="MoonWeeks.WeekAffector_Inspiration">
 						<excecutionType>EveryXHours</excecutionType>
-						<reApplyEveryXHours>12</reApplyEveryXHours>
+						<reApplyEveryXHours>10~14</reApplyEveryXHours>
 						<effectDefs>
 							<li>
 								<effectDef>Frenzy_Work</effectDef>
 							</li>
 						</effectDefs>
+					</li>
+					<li Class="MoonWeeks.WeekAffector_Thought">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>10~14</reApplyEveryXHours>
+						<effectDefs>
+							<li>
+								<effectDef>MayWorkThought</effectDef>
+								<stage>0</stage>
+							</li>
+							<li>
+								<effectDef>MayWorkThought</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>MayWorkThought</effectDef>
+								<stage>2</stage>
+							</li>
+							<li>
+								<effectDef>MayWorkThought</effectDef>
+								<stage>3</stage>
+							</li>
+						</effectDefs>
+						<pickRule>Random</pickRule>
+					</li>
+					<li Class="MoonWeeks.WeekAffector_Trait">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>22~26</reApplyEveryXHours>
+						<effectDefs>
+							<li>
+								<effectDef>Industriousness</effectDef>
+								<degree>2</degree>
+								<procChance>0.04</procChance>
+							</li>
+							<li>
+								<effectDef>Industriousness</effectDef>
+								<degree>1</degree>
+								<procChance>0.08</procChance>
+							</li>
+							<li>
+								<effectDef>Industriousness</effectDef>
+								<degree>-1</degree>
+								<procChance>0.08</procChance>
+							</li>
+							<li>
+								<effectDef>Industriousness</effectDef>
+								<degree>-2</degree>
+								<procChance>0.04</procChance>
+							</li>
+						</effectDefs>
+						<pickRule>Random</pickRule>
 					</li>
 				</affectors>
             </li>

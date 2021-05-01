@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <MoonWeekIncident_Dukhota.label>Душная неделя</MoonWeekIncident_Dukhota.label>
-  <MoonWeekIncident_Dukhota.letterLabel>Неделя духоты</MoonWeekIncident_Dukhota.letterLabel>
-  <MoonWeekIncident_Dukhota.letterText>Самые мерзкие механики будут включены на протяжении 7 дней. Страдай!</MoonWeekIncident_Dukhota.letterText>
+  <MW_MayWorks.label>Неделя ударного труда</MW_MayWorks.label>
+  <MW_MayWorks.letterLabel>Неделя труда</MW_MayWorks.letterLabel>
+  <MW_MayWorks.letterText>Вожди галактического пролетариата завещали трудиться во имя общего блага. \n\nНеделя галактической солидарности трудящихся воодушевляет к совершению трудовых подвигов. \n\nИменно труд сделал из норбала человека. \n\nВтечение недели колонисты будут получать различные бонусы к выполнению работы, но опасайтесь лентяев!</MW_MayWorks.letterText>
 
 </LanguageData>
 

@@ -3,7 +3,7 @@
 
     <!--Weather-->
     <MW_Inc_EventHeader>События</MW_Inc_EventHeader>
-    <MW_Inc_EventListLabel>Инцидент</MW_Inc_EventListLabel>
+    <MW_Inc_EventListLabel>Инциденты</MW_Inc_EventListLabel>
     <MW_Inc_PickRule>Выбирается</MW_Inc_PickRule>
 
     <MW_Inc_First>первый</MW_Inc_First>

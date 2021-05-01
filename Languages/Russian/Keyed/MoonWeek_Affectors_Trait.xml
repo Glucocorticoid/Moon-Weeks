@@ -3,7 +3,7 @@
 	
     <!--Trait-->
     <MW_Tr_EffectHeader>Черты характера</MW_Tr_EffectHeader>
-    <MW_Tr_ApplyEffectListLabel>Добавляет черту характера</MW_Tr_ApplyEffectListLabel>
+    <MW_Tr_ApplyEffectListLabel>Добавляет черты характера</MW_Tr_ApplyEffectListLabel>
     <MW_Tr_EffectPickRuleLabel>Применяется</MW_Tr_EffectPickRuleLabel>
 
     <MW_Tr_PR_First>первая</MW_Tr_PR_First>
@@ -17,7 +17,7 @@
     <MW_Tr_GameDifficulty>сложности игры</MW_Tr_GameDifficulty>
 
     <MW_Tr_Affected>Подвержены</MW_Tr_Affected>
-    <MW_Tr_PPR_Random>произвольно</MW_Tr_PPR_Random>
+    <MW_Tr_PPR_Random>случайно</MW_Tr_PPR_Random>
     <MW_Tr_PPR_All>все</MW_Tr_PPR_All>
     <MW_Tr_female>женщины</MW_Tr_female>
     <MW_Tr_male>мужчины</MW_Tr_male>
@@ -38,5 +38,8 @@
 	<MW_Tr_EveryXHours>каждые</MW_Tr_EveryXHours>
 	<MW_Tr_hours>ч.</MW_Tr_hours>
 	<MW_Tr_Permanent>постоянно</MW_Tr_Permanent>
+
+    <MW_Tr_PerkAddedLabel>Черта характера</MW_Tr_PerkAddedLabel>
+    <MW_Tr_PerkAddedText>{0} привела к тому, что у {1} обнаружилась скрытая черта характера: {2}</MW_Tr_PerkAddedText>
 
 </LanguageData>

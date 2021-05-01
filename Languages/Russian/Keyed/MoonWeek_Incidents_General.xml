@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <MW_Label_A>бодрого;тощего;быстрого;гладкого;кислого;пресного;вкусного;жаренного;соленого;верчёного;палёного;пленённого;душного</MW_Label_A>
+  <MW_Label_B>норбала;шакала;кабана;кирпича;лича;муфало;гуфало;феникса;москита;разработчика;живодера;лидера;донатера;гвоздя</MW_Label_B>
+	
+  <!--set week label if its actual week-->
+  <weekLabel_Dukhota>Духотная неделя</weekLabel_Dukhota>
+  <weekDescription_Dukhota>Астрологи душат неделю за неделей. Неделя духоты согреет вас самыми отвратительными механиками</weekDescription_Dukhota>
+
+  <!--or set generated week label for filler week-->
+  <!--{0} and {1} is a random words from lists MW_Label_A and MW_Label_B}-->
+  <weekLabel_TestMap>Неделя {0} {1}</weekLabel_TestMap>
+
+</LanguageData>

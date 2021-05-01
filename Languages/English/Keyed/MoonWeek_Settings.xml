@@ -9,6 +9,9 @@
 
     <MW_autoOpenWeekWindow>Auto open week window</MW_autoOpenWeekWindow>
     <MW_autoOpenWeekWindow_ToolTip>Enable and disable auto opening of week window. You can open this window manually by click on game condition in right message column.</MW_autoOpenWeekWindow_ToolTip>
+    
+    <MW_detailedWeekDescriptions>Detailed week description</MW_detailedWeekDescriptions>
+    <MW_detailedWeekDescriptions_ToolTip>Displays more information about week affectors in week window.</MW_detailedWeekDescriptions_ToolTip>
 
     <MW_ResetButton>Reset</MW_ResetButton>
 
