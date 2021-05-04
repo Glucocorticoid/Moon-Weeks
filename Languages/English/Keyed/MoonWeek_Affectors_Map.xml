@@ -4,6 +4,7 @@
     <!--Map-->
     <MW_M_Map_effects>Map effects</MW_M_Map_effects>
     <MW_M_Animal_density_multiplier>Animal density multiplier</MW_M_Animal_density_multiplier>
+    <MW_M_Plants_density_multiplier>Plants density multiplier</MW_M_Plants_density_multiplier>
     <MW_M_Disables_electricity>Disables electricity</MW_M_Disables_electricity>
     <MW_M_ChangeSky>Affects the sky</MW_M_ChangeSky>
     <MW_M_Executes>Executes</MW_M_Executes>

@@ -4,6 +4,7 @@
     <!--Map-->
     <MW_M_Map_effects>Эффекты карты</MW_M_Map_effects>
     <MW_M_Animal_density_multiplier>Множитель количества животных</MW_M_Animal_density_multiplier>
+    <MW_M_Plants_density_multiplier>Множитель количества растительности</MW_M_Plants_density_multiplier>
     <MW_M_Disables_electricity>Отключено электричество</MW_M_Disables_electricity>
     <MW_M_ChangeSky>Влияет на небо</MW_M_ChangeSky>
     <MW_M_Executes>Выполняется</MW_M_Executes>

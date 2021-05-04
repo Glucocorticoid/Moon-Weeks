@@ -23,6 +23,8 @@
     <MW_I_male>men</MW_I_male>
     <MW_I_every>men and women</MW_I_every>
     <MW_I_colonist>colonists</MW_I_colonist>
+    
+    <MW_I_random_for_each>random for each pawn</MW_I_random_for_each>
 
     <MW_I_Executes>Executes</MW_I_Executes>
 	<MW_I_Once>once</MW_I_Once>

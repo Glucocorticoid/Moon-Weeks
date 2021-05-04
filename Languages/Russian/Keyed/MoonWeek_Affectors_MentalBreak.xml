@@ -32,6 +32,8 @@
     <MW_BR_non_mechanoids>не механоиды</MW_BR_non_mechanoids>
     <MW_BR_empty_label>пусто</MW_BR_empty_label>
     <MW_BR_pawns_from_list>из списка</MW_BR_pawns_from_list>
+
+    <MW_BR_random_for_each>каждому произвольный</MW_BR_random_for_each>
     
     <MW_BR_Executes>Выполняется</MW_BR_Executes>
 	<MW_BR_Once>единожды</MW_BR_Once>

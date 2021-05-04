@@ -2,6 +2,18 @@
 <Defs>
 
 	<IncidentDef>
+		<defName>MW_PartyStarter</defName>
+		<label>Party Starter</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>MoonWeeks.IncidentWorker_Party</workerClass>
+		<baseChance>0</baseChance>
+		<minRefireDays>0</minRefireDays>
+	</IncidentDef>
+
+	<IncidentDef>
 		<defName>MW_MayWorks</defName>
 		<label>Week of hard work</label>
 		<category>Misc</category>
@@ -106,6 +118,86 @@
 						</effectDefs>
 						<pickRule>Random</pickRule>
 					</li>
+				</affectors>
+            </li>
+        </modExtensions>
+	</IncidentDef>
+
+	<IncidentDef>
+		<defName>MW_GoldenWeek</defName>
+		<label>Golden week</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>MoonWeeks.IncidentWorker_WeekStarts</workerClass>
+		<baseChance>0.5</baseChance>
+		<pointsScaleable>true</pointsScaleable>
+		<earliestDay>1</earliestDay>
+		<minPopulation>1</minPopulation>
+		<minRefireDays>8</minRefireDays>
+		<letterDef>PositiveEvent</letterDef>	
+        <letterLabel>Golden week</letterLabel> 
+        <letterText>Golden week started. Happy holidays!</letterText> 
+        <modExtensions>
+            <li Class="MoonWeeks.WeekParams">
+                <weekLabel>MW_GoldenWeek_Label</weekLabel>
+				<weekDescription>MW_GoldenWeek_Desc</weekDescription> 
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Incident">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>18~36</reApplyEveryXHours>
+						<eventDefs>
+							<li>
+								<effectDef>Thanksgiving</effectDef>
+								<procChance>1.0</procChance>
+							</li>
+							<li>
+								<effectDef>MW_PartyStarter</effectDef>
+								<procChance>1.0</procChance>
+							</li>
+							<li>
+								<effectDef>Flashstorm</effectDef>
+								<procChance>0.3</procChance>
+							</li>
+							<li>
+								<effectDef>BoulderMassHit</effectDef>
+								<procChance>0.15</procChance>
+							</li>
+							<li>
+								<effectDef>BombardmentIncident</effectDef>
+								<procChance>0.01</procChance>
+							</li>
+						</eventDefs>
+						<pickRule>Random</pickRule>
+					</li>
+
+
+					<li Class="MoonWeeks.WeekAffector_Thought">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>10~14</reApplyEveryXHours>
+						<effectDefs>
+							<li>
+								<effectDef>MayWorkThought</effectDef>
+								<stage>0</stage>
+							</li>
+							<li>
+								<effectDef>MayWorkThought</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>MayWorkThought</effectDef>
+								<stage>2</stage>
+							</li>
+							<li>
+								<effectDef>MayWorkThought</effectDef>
+								<stage>3</stage>
+							</li>
+						</effectDefs>
+						<pickRule>Random</pickRule>
+					</li>
+
 				</affectors>
             </li>
         </modExtensions>

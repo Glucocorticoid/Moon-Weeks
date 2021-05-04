@@ -32,6 +32,8 @@
     <MW_T_non_mechanoids>non mechanoid</MW_T_non_mechanoids>
     <MW_T_empty_label>empty</MW_T_empty_label>
     <MW_T_pawns_from_list>from list</MW_T_pawns_from_list>
+
+    <MW_T_random_for_each>random for each pawn</MW_T_random_for_each>
     
     <MW_T_Executes>Executes</MW_T_Executes>
 	<MW_T_Once>once</MW_T_Once>

@@ -172,6 +172,10 @@
 						<!--1.0 by default-->
 						<populationMultiplier>0.85</populationMultiplier>
 
+						<!--Plants are same as population-->
+						<affectPlants>true</affectPlants>
+						<plantsMultiplier>0.35</plantsMultiplier>
+
 						<!--disableElectricity is a affector specific field, avaliable only for Map affector-->
 						<!--Disable electricity on map if it True-->
 						<!--false by default-->
@@ -403,6 +407,11 @@
 						<!--Define who will be inspired-->
 						<!--All pawns or Random chosen one-->
 						<pawnPickRule>All</pawnPickRule>
+
+						<!--If set as True, each pawn will get different random effect from list-->
+						<!--Works only if pickRule = Random and pawnPickRule = All-->
+						<!--Works with each Pawn-type affector (Inspirations, Traits, Heddifs, Thoughts, MentalBreaks)-->
+						<applyRandomForEachPawn>True</applyRandomForEachPawn>
 					</li>
 				</affectors>
             </li>

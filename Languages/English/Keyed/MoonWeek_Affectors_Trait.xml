@@ -33,6 +33,8 @@
     <MW_Tr_empty_label>empty</MW_Tr_empty_label>
     <MW_Tr_pawns_from_list>from list</MW_Tr_pawns_from_list>
     
+    <MW_Tr_random_for_each>random for each pawn</MW_Tr_random_for_each>
+    
     <MW_Tr_Executes>Executes</MW_Tr_Executes>
 	<MW_Tr_Once>once</MW_Tr_Once>
 	<MW_Tr_EveryXHours>every</MW_Tr_EveryXHours>
