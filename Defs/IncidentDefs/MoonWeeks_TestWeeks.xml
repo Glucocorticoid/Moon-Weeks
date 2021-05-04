@@ -4,7 +4,9 @@
 	<IncidentDef>
 		<!--This is demonstration week-->
 		<defName>MoonWeekIncident_Dukhota</defName>
-		<label>Dukhota week started - label</label> 
+		<!--If you not set def label, it shoud be generated week label-->
+		<!--<label>Dukhota week started - label</label>-->
+		<description>Dukhota week started - description</description>
 		<category>Misc</category>
 		<targetTags>
 			<li>Map_PlayerHome</li>
@@ -15,28 +17,11 @@
 		<earliestDay>1</earliestDay>
 		<minPopulation>1</minPopulation>
 		<minRefireDays>8</minRefireDays>
-
-		<!--Defines letter type-->
 		<letterDef>PurpleEvent</letterDef>	
-
-		<!--Used as letter message. Must be translated in Definjected folder-->
-        <letterLabel>Week: Dukhota </letterLabel> 
-
-		<!--Used as letter text in dialog box. Must be translated in Definjected folder-->
-        <letterText>Letter: Most awful mechanics happens next 7 days. Suffer!</letterText> 
-
         <modExtensions>
             <li Class="MoonWeeks.WeekParams">
-
-				<!--Used as game condition label on screen. Must be translated in Keyed folder -->
-                <weekLabel>weekLabel_Dukhota</weekLabel>
-
-				<!--Used as part of game condition description on mouse over. Must be translated in Keyed folder -->
-				<weekDescription>weekDescription_Dukhota</weekDescription> 
-
 				<!--You can customise week duration. 7 days by default -->
 				<weekDurationInDays>7</weekDurationInDays>
-
 				<!--Each week can have multiple affectors-->
 				<affectors>
 					<!--Each each affector must have a class-->
@@ -117,13 +102,8 @@
 		<minPopulation>1</minPopulation>
 		<minRefireDays>8</minRefireDays>
 		<letterDef>PurpleEvent</letterDef>
-        <letterLabel>Map week</letterLabel> 
-        <letterText>This is a test week to test map affector</letterText>
-
         <modExtensions>
             <li Class="MoonWeeks.WeekParams">
-                <weekLabel>weekLabel_TestMap</weekLabel>
-				<weekDescription>weekDescription_TestMap</weekDescription>
 				<weekDurationInDays>1</weekDurationInDays>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Map">
@@ -217,13 +197,8 @@
 		<minPopulation>1</minPopulation>
 		<minRefireDays>8</minRefireDays>
 		<letterDef>PurpleEvent</letterDef>
-        <letterLabel>Weather week</letterLabel> 
-        <letterText>This is a test weather to test map affector</letterText>
-
         <modExtensions>
             <li Class="MoonWeeks.WeekParams">
-                <weekLabel>weekLabel_TestMap</weekLabel>
-				<weekDescription>weekDescription_TestMap</weekDescription>
 				<weekDurationInDays>1</weekDurationInDays>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Weather">
@@ -286,12 +261,8 @@
 		<minPopulation>1</minPopulation>
 		<minRefireDays>8</minRefireDays>
 		<letterDef>PurpleEvent</letterDef>
-        <letterLabel>Weather week_2</letterLabel> 
-        <letterText>This is a test weather to test map affector</letterText>
 		<modExtensions>
             <li Class="MoonWeeks.WeekParams">
-                <weekLabel>weekLabel_TestMap_2</weekLabel>
-				<weekDescription>weekDescription_TestMap_2</weekDescription>
 				<weekDurationInDays>1</weekDurationInDays>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Weather">
@@ -331,12 +302,8 @@
 		<minPopulation>1</minPopulation>
 		<minRefireDays>8</minRefireDays>
 		<letterDef>PurpleEvent</letterDef>
-        <letterLabel>Weather week_3</letterLabel> 
-        <letterText>This is a test weather to test map affector</letterText>
 		<modExtensions>
             <li Class="MoonWeeks.WeekParams">
-                <weekLabel>weekLabel_TestMap_3</weekLabel>
-				<weekDescription>weekDescription_TestMap_3</weekDescription>
 				<weekDurationInDays>1</weekDurationInDays>
 				<affectors>
 					<!--this will work because of default values for most params -->
@@ -367,13 +334,8 @@
 		<minPopulation>1</minPopulation>
 		<minRefireDays>8</minRefireDays>
 		<letterDef>PurpleEvent</letterDef>
-        <letterLabel>Inspiration week</letterLabel> 
-        <letterText>This is a test inspiration to test map affector</letterText>
-
         <modExtensions>
             <li Class="MoonWeeks.WeekParams">
-                <weekLabel>weekLabel_TestMap</weekLabel>
-				<weekDescription>weekDescription_TestMap</weekDescription>
 				<weekDurationInDays>1</weekDurationInDays>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Inspiration">
@@ -434,13 +396,8 @@
 		<minPopulation>1</minPopulation>
 		<minRefireDays>8</minRefireDays>
 		<letterDef>PurpleEvent</letterDef>
-        <letterLabel>Inspiration week</letterLabel> 
-        <letterText>This is a test inspiration to test map affector</letterText>
-
         <modExtensions>
             <li Class="MoonWeeks.WeekParams">
-                <weekLabel>weekLabel_TestMap</weekLabel>
-				<weekDescription>weekDescription_TestMap</weekDescription>
 				<weekDurationInDays>1</weekDurationInDays>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Inspiration">
@@ -492,13 +449,8 @@
 		<minPopulation>1</minPopulation>
 		<minRefireDays>8</minRefireDays>
 		<letterDef>PurpleEvent</letterDef>
-        <letterLabel>Inspiration week_3</letterLabel> 
-        <letterText>This is a test inspiration to test map affector</letterText>
-
         <modExtensions>
             <li Class="MoonWeeks.WeekParams">
-                <weekLabel>weekLabel_TestMap_3</weekLabel>
-				<weekDescription>weekDescription_TestMap_3</weekDescription>
 				<weekDurationInDays>1</weekDurationInDays>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Inspiration">
@@ -529,13 +481,8 @@
 		<minPopulation>1</minPopulation>
 		<minRefireDays>8</minRefireDays>
 		<letterDef>PurpleEvent</letterDef>
-        <letterLabel>Hediff week_1</letterLabel> 
-        <letterText>This is a test hediff week to test map affector</letterText>
-
         <modExtensions>
             <li Class="MoonWeeks.WeekParams">
-                <weekLabel>weekLabel_TestHediff_1</weekLabel>
-				<weekDescription>weekDescription_TestHediff_1</weekDescription>
 				<weekDurationInDays>1</weekDurationInDays>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
@@ -616,13 +563,8 @@
 		<minPopulation>1</minPopulation>
 		<minRefireDays>8</minRefireDays>
 		<letterDef>PurpleEvent</letterDef>
-        <letterLabel>Break week_1</letterLabel> 
-        <letterText>This is a test break week to test map affector</letterText>
-
         <modExtensions>
             <li Class="MoonWeeks.WeekParams">
-                <weekLabel>weekLabel_TestBreak_1</weekLabel>
-				<weekDescription>weekDescription_TestBreak_1</weekDescription>
 				<weekDurationInDays>1</weekDurationInDays>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_MentalBreak">
@@ -679,13 +621,8 @@
 		<minPopulation>1</minPopulation>
 		<minRefireDays>8</minRefireDays>
 		<letterDef>PurpleEvent</letterDef>
-        <letterLabel>Break week_2</letterLabel> 
-        <letterText>This is a test break week to test map affector</letterText>
-
         <modExtensions>
             <li Class="MoonWeeks.WeekParams">
-                <weekLabel>weekLabel_TestBreak_2</weekLabel>
-				<weekDescription>weekDescription_TestBreak_2</weekDescription>
 				<weekDurationInDays>1</weekDurationInDays>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_MentalBreak">
@@ -730,13 +667,8 @@
 		<minPopulation>1</minPopulation>
 		<minRefireDays>8</minRefireDays>
 		<letterDef>PurpleEvent</letterDef>
-        <letterLabel>Thought week_1</letterLabel> 
-        <letterText>This is a test thought week to test map affector</letterText>
-
         <modExtensions>
             <li Class="MoonWeeks.WeekParams">
-                <weekLabel>weekLabel_TestThought_1</weekLabel>
-				<weekDescription>weekDescription_TestThought_1</weekDescription>
 				<weekDurationInDays>1</weekDurationInDays>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Thought">
@@ -798,12 +730,8 @@
 		<minPopulation>1</minPopulation>
 		<minRefireDays>8</minRefireDays>
 		<letterDef>PurpleEvent</letterDef>
-        <letterLabel>Events week_2</letterLabel> 
-        <letterText>This is a test incident to test map affector</letterText>
 		<modExtensions>
             <li Class="MoonWeeks.WeekParams">
-                <weekLabel>weekLabel_TestMap_2</weekLabel>
-				<weekDescription>weekDescription_TestMap_2</weekDescription>
 				<weekDurationInDays>1</weekDurationInDays>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Incident">
@@ -844,13 +772,8 @@
 		<minPopulation>1</minPopulation>
 		<minRefireDays>8</minRefireDays>
 		<letterDef>PurpleEvent</letterDef>
-        <letterLabel>Trait week_1</letterLabel> 
-        <letterText>This is a test Trait week to test map affector</letterText>
-
         <modExtensions>
             <li Class="MoonWeeks.WeekParams">
-                <weekLabel>weekLabel_TestTrait_1</weekLabel>
-				<weekDescription>weekDescription_TestTrait_1</weekDescription>
 				<weekDurationInDays>1</weekDurationInDays>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Trait">

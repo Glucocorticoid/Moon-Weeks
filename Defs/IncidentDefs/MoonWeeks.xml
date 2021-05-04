@@ -16,6 +16,7 @@
 	<IncidentDef>
 		<defName>MW_MayWorks</defName>
 		<label>Week of hard work</label>
+		<description>The leaders of the galactic proletariat have bequeathed to work for the common good. \n\nWorker Galactic Solidarity Week inspires heroic deeds. \n\nIt was labor that made Norbal a human. \n\nThroughout the week, the colonists will receive various bonuses for their work, but beware of the lazy ones!</description>
 		<category>Misc</category>
 		<targetTags>
 			<li>Map_PlayerHome</li>
@@ -27,12 +28,8 @@
 		<minPopulation>1</minPopulation>
 		<minRefireDays>8</minRefireDays>
 		<letterDef>PositiveEvent</letterDef>	
-        <letterLabel>Week of hard work</letterLabel> 
-        <letterText>Week of hard work started. Pawns will get bonuses to job speed.</letterText> 
         <modExtensions>
-            <li Class="MoonWeeks.WeekParams">
-                <weekLabel>MW_HardWork_Label</weekLabel>
-				<weekDescription>MW_HardWork_Desc</weekDescription> 
+            <li Class="MoonWeeks.WeekParams"> 
 				<weekDurationInDays>7</weekDurationInDays>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
@@ -126,6 +123,7 @@
 	<IncidentDef>
 		<defName>MW_GoldenWeek</defName>
 		<label>Golden week</label>
+		<description>Untranslated description</description>
 		<category>Misc</category>
 		<targetTags>
 			<li>Map_PlayerHome</li>
@@ -137,12 +135,8 @@
 		<minPopulation>1</minPopulation>
 		<minRefireDays>8</minRefireDays>
 		<letterDef>PositiveEvent</letterDef>	
-        <letterLabel>Golden week</letterLabel> 
-        <letterText>Golden week started. Happy holidays!</letterText> 
         <modExtensions>
             <li Class="MoonWeeks.WeekParams">
-                <weekLabel>MW_GoldenWeek_Label</weekLabel>
-				<weekDescription>MW_GoldenWeek_Desc</weekDescription> 
 				<weekDurationInDays>7</weekDurationInDays>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Incident">
@@ -173,7 +167,6 @@
 						<pickRule>Random</pickRule>
 					</li>
 
-
 					<li Class="MoonWeeks.WeekAffector_Thought">
 						<excecutionType>EveryXHours</excecutionType>
 						<reApplyEveryXHours>10~14</reApplyEveryXHours>
@@ -197,7 +190,6 @@
 						</effectDefs>
 						<pickRule>Random</pickRule>
 					</li>
-
 				</affectors>
             </li>
         </modExtensions>
