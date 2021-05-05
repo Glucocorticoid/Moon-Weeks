@@ -105,6 +105,8 @@
         <modExtensions>
             <li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>1</weekDurationInDays>
+				<!--You can set next week, started after current week-->
+				<nextWeek>MoonWeekIncident_Dukhota</nextWeek>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Map">
 						<!--excecutionType is a common field, avaliable for each affector-->
