@@ -1,0 +1,2468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<IncidentDef Name="MoonWeek_HediffEvent" Abstract="True">
+		<category>Misc</category>
+		<targetTags>
+			<li>
+				<effectDef>Map_PlayerHome</effectDef>
+			</li>
+		</targetTags>
+		<workerClass>MoonWeeks.IncidentWorker_WeekStarts</workerClass>
+		<baseChance>0.5</baseChance>
+		<pointsScaleable>true</pointsScaleable>
+		<earliestDay>0</earliestDay>
+		<minPopulation>1</minPopulation>
+		<minRefireDays>8</minRefireDays>
+		<letterDef>PurpleEvent</letterDef>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_Work</defName>
+		<label>Productivity week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Work</effectDef>
+								<stage>0</stage>
+							</li>
+							<li>
+								<effectDef>MW_Work</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>MW_Work</effectDef>
+								<stage>2</stage>
+							</li>
+							<li>
+								<effectDef>MW_Work</effectDef>
+								<stage>3</stage>
+							</li>
+							<li>
+								<effectDef>MW_Work</effectDef>
+								<stage>4</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_WorkMinus</defName>
+		<label>Sloth week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Work</effectDef>
+								<stage>5</stage>
+							</li>
+							<li>
+								<effectDef>MW_Work</effectDef>
+								<stage>6</stage>
+							</li>
+							<li>
+								<effectDef>MW_Work</effectDef>
+								<stage>7</stage>
+							</li>
+							<li>
+								<effectDef>MW_Work</effectDef>
+								<stage>8</stage>
+							</li>
+							<li>
+								<effectDef>MW_Work</effectDef>
+								<stage>9</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_Consciousness</defName>
+		<label>Consciousness week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Consciousness</effectDef>
+								<stage>0</stage>
+							</li>
+							<li>
+								<effectDef>MW_Consciousness</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>MW_Consciousness</effectDef>
+								<stage>2</stage>
+							</li>
+							<li>
+								<effectDef>MW_Consciousness</effectDef>
+								<stage>3</stage>
+							</li>
+							<li>
+								<effectDef>MW_Consciousness</effectDef>
+								<stage>4</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_ConsciousnessMinus</defName>
+		<label>Consciousness - week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Consciousness</effectDef>
+								<stage>5</stage>
+							</li>
+							<li>
+								<effectDef>MW_Consciousness</effectDef>
+								<stage>6</stage>
+							</li>
+							<li>
+								<effectDef>MW_Consciousness</effectDef>
+								<stage>7</stage>
+							</li>
+							<li>
+								<effectDef>MW_Consciousness</effectDef>
+								<stage>8</stage>
+							</li>
+							<li>
+								<effectDef>MW_Consciousness</effectDef>
+								<stage>9</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_Sight</defName>
+		<label>Sight week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Sight</effectDef>
+								<stage>0</stage>
+							</li>
+							<li>
+								<effectDef>MW_Sight</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>MW_Sight</effectDef>
+								<stage>2</stage>
+							</li>
+							<li>
+								<effectDef>MW_Sight</effectDef>
+								<stage>3</stage>
+							</li>
+							<li>
+								<effectDef>MW_Sight</effectDef>
+								<stage>4</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_SightMinus</defName>
+		<label>Sight - week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Sight</effectDef>
+								<stage>5</stage>
+							</li>
+							<li>
+								<effectDef>MW_Sight</effectDef>
+								<stage>6</stage>
+							</li>
+							<li>
+								<effectDef>MW_Sight</effectDef>
+								<stage>7</stage>
+							</li>
+							<li>
+								<effectDef>MW_Sight</effectDef>
+								<stage>8</stage>
+							</li>
+							<li>
+								<effectDef>MW_Sight</effectDef>
+								<stage>9</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_Breathing</defName>
+		<label>Breathing week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Breathing</effectDef>
+								<stage>0</stage>
+							</li>
+							<li>
+								<effectDef>MW_Breathing</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>MW_Breathing</effectDef>
+								<stage>2</stage>
+							</li>
+							<li>
+								<effectDef>MW_Breathing</effectDef>
+								<stage>3</stage>
+							</li>
+							<li>
+								<effectDef>MW_Breathing</effectDef>
+								<stage>4</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_BreathingMinus</defName>
+		<label>Breathing - week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Breathing</effectDef>
+								<stage>5</stage>
+							</li>
+							<li>
+								<effectDef>MW_Breathing</effectDef>
+								<stage>6</stage>
+							</li>
+							<li>
+								<effectDef>MW_Breathing</effectDef>
+								<stage>7</stage>
+							</li>
+							<li>
+								<effectDef>MW_Breathing</effectDef>
+								<stage>8</stage>
+							</li>
+							<li>
+								<effectDef>MW_Breathing</effectDef>
+								<stage>9</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_Filtr</defName>
+		<label>BloodFiltration week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Filtr</effectDef>
+								<stage>0</stage>
+							</li>
+							<li>
+								<effectDef>MW_Filtr</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>MW_Filtr</effectDef>
+								<stage>2</stage>
+							</li>
+							<li>
+								<effectDef>MW_Filtr</effectDef>
+								<stage>3</stage>
+							</li>
+							<li>
+								<effectDef>MW_Filtr</effectDef>
+								<stage>4</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_FiltrMinus</defName>
+		<label>BloodFiltration - week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Filtr</effectDef>
+								<stage>5</stage>
+							</li>
+							<li>
+								<effectDef>MW_Filtr</effectDef>
+								<stage>6</stage>
+							</li>
+							<li>
+								<effectDef>MW_Filtr</effectDef>
+								<stage>7</stage>
+							</li>
+							<li>
+								<effectDef>MW_Filtr</effectDef>
+								<stage>8</stage>
+							</li>
+							<li>
+								<effectDef>MW_Filtr</effectDef>
+								<stage>9</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_Pump</defName>
+		<label>BloodPumping week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Pump</effectDef>
+								<stage>0</stage>
+							</li>
+							<li>
+								<effectDef>MW_Pump</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>MW_Pump</effectDef>
+								<stage>2</stage>
+							</li>
+							<li>
+								<effectDef>MW_Pump</effectDef>
+								<stage>3</stage>
+							</li>
+							<li>
+								<effectDef>MW_Pump</effectDef>
+								<stage>4</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_PumpMinus</defName>
+		<label>BloodPumping week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Pump</effectDef>
+								<stage>5</stage>
+							</li>
+							<li>
+								<effectDef>MW_Pump</effectDef>
+								<stage>6</stage>
+							</li>
+							<li>
+								<effectDef>MW_Pump</effectDef>
+								<stage>7</stage>
+							</li>
+							<li>
+								<effectDef>MW_Pump</effectDef>
+								<stage>8</stage>
+							</li>
+							<li>
+								<effectDef>MW_Pump</effectDef>
+								<stage>9</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_Metabolism</defName>
+		<label>Metabolism week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Metabolism</effectDef>
+								<stage>0</stage>
+							</li>
+							<li>
+								<effectDef>MW_Metabolism</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>MW_Metabolism</effectDef>
+								<stage>2</stage>
+							</li>
+							<li>
+								<effectDef>MW_Metabolism</effectDef>
+								<stage>3</stage>
+							</li>
+							<li>
+								<effectDef>MW_Metabolism</effectDef>
+								<stage>4</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_MetabolismMinus</defName>
+		<label>Metabolism - week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Metabolism</effectDef>
+								<stage>5</stage>
+							</li>
+							<li>
+								<effectDef>MW_Metabolism</effectDef>
+								<stage>6</stage>
+							</li>
+							<li>
+								<effectDef>MW_Metabolism</effectDef>
+								<stage>7</stage>
+							</li>
+							<li>
+								<effectDef>MW_Metabolism</effectDef>
+								<stage>8</stage>
+							</li>
+							<li>
+								<effectDef>MW_Metabolism</effectDef>
+								<stage>9</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_Rest</defName>
+		<label>RestRateMultiplier week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Rest</effectDef>
+								<stage>0</stage>
+							</li>
+							<li>
+								<effectDef>MW_Rest</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>MW_Rest</effectDef>
+								<stage>2</stage>
+							</li>
+							<li>
+								<effectDef>MW_Rest</effectDef>
+								<stage>3</stage>
+							</li>
+							<li>
+								<effectDef>MW_Rest</effectDef>
+								<stage>4</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_RestMinus</defName>
+		<label>RestRateMultiplier - week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Rest</effectDef>
+								<stage>5</stage>
+							</li>
+							<li>
+								<effectDef>MW_Rest</effectDef>
+								<stage>6</stage>
+							</li>
+							<li>
+								<effectDef>MW_Rest</effectDef>
+								<stage>7</stage>
+							</li>
+							<li>
+								<effectDef>MW_Rest</effectDef>
+								<stage>8</stage>
+							</li>
+							<li>
+								<effectDef>MW_Rest</effectDef>
+								<stage>9</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_Food</defName>
+		<label>hungerRateFactorOffset week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Food</effectDef>
+								<stage>0</stage>
+							</li>
+							<li>
+								<effectDef>MW_Food</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>MW_Food</effectDef>
+								<stage>2</stage>
+							</li>
+							<li>
+								<effectDef>MW_Food</effectDef>
+								<stage>3</stage>
+							</li>
+							<li>
+								<effectDef>MW_Food</effectDef>
+								<stage>4</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_FoodMinus</defName>
+		<label>hungerRateFactorOffset - week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Food</effectDef>
+								<stage>5</stage>
+							</li>
+							<li>
+								<effectDef>MW_Food</effectDef>
+								<stage>6</stage>
+							</li>
+							<li>
+								<effectDef>MW_Food</effectDef>
+								<stage>7</stage>
+							</li>
+							<li>
+								<effectDef>MW_Food</effectDef>
+								<stage>8</stage>
+							</li>
+							<li>
+								<effectDef>MW_Food</effectDef>
+								<stage>9</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_Move</defName>
+		<label>Moving week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Move</effectDef>
+								<stage>0</stage>
+							</li>
+							<li>
+								<effectDef>MW_Move</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>MW_Move</effectDef>
+								<stage>2</stage>
+							</li>
+							<li>
+								<effectDef>MW_Move</effectDef>
+								<stage>3</stage>
+							</li>
+							<li>
+								<effectDef>MW_Move</effectDef>
+								<stage>4</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_MoveMinus</defName>
+		<label>Moving - week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Move</effectDef>
+								<stage>5</stage>
+							</li>
+							<li>
+								<effectDef>MW_Move</effectDef>
+								<stage>6</stage>
+							</li>
+							<li>
+								<effectDef>MW_Move</effectDef>
+								<stage>7</stage>
+							</li>
+							<li>
+								<effectDef>MW_Move</effectDef>
+								<stage>8</stage>
+							</li>
+							<li>
+								<effectDef>MW_Move</effectDef>
+								<stage>9</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_Regeneration</defName>
+		<label>Regeneration week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Regeneration</effectDef>
+								<stage>0</stage>
+							</li>
+							<li>
+								<effectDef>MW_Regeneration</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>MW_Regeneration</effectDef>
+								<stage>2</stage>
+							</li>
+							<li>
+								<effectDef>MW_Regeneration</effectDef>
+								<stage>3</stage>
+							</li>
+							<li>
+								<effectDef>MW_Regeneration</effectDef>
+								<stage>4</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_RegenerationMinus</defName>
+		<label>Regeneration - week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Regeneration</effectDef>
+								<stage>5</stage>
+							</li>
+							<li>
+								<effectDef>MW_Regeneration</effectDef>
+								<stage>6</stage>
+							</li>
+							<li>
+								<effectDef>MW_Regeneration</effectDef>
+								<stage>7</stage>
+							</li>
+							<li>
+								<effectDef>MW_Regeneration</effectDef>
+								<stage>8</stage>
+							</li>
+							<li>
+								<effectDef>MW_Regeneration</effectDef>
+								<stage>9</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_Research</defName>
+		<label>Research week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Research</effectDef>
+								<stage>0</stage>
+							</li>
+							<li>
+								<effectDef>MW_Research</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>MW_Research</effectDef>
+								<stage>2</stage>
+							</li>
+							<li>
+								<effectDef>MW_Research</effectDef>
+								<stage>3</stage>
+							</li>
+							<li>
+								<effectDef>MW_Research</effectDef>
+								<stage>4</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_ResearchMinus</defName>
+		<label>Research week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Research</effectDef>
+								<stage>5</stage>
+							</li>
+							<li>
+								<effectDef>MW_Research</effectDef>
+								<stage>6</stage>
+							</li>
+							<li>
+								<effectDef>MW_Research</effectDef>
+								<stage>7</stage>
+							</li>
+							<li>
+								<effectDef>MW_Research</effectDef>
+								<stage>8</stage>
+							</li>
+							<li>
+								<effectDef>MW_Research</effectDef>
+								<stage>9</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_Learning</defName>
+		<label>Learning week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Learning</effectDef>
+								<stage>0</stage>
+							</li>
+							<li>
+								<effectDef>MW_Learning</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>MW_Learning</effectDef>
+								<stage>2</stage>
+							</li>
+							<li>
+								<effectDef>MW_Learning</effectDef>
+								<stage>3</stage>
+							</li>
+							<li>
+								<effectDef>MW_Learning</effectDef>
+								<stage>4</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_LearningMinus</defName>
+		<label>Learning - week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Learning</effectDef>
+								<stage>5</stage>
+							</li>
+							<li>
+								<effectDef>MW_Learning</effectDef>
+								<stage>6</stage>
+							</li>
+							<li>
+								<effectDef>MW_Learning</effectDef>
+								<stage>7</stage>
+							</li>
+							<li>
+								<effectDef>MW_Learning</effectDef>
+								<stage>8</stage>
+							</li>
+							<li>
+								<effectDef>MW_Learning</effectDef>
+								<stage>9</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_Cook</defName>
+		<label>Cook week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Cook</effectDef>
+								<stage>0</stage>
+							</li>
+							<li>
+								<effectDef>MW_Cook</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>MW_Cook</effectDef>
+								<stage>2</stage>
+							</li>
+							<li>
+								<effectDef>MW_Cook</effectDef>
+								<stage>3</stage>
+							</li>
+							<li>
+								<effectDef>MW_Cook</effectDef>
+								<stage>4</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_CookMinus</defName>
+		<label>Cook - week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Cook</effectDef>
+								<stage>5</stage>
+							</li>
+							<li>
+								<effectDef>MW_Cook</effectDef>
+								<stage>6</stage>
+							</li>
+							<li>
+								<effectDef>MW_Cook</effectDef>
+								<stage>7</stage>
+							</li>
+							<li>
+								<effectDef>MW_Cook</effectDef>
+								<stage>8</stage>
+							</li>
+							<li>
+								<effectDef>MW_Cook</effectDef>
+								<stage>9</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_Mining</defName>
+		<label>Mining week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Mining</effectDef>
+								<stage>0</stage>
+							</li>
+							<li>
+								<effectDef>MW_Mining</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>MW_Mining</effectDef>
+								<stage>2</stage>
+							</li>
+							<li>
+								<effectDef>MW_Mining</effectDef>
+								<stage>3</stage>
+							</li>
+							<li>
+								<effectDef>MW_Mining</effectDef>
+								<stage>4</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_MiningMinus</defName>
+		<label>Mining - week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Mining</effectDef>
+								<stage>5</stage>
+							</li>
+							<li>
+								<effectDef>MW_Mining</effectDef>
+								<stage>6</stage>
+							</li>
+							<li>
+								<effectDef>MW_Mining</effectDef>
+								<stage>7</stage>
+							</li>
+							<li>
+								<effectDef>MW_Mining</effectDef>
+								<stage>8</stage>
+							</li>
+							<li>
+								<effectDef>MW_Mining</effectDef>
+								<stage>9</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_Farming</defName>
+		<label>Farming week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Farming</effectDef>
+								<stage>0</stage>
+							</li>
+							<li>
+								<effectDef>MW_Farming</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>MW_Farming</effectDef>
+								<stage>2</stage>
+							</li>
+							<li>
+								<effectDef>MW_Farming</effectDef>
+								<stage>3</stage>
+							</li>
+							<li>
+								<effectDef>MW_Farming</effectDef>
+								<stage>4</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_FarmingMinus</defName>
+		<label>Farming - week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Farming</effectDef>
+								<stage>5</stage>
+							</li>
+							<li>
+								<effectDef>MW_Farming</effectDef>
+								<stage>6</stage>
+							</li>
+							<li>
+								<effectDef>MW_Farming</effectDef>
+								<stage>7</stage>
+							</li>
+							<li>
+								<effectDef>MW_Farming</effectDef>
+								<stage>8</stage>
+							</li>
+							<li>
+								<effectDef>MW_Farming</effectDef>
+								<stage>9</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_Medic</defName>
+		<label>Medic week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Medic</effectDef>
+								<stage>0</stage>
+							</li>
+							<li>
+								<effectDef>MW_Medic</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>MW_Medic</effectDef>
+								<stage>2</stage>
+							</li>
+							<li>
+								<effectDef>MW_Medic</effectDef>
+								<stage>3</stage>
+							</li>
+							<li>
+								<effectDef>MW_Medic</effectDef>
+								<stage>4</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_MedicMinus</defName>
+		<label>Medic - week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Medic</effectDef>
+								<stage>5</stage>
+							</li>
+							<li>
+								<effectDef>MW_Medic</effectDef>
+								<stage>6</stage>
+							</li>
+							<li>
+								<effectDef>MW_Medic</effectDef>
+								<stage>7</stage>
+							</li>
+							<li>
+								<effectDef>MW_Medic</effectDef>
+								<stage>8</stage>
+							</li>
+							<li>
+								<effectDef>MW_Medic</effectDef>
+								<stage>9</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_Builder</defName>
+		<label>Builder week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Builder</effectDef>
+								<stage>0</stage>
+							</li>
+							<li>
+								<effectDef>MW_Builder</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>MW_Builder</effectDef>
+								<stage>2</stage>
+							</li>
+							<li>
+								<effectDef>MW_Builder</effectDef>
+								<stage>3</stage>
+							</li>
+							<li>
+								<effectDef>MW_Builder</effectDef>
+								<stage>4</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_BuilderMinus</defName>
+		<label>Builder - week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Builder</effectDef>
+								<stage>5</stage>
+							</li>
+							<li>
+								<effectDef>MW_Builder</effectDef>
+								<stage>6</stage>
+							</li>
+							<li>
+								<effectDef>MW_Builder</effectDef>
+								<stage>7</stage>
+							</li>
+							<li>
+								<effectDef>MW_Builder</effectDef>
+								<stage>8</stage>
+							</li>
+							<li>
+								<effectDef>MW_Builder</effectDef>
+								<stage>9</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_Cleaner</defName>
+		<label>Cleaner week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Cleaner</effectDef>
+								<stage>0</stage>
+							</li>
+							<li>
+								<effectDef>MW_Cleaner</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>MW_Cleaner</effectDef>
+								<stage>2</stage>
+							</li>
+							<li>
+								<effectDef>MW_Cleaner</effectDef>
+								<stage>3</stage>
+							</li>
+							<li>
+								<effectDef>MW_Cleaner</effectDef>
+								<stage>4</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_CleanerMinus</defName>
+		<label>Cleaner - week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Cleaner</effectDef>
+								<stage>5</stage>
+							</li>
+							<li>
+								<effectDef>MW_Cleaner</effectDef>
+								<stage>6</stage>
+							</li>
+							<li>
+								<effectDef>MW_Cleaner</effectDef>
+								<stage>7</stage>
+							</li>
+							<li>
+								<effectDef>MW_Cleaner</effectDef>
+								<stage>8</stage>
+							</li>
+							<li>
+								<effectDef>MW_Cleaner</effectDef>
+								<stage>9</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_Crafter</defName>
+		<label>Crafter week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Crafter</effectDef>
+								<stage>0</stage>
+							</li>
+							<li>
+								<effectDef>MW_Crafter</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>MW_Crafter</effectDef>
+								<stage>2</stage>
+							</li>
+							<li>
+								<effectDef>MW_Crafter</effectDef>
+								<stage>3</stage>
+							</li>
+							<li>
+								<effectDef>MW_Crafter</effectDef>
+								<stage>4</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_CrafterMinus</defName>
+		<label>Crafter - week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Crafter</effectDef>
+								<stage>5</stage>
+							</li>
+							<li>
+								<effectDef>MW_Crafter</effectDef>
+								<stage>6</stage>
+							</li>
+							<li>
+								<effectDef>MW_Crafter</effectDef>
+								<stage>7</stage>
+							</li>
+							<li>
+								<effectDef>MW_Crafter</effectDef>
+								<stage>8</stage>
+							</li>
+							<li>
+								<effectDef>MW_Crafter</effectDef>
+								<stage>9</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_Carry</defName>
+		<label>Carry week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Carry</effectDef>
+								<stage>0</stage>
+							</li>
+							<li>
+								<effectDef>MW_Carry</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>MW_Carry</effectDef>
+								<stage>2</stage>
+							</li>
+							<li>
+								<effectDef>MW_Carry</effectDef>
+								<stage>3</stage>
+							</li>
+							<li>
+								<effectDef>MW_Carry</effectDef>
+								<stage>4</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_CarryMinus</defName>
+		<label>Carry - week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Carry</effectDef>
+								<stage>5</stage>
+							</li>
+							<li>
+								<effectDef>MW_Carry</effectDef>
+								<stage>6</stage>
+							</li>
+							<li>
+								<effectDef>MW_Carry</effectDef>
+								<stage>7</stage>
+							</li>
+							<li>
+								<effectDef>MW_Carry</effectDef>
+								<stage>8</stage>
+							</li>
+							<li>
+								<effectDef>MW_Carry</effectDef>
+								<stage>9</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_Caravan</defName>
+		<label>Caravan week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Caravan</effectDef>
+								<stage>0</stage>
+							</li>
+							<li>
+								<effectDef>MW_Caravan</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>MW_Caravan</effectDef>
+								<stage>2</stage>
+							</li>
+							<li>
+								<effectDef>MW_Caravan</effectDef>
+								<stage>3</stage>
+							</li>
+							<li>
+								<effectDef>MW_Caravan</effectDef>
+								<stage>4</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_CaravanMinus</defName>
+		<label>Caravan - week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Caravan</effectDef>
+								<stage>5</stage>
+							</li>
+							<li>
+								<effectDef>MW_Caravan</effectDef>
+								<stage>6</stage>
+							</li>
+							<li>
+								<effectDef>MW_Caravan</effectDef>
+								<stage>7</stage>
+							</li>
+							<li>
+								<effectDef>MW_Caravan</effectDef>
+								<stage>8</stage>
+							</li>
+							<li>
+								<effectDef>MW_Caravan</effectDef>
+								<stage>9</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_Shoot</defName>
+		<label>Shoot week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Shoot</effectDef>
+								<stage>0</stage>
+							</li>
+							<li>
+								<effectDef>MW_Shoot</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>MW_Shoot</effectDef>
+								<stage>2</stage>
+							</li>
+							<li>
+								<effectDef>MW_Shoot</effectDef>
+								<stage>3</stage>
+							</li>
+							<li>
+								<effectDef>MW_Shoot</effectDef>
+								<stage>4</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_ShootMinus</defName>
+		<label>Shoot - week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Shoot</effectDef>
+								<stage>5</stage>
+							</li>
+							<li>
+								<effectDef>MW_Shoot</effectDef>
+								<stage>6</stage>
+							</li>
+							<li>
+								<effectDef>MW_Shoot</effectDef>
+								<stage>7</stage>
+							</li>
+							<li>
+								<effectDef>MW_Shoot</effectDef>
+								<stage>8</stage>
+							</li>
+							<li>
+								<effectDef>MW_Shoot</effectDef>
+								<stage>9</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_Melee</defName>
+		<label>Melee week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Melee</effectDef>
+								<stage>0</stage>
+							</li>
+							<li>
+								<effectDef>MW_Melee</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>MW_Melee</effectDef>
+								<stage>2</stage>
+							</li>
+							<li>
+								<effectDef>MW_Melee</effectDef>
+								<stage>3</stage>
+							</li>
+							<li>
+								<effectDef>MW_Melee</effectDef>
+								<stage>4</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_MeleeMinus</defName>
+		<label>Melee - week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Melee</effectDef>
+								<stage>5</stage>
+							</li>
+							<li>
+								<effectDef>MW_Melee</effectDef>
+								<stage>6</stage>
+							</li>
+							<li>
+								<effectDef>MW_Melee</effectDef>
+								<stage>7</stage>
+							</li>
+							<li>
+								<effectDef>MW_Melee</effectDef>
+								<stage>8</stage>
+							</li>
+							<li>
+								<effectDef>MW_Melee</effectDef>
+								<stage>9</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_Supp</defName>
+		<label>Suppressability week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Supp</effectDef>
+								<stage>0</stage>
+							</li>
+							<li>
+								<effectDef>MW_Supp</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>MW_Supp</effectDef>
+								<stage>2</stage>
+							</li>
+							<li>
+								<effectDef>MW_Supp</effectDef>
+								<stage>3</stage>
+							</li>
+							<li>
+								<effectDef>MW_Supp</effectDef>
+								<stage>4</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_SuppMinus</defName>
+		<label>Suppressability - week started</label>
+		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+							<li>100000, 3</li>
+							<li>1000000, 4</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Supp</effectDef>
+								<stage>5</stage>
+							</li>
+							<li>
+								<effectDef>MW_Supp</effectDef>
+								<stage>6</stage>
+							</li>
+							<li>
+								<effectDef>MW_Supp</effectDef>
+								<stage>7</stage>
+							</li>
+							<li>
+								<effectDef>MW_Supp</effectDef>
+								<stage>8</stage>
+							</li>
+							<li>
+								<effectDef>MW_Supp</effectDef>
+								<stage>9</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+</Defs>

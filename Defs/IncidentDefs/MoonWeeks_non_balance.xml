@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_Blank</defName>
+		<label>Blank</label>
+		<description>Blank text</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_Alpha</defName>
+		<label>Alpha</label>
+		<description>Alpha text</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<nextWeek>MWIncident_Omega</nextWeek>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Map">
+						<excecutionType>Once</excecutionType>
+						<targetSky>
+							<glow>1</glow>
+							<colors>
+								<sky>(1,1,1)</sky>
+								<shadow>(1,1,1)</shadow>
+								<overlay>(1,1,1)</overlay>
+								<saturation>1</saturation>
+							</colors>
+						</targetSky>
+					</li>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Alpha</effectDef>
+								<stage>0</stage>
+							</li>
+							<li>
+								<effectDef>MW_Alpha</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>MW_Alpha</effectDef>
+								<stage>2</stage>
+							</li>
+							<li>
+								<effectDef>MW_Alpha</effectDef>
+								<stage>3</stage>
+							</li>
+							<li>
+								<effectDef>MW_Alpha</effectDef>
+								<stage>4</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_Omega</defName>
+		<label>Omega</label>
+		<description>Omega text</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Map">
+						<excecutionType>Once</excecutionType>
+						<targetSky>
+							<glow>0.5</glow>
+							<colors>
+								<sky>(80,80,80)</sky>
+								<shadow>(80,80,80)</shadow>
+								<overlay>(80,80,80)</overlay>
+								<saturation>0.4</saturation>
+							</colors>
+						</targetSky>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_Sniper</defName>
+		<label>Sniper</label>
+		<description>Sniper text</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Sniper</effectDef>
+								<stage>0</stage>
+							</li>
+							<li>
+								<effectDef>MW_Sniper</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>MW_Sniper</effectDef>
+								<stage>2</stage>
+							</li>
+							<li>
+								<effectDef>MW_Sniper</effectDef>
+								<stage>3</stage>
+							</li>
+							<li>
+								<effectDef>MW_Sniper</effectDef>
+								<stage>4</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_Dakka</defName>
+		<label>Dakka week started</label>
+		<description>You don't need to be a better shot, you just need to shoot more bullets!</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>All</pawnPickRule>
+						<scalable>true</scalable>
+						<pickRule>Scaled</pickRule>
+						<scaleRule>ColonyWealth</scaleRule>
+						<scalePoints>
+							<li>0, 0</li>
+							<li>100, 1</li>
+							<li>10000, 2</li>
+						</scalePoints>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Dakka</effectDef>
+								<stage>0</stage>
+							</li>
+							<li>
+								<effectDef>MW_Dakka</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>MW_Dakka</effectDef>
+								<stage>2</stage>
+							</li>
+							<li>
+								<effectDef>MW_Dakka</effectDef>
+								<stage>3</stage>
+							</li>
+							<li>
+								<effectDef>MW_Dakka</effectDef>
+								<stage>4</stage>
+							</li>
+						</effectDefs>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_SpaceBattle</defName>
+		<label>Space Battle week started</label>
+		<description>Space Battle</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Incident">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>9</reApplyEveryXHours>
+						<eventDefs>
+							<li>
+								<effectDef>ShipChunkDrop</effectDef>
+							</li>
+							<li>
+								<effectDef>MeteoriteImpact</effectDef>
+							</li>
+						</eventDefs>
+						<pickRule>Random</pickRule>
+					</li>
+					<li Class="MoonWeeks.WeekAffector_Incident">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>10</reApplyEveryXHours>
+						<eventDefs>
+							<li>
+								<effectDef>RefugeePodCrash</effectDef>
+								<procChance>0.4</procChance>
+							</li>
+						</eventDefs>
+						<pickRule>Random</pickRule>
+					</li>
+					<li Class="MoonWeeks.WeekAffector_Incident">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>26</reApplyEveryXHours>
+						<eventDefs>
+							<li>
+								<effectDef>PsychicEmanatorShipPartCrash</effectDef>
+								<procChance>0.1</procChance>
+							</li>
+							<li>
+								<effectDef>DefoliatorShipPartCrash</effectDef>
+								<procChance>0.1</procChance>
+							</li>
+							<li>
+								<effectDef>RazorRain</effectDef>
+								<procChance>0.1</procChance>
+							</li>
+						</eventDefs>
+						<pickRule>Random</pickRule>
+					</li>
+					<li Class="MoonWeeks.WeekAffector_Incident">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>48</reApplyEveryXHours>
+						<eventDefs>
+							<li>
+								<effectDef>BombardmentIncident</effectDef>
+								<procChance>0.09</procChance>
+							</li>
+							<li>
+								<effectDef>EclipseMeteorImpact</effectDef>
+								<procChance>0.09</procChance>
+							</li>
+							<li>
+								<effectDef>MechanoidTerraformerIncident</effectDef>
+								<procChance>0.09</procChance>
+							</li>
+						</eventDefs>
+						<pickRule>Random</pickRule>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_Strange</defName>
+		<label>Strange week started</label>
+		<description>Strange</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>6</reApplyEveryXHours>
+						<pawnPickRule>Random</pawnPickRule>
+						<pickRule>Random</pickRule>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Sensivity</effectDef>
+								<stage>0</stage>
+							</li>
+							<li>
+								<effectDef>MW_Sensivity</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>MW_Sensivity</effectDef>
+								<stage>2</stage>
+							</li>
+							<li>
+								<effectDef>MW_Sensivity</effectDef>
+								<stage>3</stage>
+							</li>
+						</effectDefs>
+					</li>
+					<li Class="MoonWeeks.WeekAffector_Incident">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>15</reApplyEveryXHours>
+						<eventDefs>
+							<li>
+								<effectDef>ColonistStash</effectDef>
+								<procChance>0.15</procChance>
+							</li>
+							<li>
+								<effectDef>Accident</effectDef>
+								<procChance>0.40</procChance>
+							</li>
+							<li>
+								<effectDef>SelfTame</effectDef>
+								<procChance>0.30</procChance>
+							</li>
+						</eventDefs>
+						<pickRule>Random</pickRule>
+					</li>
+					<li Class="MoonWeeks.WeekAffector_Incident">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>33</reApplyEveryXHours>
+						<eventDefs>
+							<li>
+								<effectDef>EclipseFeral</effectDef>
+								<procChance>0.1</procChance>
+							</li>
+							<li>
+								<effectDef>AccidentalExplosion</effectDef>
+								<procChance>0.25</procChance>
+							</li>
+							<li>
+								<effectDef>notNothing</effectDef>
+								<procChance>0.45</procChance>
+							</li>
+						</eventDefs>
+						<pickRule>Random</pickRule>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_Nevada</defName>
+		<label>Nevada week started</label>
+		<description>Nevada</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Map">
+						<excecutionType>Once</excecutionType>
+						<targetSky>
+							<glow>1</glow>
+							<colors>
+								<sky>(0.68, 0.25, 0.23)</sky>
+								<shadow>(1,1,1)</shadow>
+								<overlay>(1,1,1)</overlay>
+								<saturation>1</saturation>
+							</colors>
+						</targetSky>
+					</li>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>Once</excecutionType>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Sanford</effectDef>
+							</li>
+						</effectDefs>
+						<isAffectColonists>true</isAffectColonists>
+						<pawnPickRule>Random</pawnPickRule>
+					</li>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>Once</excecutionType>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Deimos</effectDef>
+							</li>
+						</effectDefs>
+						<isAffectColonists>true</isAffectColonists>
+						<pawnPickRule>Random</pawnPickRule>
+					</li>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>Once</excecutionType>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Hank</effectDef>
+							</li>
+						</effectDefs>
+						<isAffectColonists>true</isAffectColonists>
+						<pawnPickRule>Random</pawnPickRule>
+					</li>
+					<li Class="MoonWeeks.WeekAffector_Incident">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>52</reApplyEveryXHours>
+						<eventDefs>
+							<li>
+								<effectDef>RaidEnemy</effectDef>
+							</li>
+							<li>
+								<effectDef>RaidEnemyDesperate</effectDef>
+							</li>
+						</eventDefs>
+						<pickRule>Random</pickRule>
+					</li>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>52</reApplyEveryXHours>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Tricky</effectDef>
+							</li>
+						</effectDefs>
+						<isAffectEnemies>true</isAffectEnemies>
+						<pawnPickRule>Random</pawnPickRule>
+						<delayInTicks>10</delayInTicks>
+					</li>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>52</reApplyEveryXHours>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Auditor</effectDef>
+							</li>
+						</effectDefs>
+						<isAffectEnemies>true</isAffectEnemies>
+						<pawnPickRule>Random</pawnPickRule>
+						<delayInTicks>10</delayInTicks>
+					</li>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>52</reApplyEveryXHours>
+						<effectDefs>
+							<li>
+								<effectDef>MW_Jesus</effectDef>
+							</li>
+						</effectDefs>
+						<isAffectEnemies>true</isAffectEnemies>
+						<pawnPickRule>Random</pawnPickRule>
+						<delayInTicks>10</delayInTicks>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_Drunk</defName>
+		<label>Drunk week started</label>
+		<description>Error</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>55</reApplyEveryXHours>
+						<effectDefs>
+							<li>
+								<effectDef>AlcoholHigh</effectDef>
+								<stage>0</stage>
+							</li>
+							<li>
+								<effectDef>AlcoholHigh</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>AlcoholHigh</effectDef>
+								<stage>2</stage>
+							</li>
+							<li>
+								<effectDef>AlcoholHigh</effectDef>
+								<stage>3</stage>
+							</li>
+							<li>
+								<effectDef>AlcoholHigh</effectDef>
+								<stage>4</stage>
+							</li>
+							<li>
+								<effectDef>FlakeHigh</effectDef>
+								<stage>0</stage>
+							</li>
+							<li>
+								<effectDef>PsychiteTeaHigh</effectDef>
+								<stage>0</stage>
+							</li>
+							<li>
+								<effectDef>SmokeleafHigh</effectDef>
+								<stage>0</stage>
+							</li>
+							<li>
+								<effectDef>SmokeleafHigh</effectDef>
+								<stage>1</stage>
+							</li>
+						</effectDefs>
+						<applyRandomForEachPawn>True</applyRandomForEachPawn>
+						<isAffectEnemies>true</isAffectEnemies>
+						<pickRule>Random</pickRule>
+						<pawnPickRule>All</pawnPickRule>
+						<delayInTicks>10</delayInTicks>
+					</li>
+					<li Class="MoonWeeks.WeekAffector_Incident">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>55</reApplyEveryXHours>
+						<eventDefs>
+							<li>
+								<effectDef>RaidEnemy</effectDef>
+							</li>
+							<li>
+								<effectDef>RaidEnemyDesperate</effectDef>
+							</li>
+						</eventDefs>
+						<pickRule>Random</pickRule>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_Plague</defName>
+		<label>Plague week started</label>
+		<description>Error</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Incident">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>52</reApplyEveryXHours>
+						<eventDefs>
+							<li>
+								<effectDef>RaidEnemy</effectDef>
+							</li>
+							<li>
+								<effectDef>RaidEnemyDesperate</effectDef>
+							</li>
+						</eventDefs>
+						<pickRule>Random</pickRule>
+					</li>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>52</reApplyEveryXHours>
+						<effectDefs>
+							<li>
+								<effectDef>Ebola</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>Pneumonia</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>Coronavirus</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>Flu</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>Malaria</effectDef>
+								<stage>1</stage>
+							</li>
+						</effectDefs>
+						<isAffectEnemies>true</isAffectEnemies>
+						<pawnPickRule>Random</pawnPickRule>
+						<delayInTicks>10</delayInTicks>
+					</li>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>52</reApplyEveryXHours>
+						<effectDefs>
+							<li>
+								<effectDef>Ebola</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>Pneumonia</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>Coronavirus</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>Flu</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>Malaria</effectDef>
+								<stage>1</stage>
+							</li>
+						</effectDefs>
+						<isAffectEnemies>true</isAffectEnemies>
+						<pawnPickRule>Random</pawnPickRule>
+						<delayInTicks>10</delayInTicks>
+					</li>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>52</reApplyEveryXHours>
+						<effectDefs>
+							<li>
+								<effectDef>Ebola</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>Pneumonia</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>Coronavirus</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>Flu</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>Malaria</effectDef>
+								<stage>1</stage>
+							</li>
+						</effectDefs>
+						<isAffectEnemies>true</isAffectEnemies>
+						<pawnPickRule>Random</pawnPickRule>
+						<delayInTicks>10</delayInTicks>
+					</li>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>52</reApplyEveryXHours>
+						<effectDefs>
+							<li>
+								<effectDef>Ebola</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>Pneumonia</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>Coronavirus</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>Flu</effectDef>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>Malaria</effectDef>
+								<stage>1</stage>
+							</li>
+						</effectDefs>
+						<isAffectEnemies>true</isAffectEnemies>
+						<pawnPickRule>Random</pawnPickRule>
+						<delayInTicks>10</delayInTicks>
+					</li>
+					<li Class="MoonWeeks.WeekAffector_Hediff">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>52</reApplyEveryXHours>
+						<effectDefs>
+							<li>
+								<effectDef>Ebola</effectDef>
+								<stage>2</stage>
+							</li>
+							<li>
+								<effectDef>Pneumonia</effectDef>
+								<stage>2</stage>
+							</li>
+							<li>
+								<effectDef>Coronavirus</effectDef>
+								<stage>3</stage>
+							</li>
+							<li>
+								<effectDef>Flu</effectDef>
+								<stage>2</stage>
+							</li>
+							<li>
+								<effectDef>Malaria</effectDef>
+								<stage>3</stage>
+							</li>
+						</effectDefs>
+						<isAffectEnemies>true</isAffectEnemies>
+						<pawnPickRule>Random</pawnPickRule>
+						<delayInTicks>10</delayInTicks>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	<!--	<IncidentDef ParentName="MoonWeek_HediffEvent">
+		<defName>MWIncident_SK</defName>
+		<label>Shift dominance week started</label>
+		
+		<description>Shift dominance</description>
+		<modExtensions>
+			<li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Map">
+						<excecutionType>Once</excecutionType>
+						<affectPopulation>true</affectPopulation>
+						<populationMultiplier>15</populationMultiplier>
+					</li>
+					<li Class="MoonWeeks.WeekAffector_MentalBreak">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>3~7</reApplyEveryXHours>
+						<effectDefs>
+							<li>
+								<effectDef>Berserk</effectDef>
+							</li>
+							<li>
+								<effectDef>MurderousRage</effectDef>
+							</li>
+						</effectDefs>
+						<pickRule>Random</pickRule>
+						<pawnPickRule>Random</pawnPickRule>
+						<isAffectAnimals>True</isAffectAnimals>
+					</li>
+				</affectors>
+			</li>
+		</modExtensions>
+	</IncidentDef>	-->
+</Defs>
