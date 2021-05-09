@@ -31,6 +31,7 @@
         <modExtensions>
             <li Class="MoonWeeks.WeekParams"> 
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Good</weekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -138,6 +139,7 @@
         <modExtensions>
             <li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Good</weekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Incident">
 						<excecutionType>EveryXHours</excecutionType>

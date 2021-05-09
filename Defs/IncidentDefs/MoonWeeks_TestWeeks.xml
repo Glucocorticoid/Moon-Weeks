@@ -4,7 +4,7 @@
 	<IncidentDef>
 		<!--This is demonstration week-->
 		<defName>MoonWeekIncident_Dukhota</defName>
-		<!--If you not set def label, it shoud be generated week label-->
+		<!--If def label is not set, it will be generated-->
 		<!--<label>Dukhota week started - label</label>-->
 		<description>Dukhota week started - description</description>
 		<category>Misc</category>
@@ -17,11 +17,20 @@
 		<earliestDay>1</earliestDay>
 		<minPopulation>1</minPopulation>
 		<minRefireDays>8</minRefireDays>
-		<letterDef>PurpleEvent</letterDef>	
+		<!--Can be set custom letterDef -->
+		<!--If not set, will be chosen by weekKind -->
+		<letterDef>PurpleEvent</letterDef>
         <modExtensions>
             <li Class="MoonWeeks.WeekParams">
 				<!--You can customise week duration. 7 days by default -->
 				<weekDurationInDays>7</weekDurationInDays>
+
+				<!--weekKind classify week type. Could be: Good, Bad, Neutral (by default) -->
+				<weekKind>Bad</weekKind>
+
+				<!--If set, next week will be random in selected category -->
+				<nextWeekKind>Good</nextWeekKind>
+				
 				<!--Each week can have multiple affectors-->
 				<affectors>
 					<!--Each each affector must have a class-->
