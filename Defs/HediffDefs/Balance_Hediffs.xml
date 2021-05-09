@@ -3,6 +3,15 @@
 	<!--Parents-->
 	<HediffDef Name="MW_BalanceHediff" Abstract="True">
 		<description>Hidden hediff</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>
+					<min>25000</min>
+					<max>30000</max>
+				</disappearsAfterTicks>
+			</li>
+		</comps>
 	</HediffDef>
 	<!--Work-->
 	<HediffDef ParentName="MW_BalanceHediff">
