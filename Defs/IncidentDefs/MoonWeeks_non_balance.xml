@@ -78,6 +78,7 @@
 		<defName>MWIncident_Omega</defName>
 		<label>Omega</label>
 		<description>Omega text</description>
+		<baseChance>0</baseChance>
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
