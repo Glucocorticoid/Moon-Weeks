@@ -32,9 +32,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -81,9 +81,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -130,9 +130,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -179,9 +179,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -228,9 +228,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -277,9 +277,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -326,9 +326,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -375,9 +375,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -424,9 +424,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -473,9 +473,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -522,9 +522,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -571,9 +571,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -620,9 +620,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -669,9 +669,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -718,9 +718,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -767,9 +767,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -816,9 +816,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -865,9 +865,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -914,9 +914,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -963,9 +963,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -1012,9 +1012,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -1061,9 +1061,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -1110,9 +1110,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -1159,9 +1159,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -1208,9 +1208,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -1257,9 +1257,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -1306,9 +1306,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -1355,9 +1355,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -1404,9 +1404,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -1453,9 +1453,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -1502,9 +1502,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -1551,9 +1551,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -1600,9 +1600,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -1649,9 +1649,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -1698,9 +1698,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -1747,9 +1747,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -1796,9 +1796,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -1845,9 +1845,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -1894,9 +1894,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -1943,9 +1943,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -1992,9 +1992,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -2041,9 +2041,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -2090,9 +2090,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -2139,9 +2139,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -2188,9 +2188,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -2237,9 +2237,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -2286,9 +2286,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -2335,9 +2335,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -2384,9 +2384,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
@@ -2433,9 +2433,9 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
-							<li>100000, 3</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
 							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
