@@ -95,6 +95,19 @@
 							</colors>
 						</targetSky>
 					</li>
+					<li Class="MoonWeeks.WeekAffector_Incident">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>30~60</reApplyEveryXHours>
+						<eventDefs>
+							<li>
+								<effectDef>RaidEnemy</effectDef>
+							</li>
+							<li>
+								<effectDef>RaidEnemyDesperate</effectDef>
+							</li>
+						</eventDefs>
+						<pickRule>Random</pickRule>
+					</li>
 				</affectors>
 			</li>
 		</modExtensions>
