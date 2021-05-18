@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<HediffDef>
+		<defName>MW_Tricky</defName>
+		<label>Spirit of Tricky</label>
+		<description>YOU DO NOT KILL KLOWN!!! KLOWN KILLS YOU!!!</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="MoarTinyDlls.HediffCompProperties_PawnNameColor">
+				<colonistsOnly>false</colonistsOnly>
+				<nameColor>(0, 0.46, 0.14)</nameColor>
+			</li>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>
+					<min>120000</min>
+					<max>120010</max>
+				</disappearsAfterTicks>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<becomeVisible>false</becomeVisible>
+				<painFactor>0</painFactor>
+				<statOffsets>
+					<IncomingDamageFactor>-0.8</IncomingDamageFactor>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>MW_Auditor</defName>
+		<label>Spirit of Auditor</label>
+		<description>Turn on the Improbability Drive</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="MoarTinyDlls.HediffCompProperties_PawnNameColor">
+				<colonistsOnly>false</colonistsOnly>
+				<nameColor>(0, 0, 0)</nameColor>
+			</li>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>
+					<min>120000</min>
+					<max>120010</max>
+				</disappearsAfterTicks>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<becomeVisible>false</becomeVisible>
+				<painFactor>0</painFactor>
+				<statOffsets>
+					<ArmorRating_Sharp>10</ArmorRating_Sharp>
+					<ArmorRating_Blunt>10</ArmorRating_Blunt>
+					<AimingDelayFactor>-0.5</AimingDelayFactor>
+					<ReloadSpeed>-0.5</ReloadSpeed>
+					<AimingAccuracy>-0.5</AimingAccuracy>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>MW_Jesus</defName>
+		<label>Spirit of Jesus</label>
+		<description>You shall be the instrument of armageddon</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="MoarTinyDlls.HediffCompProperties_PawnNameColor">
+				<colonistsOnly>false</colonistsOnly>
+				<nameColor>(1, 1, 0.25)</nameColor>
+			</li>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>
+					<min>120000</min>
+					<max>120010</max>
+				</disappearsAfterTicks>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<becomeVisible>false</becomeVisible>
+				<painFactor>0</painFactor>
+				<statOffsets>
+					<MoveSpeed>4</MoveSpeed>
+					<AimingAccuracy>2</AimingAccuracy>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>MW_Sanford</defName>
+		<label>Spirit of Sandford</label>
+		<description>You feel the spirit of Sandford inside your mind. It grants you a great meele skills against A.A.H.W</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="MoarTinyDlls.HediffCompProperties_PawnNameColor">
+				<colonistsOnly>false</colonistsOnly>
+				<nameColor>(0.7 , 0.7, 0.7)</nameColor>
+			</li>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>
+					<min>420000</min>
+					<max>420010</max>
+				</disappearsAfterTicks>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<becomeVisible>false</becomeVisible>
+				<painFactor>0.4</painFactor>
+				<statOffsets>
+					<MoveSpeed>4</MoveSpeed>
+					<MeleeArmorPenetration>2</MeleeArmorPenetration>
+					<MeleeCritChance>2</MeleeCritChance>
+					<MeleeDodgeChance>2</MeleeDodgeChance>
+					<MeleeParryChance>2</MeleeParryChance>
+					<MeleeDamage>2</MeleeDamage>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>MW_Deimos</defName>
+		<label>Spirit of Deimos</label>
+		<description>You feel the spirit of Deimos inside your mind. It grants you a great gunslinger skills against A.A.H.W</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="MoarTinyDlls.HediffCompProperties_PawnNameColor">
+				<colonistsOnly>false</colonistsOnly>
+				<nameColor>(0.45, 0.45, 0.45)</nameColor>
+			</li>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>
+					<min>420000</min>
+					<max>420010</max>
+				</disappearsAfterTicks>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<becomeVisible>false</becomeVisible>
+				<statOffsets>
+					<MoveSpeed>1</MoveSpeed>
+					<AimingDelayFactor>-0.5</AimingDelayFactor>
+					<ReloadSpeed>-0.5</ReloadSpeed>
+					<AimingAccuracy>0.5</AimingAccuracy>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>MW_Hank</defName>
+		<label>Spirit of Hank</label>
+		<description>You feel the spirit of Hank inside your mind. It grants you a great battle skills against A.A.H.W</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="MoarTinyDlls.HediffCompProperties_PawnNameColor">
+				<colonistsOnly>false</colonistsOnly>
+				<nameColor>(1, 0.32, 0.32)</nameColor>
+			</li>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>
+					<min>420000</min>
+					<max>420010</max>
+				</disappearsAfterTicks>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<becomeVisible>false</becomeVisible>
+				<painFactor>0.2</painFactor>
+				<statOffsets>
+					<MoveSpeed>2</MoveSpeed>
+					<AimingDelayFactor>-0.5</AimingDelayFactor>
+					<ReloadSpeed>-0.5</ReloadSpeed>
+					<AimingAccuracy>0.5</AimingAccuracy>
+					<MeleeArmorPenetration>2</MeleeArmorPenetration>
+					<MeleeCritChance>2</MeleeCritChance>
+					<MeleeDodgeChance>2</MeleeDodgeChance>
+					<MeleeParryChance>2</MeleeParryChance>
+					<MeleeDamage>2</MeleeDamage>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef ParentName="MW_BalanceHediff">
+		<defName>MW_Alpha</defName>
+		<label>Alpha</label>
+		<stages>
+			<li>
+				<minSeverity>1</minSeverity>
+				<becomeVisible>false</becomeVisible>
+				<statOffsets>
+					<WorkSpeedGlobal>0.2</WorkSpeedGlobal>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>2</minSeverity>
+				<becomeVisible>false</becomeVisible>
+				<statOffsets>
+					<WorkSpeedGlobal>0.3</WorkSpeedGlobal>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>3</minSeverity>
+				<becomeVisible>false</becomeVisible>
+				<statOffsets>
+					<WorkSpeedGlobal>0.5</WorkSpeedGlobal>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>4</minSeverity>
+				<becomeVisible>false</becomeVisible>
+				<statOffsets>
+					<WorkSpeedGlobal>0.6</WorkSpeedGlobal>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>5</minSeverity>
+				<becomeVisible>false</becomeVisible>
+				<statOffsets>
+					<WorkSpeedGlobal>0.8</WorkSpeedGlobal>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+</Defs>

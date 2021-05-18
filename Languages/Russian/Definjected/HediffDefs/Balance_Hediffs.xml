@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Work -->
+
+  <MW_Work.label>Work</MW_Work.label>
+  <MW_Work.description>Спрятанный хедифф (даже переводить не буду, все равно только в девмоде видно)</MW_Work.description>
+
+
+  <!-- Consciousness -->
+
+  <MW_Consciousness.label>Consciousness</MW_Consciousness.label>
+  <MW_Consciousness.description>Спрятанный хедифф (даже переводить не буду, все равно только в девмоде видно)</MW_Consciousness.description>
+
+
+  <!-- Sight -->
+
+  <MW_Sight.label>Sight</MW_Sight.label>
+  <MW_Sight.description>Спрятанный хедифф (даже переводить не буду, все равно только в девмоде видно)</MW_Sight.description>
+
+
+  <!-- Breathing -->
+
+  <MW_Breathing.label>Breathing</MW_Breathing.label>
+  <MW_Breathing.description>Спрятанный хедифф (даже переводить не буду, все равно только в девмоде видно)</MW_Breathing.description>
+
+
+  <!-- BloodFiltration -->
+
+  <MW_Filtr.label>Filtr</MW_Filtr.label>
+  <MW_Filtr.description>Спрятанный хедифф (даже переводить не буду, все равно только в девмоде видно)</MW_Filtr.description>
+
+
+  <!-- BloodPumping -->
+
+  <MW_Pump.label>Pump</MW_Pump.label>
+  <MW_Pump.description>Спрятанный хедифф (даже переводить не буду, все равно только в девмоде видно)</MW_Pump.description>
+
+
+  <!-- Metabolism -->
+
+  <MW_Metabolism.label>Metabolism</MW_Metabolism.label>
+  <MW_Metabolism.description>Спрятанный хедифф (даже переводить не буду, все равно только в девмоде видно)</MW_Metabolism.description>
+
+
+  <!-- Rest -->
+
+  <MW_Rest.label>Rest</MW_Rest.label>
+  <MW_Rest.description>Спрятанный хедифф (даже переводить не буду, все равно только в девмоде видно)</MW_Rest.description>
+
+
+  <!-- Food -->
+
+  <MW_Food.label>Food</MW_Food.label>
+  <MW_Food.description>Спрятанный хедифф (даже переводить не буду, все равно только в девмоде видно)</MW_Food.description>
+
+
+  <!-- Move -->
+
+  <MW_Move.label>Move</MW_Move.label>
+  <MW_Move.description>Спрятанный хедифф (даже переводить не буду, все равно только в девмоде видно)</MW_Move.description>
+
+
+  <!-- Regeneration -->
+
+  <MW_Regeneration.label>Regeneration</MW_Regeneration.label>
+  <MW_Regeneration.description>Спрятанный хедифф (даже переводить не буду, все равно только в девмоде видно)</MW_Regeneration.description>
+
+
+  <!-- Research -->
+
+  <MW_Research.label>Research</MW_Research.label>
+  <MW_Research.description>Спрятанный хедифф (даже переводить не буду, все равно только в девмоде видно)</MW_Research.description>
+
+
+  <!-- Learning -->
+
+  <MW_Learning.label>Learning</MW_Learning.label>
+  <MW_Learning.description>Спрятанный хедифф (даже переводить не буду, все равно только в девмоде видно)</MW_Learning.description>
+
+
+  <!-- Cook -->
+
+  <MW_Cook.label>Cook</MW_Cook.label>
+  <MW_Cook.description>Спрятанный хедифф (даже переводить не буду, все равно только в девмоде видно)</MW_Cook.description>
+
+
+  <!-- Mining -->
+
+  <MW_Mining.label>Mining</MW_Mining.label>
+  <MW_Mining.description>Спрятанный хедифф (даже переводить не буду, все равно только в девмоде видно)</MW_Mining.description>
+
+
+  <!-- Farming -->
+
+  <MW_Farming.label>Farming</MW_Farming.label>
+  <MW_Farming.description>Спрятанный хедифф (даже переводить не буду, все равно только в девмоде видно)</MW_Farming.description>
+
+
+  <!-- Medic -->
+
+  <MW_Medic.label>Medic</MW_Medic.label>
+  <MW_Medic.description>Спрятанный хедифф (даже переводить не буду, все равно только в девмоде видно)</MW_Medic.description>
+
+
+  <!-- Builder -->
+
+  <MW_Builder.label>Builder</MW_Builder.label>
+  <MW_Builder.description>Спрятанный хедифф (даже переводить не буду, все равно только в девмоде видно)</MW_Builder.description>
+
+
+  <!-- Cleaner -->
+
+  <MW_Cleaner.label>Cleaner</MW_Cleaner.label>
+  <MW_Cleaner.description>Спрятанный хедифф (даже переводить не буду, все равно только в девмоде видно)</MW_Cleaner.description>
+
+
+  <!-- Crafter -->
+
+  <MW_Crafter.label>Crafter</MW_Crafter.label>
+  <MW_Crafter.description>Спрятанный хедифф (даже переводить не буду, все равно только в девмоде видно)</MW_Crafter.description>
+
+
+  <!-- Carry -->
+
+  <MW_Carry.label>Carry</MW_Carry.label>
+  <MW_Carry.description>Спрятанный хедифф (даже переводить не буду, все равно только в девмоде видно)</MW_Carry.description>
+
+
+  <!-- Caravan -->
+
+  <MW_Caravan.label>Caravan</MW_Caravan.label>
+  <MW_Caravan.description>Спрятанный хедифф (даже переводить не буду, все равно только в девмоде видно)</MW_Caravan.description>
+
+
+  <!-- Shoot -->
+
+  <MW_Shoot.label>Shoot</MW_Shoot.label>
+  <MW_Shoot.description>Спрятанный хедифф (даже переводить не буду, все равно только в девмоде видно)</MW_Shoot.description>
+
+
+  <!-- Melee -->
+
+  <MW_Melee.label>Melee</MW_Melee.label>
+  <MW_Melee.description>Спрятанный хедифф (даже переводить не буду, все равно только в девмоде видно)</MW_Melee.description>
+
+
+  <!-- Suppressability -->
+
+  <MW_Supp.label>Supp</MW_Supp.label>
+  <MW_Supp.description>Спрятанный хедифф (даже переводить не буду, все равно только в девмоде видно)</MW_Supp.description>
+
+
+</LanguageData>
