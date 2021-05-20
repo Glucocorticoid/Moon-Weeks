@@ -8,12 +8,15 @@
 			</li>
 		</targetTags>
 		<workerClass>MoonWeeks.IncidentWorker_WeekStarts</workerClass>
-		<baseChance>0.5</baseChance>
+		<baseChance>1</baseChance>
 		<pointsScaleable>true</pointsScaleable>
 		<earliestDay>0</earliestDay>
 		<minPopulation>1</minPopulation>
 		<minRefireDays>8</minRefireDays>
 		<letterDef>PurpleEvent</letterDef>
+	</IncidentDef>
+	<IncidentDef Name="MoonWeek_HediffEventBad" ParentName="MoonWeek_HediffEvent" Abstract="True">
+		<baseChance>0</baseChance>
 	</IncidentDef>
 	<IncidentDef ParentName="MoonWeek_HediffEvent">
 		<defName>MWIncident_Work</defName>
@@ -22,6 +25,8 @@
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Good</weekKind>
+				<nextWeekKind>Bad</nextWeekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -64,13 +69,14 @@
 			</li>
 		</modExtensions>
 	</IncidentDef>
-	<IncidentDef ParentName="MoonWeek_HediffEvent">
+	<IncidentDef ParentName="MoonWeek_HediffEventBad">
 		<defName>MWIncident_WorkMinus</defName>
 		<label>Sloth week started</label>
 		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Bad</weekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -120,6 +126,8 @@
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Good</weekKind>
+				<nextWeekKind>Bad</nextWeekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -162,13 +170,14 @@
 			</li>
 		</modExtensions>
 	</IncidentDef>
-	<IncidentDef ParentName="MoonWeek_HediffEvent">
+	<IncidentDef ParentName="MoonWeek_HediffEventBad">
 		<defName>MWIncident_ConsciousnessMinus</defName>
 		<label>Consciousness - week started</label>
 		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Bad</weekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -218,6 +227,8 @@
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Good</weekKind>
+				<nextWeekKind>Bad</nextWeekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -260,13 +271,14 @@
 			</li>
 		</modExtensions>
 	</IncidentDef>
-	<IncidentDef ParentName="MoonWeek_HediffEvent">
+	<IncidentDef ParentName="MoonWeek_HediffEventBad">
 		<defName>MWIncident_SightMinus</defName>
 		<label>Sight - week started</label>
 		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Bad</weekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -316,6 +328,8 @@
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Good</weekKind>
+				<nextWeekKind>Bad</nextWeekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -358,13 +372,14 @@
 			</li>
 		</modExtensions>
 	</IncidentDef>
-	<IncidentDef ParentName="MoonWeek_HediffEvent">
+	<IncidentDef ParentName="MoonWeek_HediffEventBad">
 		<defName>MWIncident_BreathingMinus</defName>
 		<label>Breathing - week started</label>
 		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Bad</weekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -414,6 +429,8 @@
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Good</weekKind>
+				<nextWeekKind>Bad</nextWeekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -456,13 +473,14 @@
 			</li>
 		</modExtensions>
 	</IncidentDef>
-	<IncidentDef ParentName="MoonWeek_HediffEvent">
+	<IncidentDef ParentName="MoonWeek_HediffEventBad">
 		<defName>MWIncident_FiltrMinus</defName>
 		<label>BloodFiltration - week started</label>
 		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Bad</weekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -512,6 +530,8 @@
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Good</weekKind>
+				<nextWeekKind>Bad</nextWeekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -554,13 +574,14 @@
 			</li>
 		</modExtensions>
 	</IncidentDef>
-	<IncidentDef ParentName="MoonWeek_HediffEvent">
+	<IncidentDef ParentName="MoonWeek_HediffEventBad">
 		<defName>MWIncident_PumpMinus</defName>
 		<label>BloodPumping week started</label>
 		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Bad</weekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -610,6 +631,8 @@
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Good</weekKind>
+				<nextWeekKind>Bad</nextWeekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -652,13 +675,14 @@
 			</li>
 		</modExtensions>
 	</IncidentDef>
-	<IncidentDef ParentName="MoonWeek_HediffEvent">
+	<IncidentDef ParentName="MoonWeek_HediffEventBad">
 		<defName>MWIncident_MetabolismMinus</defName>
 		<label>Metabolism - week started</label>
 		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Bad</weekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -708,6 +732,8 @@
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Good</weekKind>
+				<nextWeekKind>Bad</nextWeekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -750,13 +776,14 @@
 			</li>
 		</modExtensions>
 	</IncidentDef>
-	<IncidentDef ParentName="MoonWeek_HediffEvent">
+	<IncidentDef ParentName="MoonWeek_HediffEventBad">
 		<defName>MWIncident_RestMinus</defName>
 		<label>RestRateMultiplier - week started</label>
 		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Bad</weekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -806,6 +833,8 @@
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Good</weekKind>
+				<nextWeekKind>Bad</nextWeekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -848,13 +877,14 @@
 			</li>
 		</modExtensions>
 	</IncidentDef>
-	<IncidentDef ParentName="MoonWeek_HediffEvent">
+	<IncidentDef ParentName="MoonWeek_HediffEventBad">
 		<defName>MWIncident_FoodMinus</defName>
 		<label>hungerRateFactorOffset - week started</label>
 		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Bad</weekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -904,6 +934,8 @@
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Good</weekKind>
+				<nextWeekKind>Bad</nextWeekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -946,13 +978,14 @@
 			</li>
 		</modExtensions>
 	</IncidentDef>
-	<IncidentDef ParentName="MoonWeek_HediffEvent">
+	<IncidentDef ParentName="MoonWeek_HediffEventBad">
 		<defName>MWIncident_MoveMinus</defName>
 		<label>Moving - week started</label>
 		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Bad</weekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -1002,6 +1035,8 @@
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Good</weekKind>
+				<nextWeekKind>Bad</nextWeekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -1044,13 +1079,14 @@
 			</li>
 		</modExtensions>
 	</IncidentDef>
-	<IncidentDef ParentName="MoonWeek_HediffEvent">
+	<IncidentDef ParentName="MoonWeek_HediffEventBad">
 		<defName>MWIncident_RegenerationMinus</defName>
 		<label>Regeneration - week started</label>
 		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Bad</weekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -1100,6 +1136,8 @@
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Good</weekKind>
+				<nextWeekKind>Bad</nextWeekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -1142,13 +1180,14 @@
 			</li>
 		</modExtensions>
 	</IncidentDef>
-	<IncidentDef ParentName="MoonWeek_HediffEvent">
+	<IncidentDef ParentName="MoonWeek_HediffEventBad">
 		<defName>MWIncident_ResearchMinus</defName>
 		<label>Research week started</label>
 		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Bad</weekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -1198,6 +1237,8 @@
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Good</weekKind>
+				<nextWeekKind>Bad</nextWeekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -1240,13 +1281,14 @@
 			</li>
 		</modExtensions>
 	</IncidentDef>
-	<IncidentDef ParentName="MoonWeek_HediffEvent">
+	<IncidentDef ParentName="MoonWeek_HediffEventBad">
 		<defName>MWIncident_LearningMinus</defName>
 		<label>Learning - week started</label>
 		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Bad</weekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -1296,6 +1338,8 @@
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Good</weekKind>
+				<nextWeekKind>Bad</nextWeekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -1338,13 +1382,14 @@
 			</li>
 		</modExtensions>
 	</IncidentDef>
-	<IncidentDef ParentName="MoonWeek_HediffEvent">
+	<IncidentDef ParentName="MoonWeek_HediffEventBad">
 		<defName>MWIncident_CookMinus</defName>
 		<label>Cook - week started</label>
 		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Bad</weekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -1394,6 +1439,8 @@
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Good</weekKind>
+				<nextWeekKind>Bad</nextWeekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -1436,13 +1483,14 @@
 			</li>
 		</modExtensions>
 	</IncidentDef>
-	<IncidentDef ParentName="MoonWeek_HediffEvent">
+	<IncidentDef ParentName="MoonWeek_HediffEventBad">
 		<defName>MWIncident_MiningMinus</defName>
 		<label>Mining - week started</label>
 		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Bad</weekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -1492,6 +1540,8 @@
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Good</weekKind>
+				<nextWeekKind>Bad</nextWeekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -1534,13 +1584,14 @@
 			</li>
 		</modExtensions>
 	</IncidentDef>
-	<IncidentDef ParentName="MoonWeek_HediffEvent">
+	<IncidentDef ParentName="MoonWeek_HediffEventBad">
 		<defName>MWIncident_FarmingMinus</defName>
 		<label>Farming - week started</label>
 		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Bad</weekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -1590,6 +1641,8 @@
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Good</weekKind>
+				<nextWeekKind>Bad</nextWeekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -1632,13 +1685,14 @@
 			</li>
 		</modExtensions>
 	</IncidentDef>
-	<IncidentDef ParentName="MoonWeek_HediffEvent">
+	<IncidentDef ParentName="MoonWeek_HediffEventBad">
 		<defName>MWIncident_MedicMinus</defName>
 		<label>Medic - week started</label>
 		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Bad</weekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -1688,6 +1742,8 @@
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Good</weekKind>
+				<nextWeekKind>Bad</nextWeekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -1730,13 +1786,14 @@
 			</li>
 		</modExtensions>
 	</IncidentDef>
-	<IncidentDef ParentName="MoonWeek_HediffEvent">
+	<IncidentDef ParentName="MoonWeek_HediffEventBad">
 		<defName>MWIncident_BuilderMinus</defName>
 		<label>Builder - week started</label>
 		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Bad</weekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -1786,6 +1843,8 @@
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Good</weekKind>
+				<nextWeekKind>Bad</nextWeekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -1828,13 +1887,14 @@
 			</li>
 		</modExtensions>
 	</IncidentDef>
-	<IncidentDef ParentName="MoonWeek_HediffEvent">
+	<IncidentDef ParentName="MoonWeek_HediffEventBad">
 		<defName>MWIncident_CleanerMinus</defName>
 		<label>Cleaner - week started</label>
 		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Bad</weekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -1884,6 +1944,8 @@
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Good</weekKind>
+				<nextWeekKind>Bad</nextWeekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -1926,13 +1988,14 @@
 			</li>
 		</modExtensions>
 	</IncidentDef>
-	<IncidentDef ParentName="MoonWeek_HediffEvent">
+	<IncidentDef ParentName="MoonWeek_HediffEventBad">
 		<defName>MWIncident_CrafterMinus</defName>
 		<label>Crafter - week started</label>
 		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Bad</weekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -1982,6 +2045,8 @@
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Good</weekKind>
+				<nextWeekKind>Bad</nextWeekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -2024,13 +2089,14 @@
 			</li>
 		</modExtensions>
 	</IncidentDef>
-	<IncidentDef ParentName="MoonWeek_HediffEvent">
+	<IncidentDef ParentName="MoonWeek_HediffEventBad">
 		<defName>MWIncident_CarryMinus</defName>
 		<label>Carry - week started</label>
 		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Bad</weekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -2080,6 +2146,8 @@
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Good</weekKind>
+				<nextWeekKind>Bad</nextWeekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -2122,13 +2190,14 @@
 			</li>
 		</modExtensions>
 	</IncidentDef>
-	<IncidentDef ParentName="MoonWeek_HediffEvent">
+	<IncidentDef ParentName="MoonWeek_HediffEventBad">
 		<defName>MWIncident_CaravanMinus</defName>
 		<label>Caravan - week started</label>
 		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Bad</weekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -2178,6 +2247,8 @@
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Good</weekKind>
+				<nextWeekKind>Bad</nextWeekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -2220,13 +2291,14 @@
 			</li>
 		</modExtensions>
 	</IncidentDef>
-	<IncidentDef ParentName="MoonWeek_HediffEvent">
+	<IncidentDef ParentName="MoonWeek_HediffEventBad">
 		<defName>MWIncident_ShootMinus</defName>
 		<label>Shoot - week started</label>
 		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Bad</weekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -2276,6 +2348,8 @@
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Good</weekKind>
+				<nextWeekKind>Bad</nextWeekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -2318,13 +2392,14 @@
 			</li>
 		</modExtensions>
 	</IncidentDef>
-	<IncidentDef ParentName="MoonWeek_HediffEvent">
+	<IncidentDef ParentName="MoonWeek_HediffEventBad">
 		<defName>MWIncident_MeleeMinus</defName>
 		<label>Melee - week started</label>
 		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Bad</weekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -2374,6 +2449,8 @@
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Good</weekKind>
+				<nextWeekKind>Bad</nextWeekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
@@ -2416,13 +2493,14 @@
 			</li>
 		</modExtensions>
 	</IncidentDef>
-	<IncidentDef ParentName="MoonWeek_HediffEvent">
+	<IncidentDef ParentName="MoonWeek_HediffEventBad">
 		<defName>MWIncident_SuppMinus</defName>
 		<label>Suppressability - week started</label>
 		<description>You see the strange symbols in the sky. Maybe they somehow affect your life.</description>
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Bad</weekKind>
 				<affectors>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
