@@ -40,7 +40,7 @@
   <MWIncident_Metabolism.label>Неделя {0} анаболизма</MWIncident_Metabolism.label>
   <MWIncident_Metabolism.description>Вы видите странные символы на небе. Возможно, они как-то влияют на вашу жизнь.</MWIncident_Metabolism.description>
 
-  <MWIncident_MetabolismMinus.label>Неделя {0} дизбаланса</MWIncident_MetabolismMinus.label>
+  <MWIncident_MetabolismMinus.label>Неделя {0} дисбаланса</MWIncident_MetabolismMinus.label>
   <MWIncident_MetabolismMinus.description>Вы видите странные символы на небе. Возможно, они как-то влияют на вашу жизнь.</MWIncident_MetabolismMinus.description>
 
   <MWIncident_Rest.label>Неделя {0} рекреации</MWIncident_Rest.label>
@@ -106,7 +106,7 @@
   <MWIncident_Builder.label>Неделя решения практических проблем</MWIncident_Builder.label>
   <MWIncident_Builder.description>Вы видите странные символы на небе. Возможно, они как-то влияют на вашу жизнь.</MWIncident_Builder.description>
 
-  <MWIncident_BuilderMinus.label>ХХХХХХХХХХХХХХХ</MWIncident_BuilderMinus.label>
+  <MWIncident_BuilderMinus.label>Неделя провальной реконструкции</MWIncident_BuilderMinus.label>
   <MWIncident_BuilderMinus.description>Вы видите странные символы на небе. Возможно, они как-то влияют на вашу жизнь.</MWIncident_BuilderMinus.description>
 
   <MWIncident_Cleaner.label>Неделя {0} чистоты</MWIncident_Cleaner.label>
