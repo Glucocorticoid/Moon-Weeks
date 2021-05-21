@@ -43,7 +43,7 @@
   <MWIncident_MetabolismMinus.label>Неделя {0} дисбаланса</MWIncident_MetabolismMinus.label>
   <MWIncident_MetabolismMinus.description>Вы видите странные символы на небе. Возможно, они как-то влияют на вашу жизнь.</MWIncident_MetabolismMinus.description>
 
-  <MWIncident_Rest.label>Неделя {0} рекреации</MWIncident_Rest.label>
+  <MWIncident_Rest.label>Неделя {0} восстановления</MWIncident_Rest.label>
   <MWIncident_Rest.description>Вы видите странные символы на небе. Возможно, они как-то влияют на вашу жизнь.</MWIncident_Rest.description>
 
   <MWIncident_RestMinus.label>Неделя {0} бессонницы</MWIncident_RestMinus.label>
