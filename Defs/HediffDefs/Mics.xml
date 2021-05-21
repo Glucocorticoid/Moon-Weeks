@@ -20,10 +20,9 @@
 		</comps>
 		<stages>
 			<li>
-				<becomeVisible>false</becomeVisible>
 				<painFactor>0</painFactor>
 				<statOffsets>
-					<IncomingDamageFactor>-0.8</IncomingDamageFactor>
+					<IncomingDamageFactor>-0.45</IncomingDamageFactor>
 				</statOffsets>
 			</li>
 		</stages>
@@ -48,7 +47,6 @@
 		</comps>
 		<stages>
 			<li>
-				<becomeVisible>false</becomeVisible>
 				<painFactor>0</painFactor>
 				<statOffsets>
 					<ArmorRating_Sharp>10</ArmorRating_Sharp>
@@ -80,7 +78,6 @@
 		</comps>
 		<stages>
 			<li>
-				<becomeVisible>false</becomeVisible>
 				<painFactor>0</painFactor>
 				<statOffsets>
 					<MoveSpeed>4</MoveSpeed>
@@ -109,7 +106,6 @@
 		</comps>
 		<stages>
 			<li>
-				<becomeVisible>false</becomeVisible>
 				<painFactor>0.4</painFactor>
 				<statOffsets>
 					<MoveSpeed>4</MoveSpeed>
@@ -142,7 +138,6 @@
 		</comps>
 		<stages>
 			<li>
-				<becomeVisible>false</becomeVisible>
 				<statOffsets>
 					<MoveSpeed>1</MoveSpeed>
 					<AimingDelayFactor>-0.5</AimingDelayFactor>
@@ -172,7 +167,6 @@
 		</comps>
 		<stages>
 			<li>
-				<becomeVisible>false</becomeVisible>
 				<painFactor>0.2</painFactor>
 				<statOffsets>
 					<MoveSpeed>2</MoveSpeed>

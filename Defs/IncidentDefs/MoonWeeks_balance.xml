@@ -8,7 +8,7 @@
 			</li>
 		</targetTags>
 		<workerClass>MoonWeeks.IncidentWorker_WeekStarts</workerClass>
-		<baseChance>1</baseChance>
+		<baseChance>0.35</baseChance>
 		<pointsScaleable>true</pointsScaleable>
 		<earliestDay>0</earliestDay>
 		<minPopulation>1</minPopulation>

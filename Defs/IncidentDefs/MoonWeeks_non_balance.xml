@@ -16,6 +16,7 @@
 		<defName>MWIncident_Alpha</defName>
 		<label>Alpha</label>
 		<description>Alpha text</description>
+		<earliestDay>60</earliestDay>
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
@@ -214,6 +215,7 @@
 		<defName>MWIncident_SpaceBattle</defName>
 		<label>Space Battle week started</label>
 		<description>Space Battle</description>
+		<earliestDay>30</earliestDay>
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
@@ -362,6 +364,7 @@
 		<defName>MWIncident_Nevada</defName>
 		<label>Nevada week started</label>
 		<description>Nevada</description>
+		<earliestDay>60</earliestDay>
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
