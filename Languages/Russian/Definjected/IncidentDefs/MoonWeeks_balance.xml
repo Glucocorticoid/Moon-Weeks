@@ -16,25 +16,25 @@
   <MWIncident_Sight.label>Неделя {0} зрения</MWIncident_Sight.label>
   <MWIncident_Sight.description>Вы видите странные символы на небе. Возможно, они как-то влияют на зрение колонистов.</MWIncident_Sight.description>
 
-  <MWIncident_SightMinus.label>Неделя {0} глаукомы</MWIncident_SightMinus.label>
+  <MWIncident_SightMinus.label>Неделя {0} астигматизма</MWIncident_SightMinus.label>
   <MWIncident_SightMinus.description>Вы видите странные символы на небе. Возможно, они как-то плохо влияют на зрение колонистов.</MWIncident_SightMinus.description>
 
   <MWIncident_Breathing.label>Неделя {0} воздуха</MWIncident_Breathing.label>
   <MWIncident_Breathing.description>Вы видите странные символы на небе. Возможно, они как-то влияют на дыхание колонистов.</MWIncident_Breathing.description>
 
-  <MWIncident_BreathingMinus.label>Неделя {0} гипоксии</MWIncident_BreathingMinus.label>
+  <MWIncident_BreathingMinus.label>Неделя {0} кислородного голодания</MWIncident_BreathingMinus.label>
   <MWIncident_BreathingMinus.description>Вы видите странные символы на небе. Возможно, они как-то плохо влияют на дыхание колонистов.</MWIncident_BreathingMinus.description>
 
-  <MWIncident_Filtr.label>Неделя {0} гематологии</MWIncident_Filtr.label>
+  <MWIncident_Filtr.label>Неделя {0} кроветворения</MWIncident_Filtr.label>
   <MWIncident_Filtr.description>Вы видите странные символы на небе. Возможно, они как-то влияют на фильтрацию крови колонистов.</MWIncident_Filtr.description>
 
-  <MWIncident_FiltrMinus.label>Неделя {0} анемии</MWIncident_FiltrMinus.label>
+  <MWIncident_FiltrMinus.label>Неделя {0} малокровия</MWIncident_FiltrMinus.label>
   <MWIncident_FiltrMinus.description>Вы видите странные символы на небе. Возможно, они как-то плохо влияют на фильтрацию крови колонистов.</MWIncident_FiltrMinus.description>
 
-  <MWIncident_Pump.label>Неделя {0} крови</MWIncident_Pump.label>
+  <MWIncident_Pump.label>Неделя {0} кровотока</MWIncident_Pump.label>
   <MWIncident_Pump.description>Вы видите странные символы на небе. Возможно, они как-то влияют на кровообращение колонистов.</MWIncident_Pump.description>
 
-  <MWIncident_PumpMinus.label>Неделя {0} аритмии</MWIncident_PumpMinus.label>
+  <MWIncident_PumpMinus.label>Неделя {0} порока сердца</MWIncident_PumpMinus.label>
   <MWIncident_PumpMinus.description>Вы видите странные символы на небе. Возможно, они как-то плохо влияют на кровообращение колонистов.</MWIncident_PumpMinus.description>
 
   <MWIncident_Metabolism.label>Неделя {0} анаболизма</MWIncident_Metabolism.label>
@@ -46,10 +46,10 @@
   <MWIncident_Rest.label>Неделя {0} восстановления</MWIncident_Rest.label>
   <MWIncident_Rest.description>Вы видите странные символы на небе. Возможно, они как-то влияют на отдых колонистов.</MWIncident_Rest.description>
 
-  <MWIncident_RestMinus.label>Неделя {0} бессонницы</MWIncident_RestMinus.label>
+  <MWIncident_RestMinus.label>Неделя {0} недосыпа</MWIncident_RestMinus.label>
   <MWIncident_RestMinus.description>Вы видите странные символы на небе. Возможно, они как-то плохо влияют на отдых колонистов.</MWIncident_RestMinus.description>
 
-  <MWIncident_Food.label>Неделя {0} диеты</MWIncident_Food.label>
+  <MWIncident_Food.label>Неделя {0} питания</MWIncident_Food.label>
   <MWIncident_Food.description>Вы видите странные символы на небе. Возможно, они как-то влияют на пищеварение колонистов.</MWIncident_Food.description>
 
   <MWIncident_FoodMinus.label>Неделя {0} обжорства</MWIncident_FoodMinus.label>
@@ -67,16 +67,16 @@
   <MWIncident_RegenerationMinus.label>Благословение Горы Гнилого Господа</MWIncident_RegenerationMinus.label>
   <MWIncident_RegenerationMinus.description>Вы видите странные символы на небе. Возможно, они как-то плохо влияют на лечение колонистов.</MWIncident_RegenerationMinus.description>
 
-  <MWIncident_Research.label>Неделя {0} фактов</MWIncident_Research.label>
+  <MWIncident_Research.label>Неделя {0} факта</MWIncident_Research.label>
   <MWIncident_Research.description>Вы видите странные символы на небе. Возможно, они как-то влияют на исследования колонистов.</MWIncident_Research.description>
 
-  <MWIncident_ResearchMinus.label>Неделя {0} псевдонауки</MWIncident_ResearchMinus.label>
+  <MWIncident_ResearchMinus.label>Неделя {0} учёной лжи</MWIncident_ResearchMinus.label>
   <MWIncident_ResearchMinus.description>Вы видите странные символы на небе. Возможно, они как-то плохо влияют на исследования колонистов.</MWIncident_ResearchMinus.description>
 
   <MWIncident_Learning.label>Неделя {0} автодидактизма</MWIncident_Learning.label>
   <MWIncident_Learning.description>Вы видите странные символы на небе. Возможно, они как-то влияют на обучение колонистов.</MWIncident_Learning.description>
 
-  <MWIncident_LearningMinus.label>Неделя {0} лженауки</MWIncident_LearningMinus.label>
+  <MWIncident_LearningMinus.label>Неделя {0} необучения</MWIncident_LearningMinus.label>
   <MWIncident_LearningMinus.description>Вы видите странные символы на небе. Возможно, они как-то плохо влияют на обучение колонистов.</MWIncident_LearningMinus.description>
 
   <MWIncident_Cook.label>Неделя {0} шефа</MWIncident_Cook.label>
@@ -109,10 +109,10 @@
   <MWIncident_BuilderMinus.label>Неделя провальной реконструкции</MWIncident_BuilderMinus.label>
   <MWIncident_BuilderMinus.description>Вы видите странные символы на небе. Возможно, они как-то плохо влияют на строительство в колонии.</MWIncident_BuilderMinus.description>
 
-  <MWIncident_Cleaner.label>Неделя {0} чистоты</MWIncident_Cleaner.label>
+  <MWIncident_Cleaner.label>Неделя {0} благоустройства</MWIncident_Cleaner.label>
   <MWIncident_Cleaner.description>Вы видите странные символы на небе. Возможно, они как-то влияют на уборку в колонии.</MWIncident_Cleaner.description>
 
-  <MWIncident_CleanerMinus.label>Неделя {0} антисанитарии</MWIncident_CleanerMinus.label>
+  <MWIncident_CleanerMinus.label>Неделя {0} безобразия</MWIncident_CleanerMinus.label>
   <MWIncident_CleanerMinus.description>Вы видите странные символы на небе. Возможно, они как-то плохо влияют на уборку в колонии.</MWIncident_CleanerMinus.description>
 
   <MWIncident_Crafter.label>Неделя {0} производства</MWIncident_Crafter.label>
@@ -121,7 +121,7 @@
   <MWIncident_CrafterMinus.label>Неделя поломанных инструментов</MWIncident_CrafterMinus.label>
   <MWIncident_CrafterMinus.description>Вы видите странные символы на небе. Возможно, они как-то плохо влияют на ремесло колонистов.</MWIncident_CrafterMinus.description>
 
-  <MWIncident_Carry.label>Неделя {0} транспортировки</MWIncident_Carry.label>
+  <MWIncident_Carry.label>Неделя {0} вывоза</MWIncident_Carry.label>
   <MWIncident_Carry.description>Вы видите странные символы на небе. Возможно, они как-то влияют на переноску колонистов.</MWIncident_Carry.description>
 
   <MWIncident_CarryMinus.label>Неделя тяжелого груза</MWIncident_CarryMinus.label>
@@ -145,10 +145,10 @@
   <MWIncident_MeleeMinus.label>Неделя плохой чоппы</MWIncident_MeleeMinus.label>
   <MWIncident_MeleeMinus.description>Вы видите странные символы на небе. Возможно, они как-то плохо влияют на владение холодным оружием колонистов.</MWIncident_MeleeMinus.description>
 
-  <MWIncident_Supp.label>Неделя {0} манёвров</MWIncident_Supp.label>
+  <MWIncident_Supp.label>Неделя {0} натиска</MWIncident_Supp.label>
   <MWIncident_Supp.description>Вы видите странные символы на небе. Возможно, они как-то влияют на подавление колонистов.</MWIncident_Supp.description>
 
-  <MWIncident_SuppMinus.label>Неделя {0} натиска</MWIncident_SuppMinus.label>
+  <MWIncident_SuppMinus.label>Неделя {0} подавления</MWIncident_SuppMinus.label>
   <MWIncident_SuppMinus.description>Вы видите странные символы на небе. Возможно, они как-то плохо влияют на подавление колонистов.</MWIncident_SuppMinus.description>
 
 
