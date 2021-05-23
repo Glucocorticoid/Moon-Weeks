@@ -1,25 +1,25 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-    <!--Weather-->
-    <MW_W_EventHeader>Погодные эффекты</MW_W_EventHeader>
-    <MW_W_EventListLabel>Меняет погоду</MW_W_EventListLabel>
-    <MW_W_PickRule>Выбирается</MW_W_PickRule>
+  <!--Weather-->
+  <MW_W_EventHeader>Погодные эффекты</MW_W_EventHeader>
+  <MW_W_EventListLabel>Меняет погоду</MW_W_EventListLabel>
+  <MW_W_PickRule>Выбирается</MW_W_PickRule>
 
-    <MW_W_First>первая</MW_W_First>
-    <MW_W_Random>произвольная</MW_W_Random>
-    <MW_W_Scaled>в зависимости от</MW_W_Scaled>
+  <MW_W_First>первая</MW_W_First>
+  <MW_W_Random>произвольная</MW_W_Random>
+  <MW_W_Scaled>в зависимости от</MW_W_Scaled>
 
-    <MW_W_ColonyAgeInDays>возраста колонии</MW_W_ColonyAgeInDays>
-    <MW_W_ColonyWealth>стоимости колонии</MW_W_ColonyWealth>
-    <MW_W_NumberOfColonists>количества колонистов</MW_W_NumberOfColonists>
-    <MW_W_RaidPower>силы рейда</MW_W_RaidPower>
-    <MW_W_GameDifficulty>сложности игры</MW_W_GameDifficulty>
+  <MW_W_ColonyAgeInDays>возраста колонии</MW_W_ColonyAgeInDays>
+  <MW_W_ColonyWealth>стоимости колонии</MW_W_ColonyWealth>
+  <MW_W_NumberOfColonists>количества колонистов</MW_W_NumberOfColonists>
+  <MW_W_RaidPower>силы рейда</MW_W_RaidPower>
+  <MW_W_GameDifficulty>сложности игры</MW_W_GameDifficulty>
 
-    <MW_W_Executes>Выполняется</MW_W_Executes>
-	<MW_W_Once>единожды</MW_W_Once>
-	<MW_W_EveryXHours>каждые</MW_W_EveryXHours>
-	<MW_W_hours>ч.</MW_W_hours>
-	<MW_W_Permanent>постоянно</MW_W_Permanent>
+  <MW_W_Executes>Выполняется</MW_W_Executes>
+  <MW_W_Once>единожды</MW_W_Once>
+  <MW_W_EveryXHours>каждые</MW_W_EveryXHours>
+  <MW_W_hours>ч.</MW_W_hours>
+  <MW_W_Permanent>постоянно</MW_W_Permanent>
 
 </LanguageData>

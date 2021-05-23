@@ -16,6 +16,7 @@
 		<defName>MWIncident_Alpha</defName>
 		<label>Alpha</label>
 		<description>Alpha text</description>
+		<earliestDay>60</earliestDay>
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
@@ -42,8 +43,10 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
+							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
 							<li>
@@ -76,6 +79,7 @@
 		<defName>MWIncident_Omega</defName>
 		<label>Omega</label>
 		<description>Omega text</description>
+		<baseChance>0</baseChance>
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
@@ -91,6 +95,19 @@
 								<saturation>0.4</saturation>
 							</colors>
 						</targetSky>
+					</li>
+					<li Class="MoonWeeks.WeekAffector_Incident">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>30~60</reApplyEveryXHours>
+						<eventDefs>
+							<li>
+								<effectDef>RaidEnemy</effectDef>
+							</li>
+							<li>
+								<effectDef>RaidEnemyDesperate</effectDef>
+							</li>
+						</eventDefs>
+						<pickRule>Random</pickRule>
 					</li>
 				</affectors>
 			</li>
@@ -113,8 +130,10 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
+							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
 							<li>
@@ -160,8 +179,10 @@
 						<scaleRule>ColonyWealth</scaleRule>
 						<scalePoints>
 							<li>0, 0</li>
-							<li>100, 1</li>
-							<li>10000, 2</li>
+							<li>100000, 1</li>
+							<li>300000, 2</li>
+							<li>700000, 3</li>
+							<li>1000000, 4</li>
 						</scalePoints>
 						<effectDefs>
 							<li>
@@ -194,6 +215,7 @@
 		<defName>MWIncident_SpaceBattle</defName>
 		<label>Space Battle week started</label>
 		<description>Space Battle</description>
+		<earliestDay>30</earliestDay>
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
@@ -342,6 +364,7 @@
 		<defName>MWIncident_Nevada</defName>
 		<label>Nevada week started</label>
 		<description>Nevada</description>
+		<earliestDay>60</earliestDay>
 		<modExtensions>
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>

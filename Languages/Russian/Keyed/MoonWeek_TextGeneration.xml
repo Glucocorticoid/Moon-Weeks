@@ -1,18 +1,18 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-    <MW_Words_Where>в далекой галактике;в пыли;в кустах;в туалете;в темноте;в чистом поле;в кровати;в воде;в воздухе;во сне;в гнезде;в пещере;в траве</MW_Words_Where>
-    <MW_Words_WhenPast>давным давно;в прошлом году;в былые времена;в древности;час назад;только что</MW_Words_WhenPast>
-    <MW_Words_Verbs>сделал;изготовил;украл;сломал;починил;похитил</MW_Words_Verbs>
-    <MW_Words_UVerbs>ждать;искать;делать;воспевать;скрывать;обдумывать</MW_Words_UVerbs>
+  <MW_Words_Where>в далекой галактике;в пыли;в кустах;в туалете;в темноте;в чистом поле;в кровати;в воде;в воздухе;во сне;в гнезде;в пещере;в траве</MW_Words_Where>
+  <MW_Words_WhenPast>давным давно;в прошлом году;в былые времена;в древности;час назад;только что</MW_Words_WhenPast>
+  <MW_Words_Verbs>сделал;изготовил;украл;сломал;починил;похитил</MW_Words_Verbs>
+  <MW_Words_UVerbs>ждать;искать;делать;воспевать;скрывать;обдумывать</MW_Words_UVerbs>
 
-    <MW_Legend>{MWWHEN} в эту неделю правители фракции {MWFACTION} {MWVERB}и {MWWHERE} {MWTHING}.</MW_Legend>
+  <MW_Legend>{MWWHEN} в эту неделю правители фракции {MWFACTION} {MWVERB}и {MWWHERE} {MWTHING}.</MW_Legend>
 
-    <MW_Words_ProverbA>сколько волка ни корми;куй железо;баба с возу;меньше знаешь;тише едешь;под лежачий камень;без труда;раз в год;встречают по одежке</MW_Words_ProverbA>
-    <MW_Words_ProverbB>все равно в лес смотрит;пока горячо;кобыле легче;лучше спишь;дальше будешь;вода не течет;не выловишь и рыбку из пруда;и палка стреляет;провожают по уму</MW_Words_ProverbB>
+  <MW_Words_ProverbA>сколько волка ни корми;куй железо;баба с возу;меньше знаешь;тише едешь;под лежачий камень;без труда;раз в год;встречают по одежке</MW_Words_ProverbA>
+  <MW_Words_ProverbB>все равно в лес смотрит;пока горячо;кобыле легче;лучше спишь;дальше будешь;вода не течет;не выловишь и рыбку из пруда;и палка стреляет;провожают по уму</MW_Words_ProverbB>
 
-    <MW_Wisdom>Употребив {MWDRUG}, {MWCOLONOST} выдал мудрость: "{MWProverbA} - {MWProverbB}".</MW_Wisdom>
+  <MW_Wisdom>Употребив {MWDRUG}, {MWCOLONOST} выдал мудрость: "{MWProverbA} - {MWProverbB}".</MW_Wisdom>
 
-    <MW_Wired_Stat>{MWSTAT} у всех, кто {MWPAWN}, увеличивается на {MWMODVAUE}.</MW_Wired_Stat>
+  <MW_Wired_Stat>{MWSTAT} у всех, кто {MWPAWN}, увеличивается на {MWMODVAUE}.</MW_Wired_Stat>
 
 </LanguageData>

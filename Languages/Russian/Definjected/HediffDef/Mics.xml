@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MW_Tricky.label>Дух Клоуна</MW_Tricky.label>
+  <MW_Tricky.description>ТЫ НЕ УБИВАЕШЬ КЛОУНА!!! КЛОУН УБИВАЕТ ТЕБЯ!!!</MW_Tricky.description>
+
+  <MW_Auditor.label>Дух Аудитора</MW_Auditor.label>
+  <MW_Auditor.description>Запуск двигателя невероятности.</MW_Auditor.description>
+
+  <MW_Jesus.label>Дух Спасителя</MW_Jesus.label>
+  <MW_Jesus.description>Ты есть инструмент Апокалипсиса</MW_Jesus.description>
+
+  <MW_Sanford.label>Дух Санфорда</MW_Sanford.label>
+  <MW_Sanford.description>Последний бастион против A.A.H.W.</MW_Sanford.description>
+
+  <MW_Deimos.label>Spirit of Deimos</MW_Deimos.label>
+  <MW_Deimos.description>Последний бастион против A.A.H.W</MW_Deimos.description>
+
+  <MW_Hank.label>Spirit of Hank</MW_Hank.label>
+  <MW_Hank.description>Последний бастион против A.A.H.W</MW_Hank.description>
+
+  <MW_Alpha.label>Альфа</MW_Alpha.label>
+  <MW_Alpha.description>Се, гряду скоро...</MW_Alpha.description>
+
+
+</LanguageData>
