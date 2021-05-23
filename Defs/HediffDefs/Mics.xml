@@ -89,7 +89,7 @@
 	<HediffDef>
 		<defName>MW_Sanford</defName>
 		<label>Spirit of Sandford</label>
-		<description>You feel the spirit of Sandford inside your mind. It grants you a great meele skills against A.A.H.W</description>
+		<description>You feel the spirit of Sandford inside your mind. It grants you a great meele skills against A.A.H.W.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<isBad>false</isBad>
 		<comps>
@@ -121,7 +121,7 @@
 	<HediffDef>
 		<defName>MW_Deimos</defName>
 		<label>Spirit of Deimos</label>
-		<description>You feel the spirit of Deimos inside your mind. It grants you a great gunslinger skills against A.A.H.W</description>
+		<description>You feel the spirit of Deimos inside your mind. It grants you a great gunslinger skills against A.A.H.W.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<isBad>false</isBad>
 		<comps>
@@ -150,7 +150,7 @@
 	<HediffDef>
 		<defName>MW_Hank</defName>
 		<label>Spirit of Hank</label>
-		<description>You feel the spirit of Hank inside your mind. It grants you a great battle skills against A.A.H.W</description>
+		<description>You feel the spirit of Hank inside your mind. It grants you a great battle skills against A.A.H.W.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<isBad>false</isBad>
 		<comps>

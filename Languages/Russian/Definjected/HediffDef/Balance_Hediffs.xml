@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Work -->
+
+  <MW_Work.label>Лунное влияние (работа) </MW_Work.label>
+  <MW_Work.description>Технобог следит за вами</MW_Work.description>
+  <MW_Work.stages.0.label>слабое усиление</MW_Work.stages.0.label>
+  <MW_Work.stages.1.label>незначительное усиление</MW_Work.stages.1.label>
+  <MW_Work.stages.2.label>среднее усиление</MW_Work.stages.2.label>
+  <MW_Work.stages.3.label>умеренное усиление</MW_Work.stages.3.label>
+  <MW_Work.stages.4.label>сильное усиление</MW_Work.stages.4.label>
+  <MW_Work.stages.5.label>слабое ослабление</MW_Work.stages.5.label>
+  <MW_Work.stages.6.label>незначительное ослабление</MW_Work.stages.6.label>
+  <MW_Work.stages.7.label>среднее ослабление</MW_Work.stages.7.label>
+  <MW_Work.stages.8.label>умеренное ослабление</MW_Work.stages.8.label>
+  <MW_Work.stages.9.label>сильное ослабление</MW_Work.stages.9.label>
+
+
+  <!-- Consciousness -->
+
+  <MW_Consciousness.label>Лунное влияние (сознание)</MW_Consciousness.label>
+  <MW_Consciousness.description>Технобог следит за вами</MW_Consciousness.description>
+  <MW_Consciousness.stages.0.label>слабое усиление</MW_Consciousness.stages.0.label>
+  <MW_Consciousness.stages.1.label>незначительное усиление</MW_Consciousness.stages.1.label>
+  <MW_Consciousness.stages.2.label>среднее усиление</MW_Consciousness.stages.2.label>
+  <MW_Consciousness.stages.3.label>умеренное усиление</MW_Consciousness.stages.3.label>
+  <MW_Consciousness.stages.4.label>сильное усиление</MW_Consciousness.stages.4.label>
+  <MW_Consciousness.stages.5.label>слабое ослабление</MW_Consciousness.stages.5.label>
+  <MW_Consciousness.stages.6.label>незначительное ослабление</MW_Consciousness.stages.6.label>
+  <MW_Consciousness.stages.7.label>среднее ослабление</MW_Consciousness.stages.7.label>
+  <MW_Consciousness.stages.8.label>умеренное ослабление</MW_Consciousness.stages.8.label>
+  <MW_Consciousness.stages.9.label>сильное ослабление</MW_Consciousness.stages.9.label>
+
+
+  <!-- Sight -->
+
+  <MW_Sight.label>Лунное влияние (зрение)</MW_Sight.label>
+  <MW_Sight.description>Технобог следит за вами</MW_Sight.description>
+  <MW_Sight.stages.0.label>слабое усиление</MW_Sight.stages.0.label>
+  <MW_Sight.stages.1.label>незначительное усиление</MW_Sight.stages.1.label>
+  <MW_Sight.stages.2.label>среднее усиление</MW_Sight.stages.2.label>
+  <MW_Sight.stages.3.label>умеренное усиление</MW_Sight.stages.3.label>
+  <MW_Sight.stages.4.label>сильное усиление</MW_Sight.stages.4.label>
+  <MW_Sight.stages.5.label>слабое ослабление</MW_Sight.stages.5.label>
+  <MW_Sight.stages.6.label>незначительное ослабление</MW_Sight.stages.6.label>
+  <MW_Sight.stages.7.label>среднее ослабление</MW_Sight.stages.7.label>
+  <MW_Sight.stages.8.label>умеренное ослабление</MW_Sight.stages.8.label>
+  <MW_Sight.stages.9.label>сильное ослабление</MW_Sight.stages.9.label>
+
+
+  <!-- Breathing -->
+
+  <MW_Breathing.label>Лунное влияние (дыхание)</MW_Breathing.label>
+  <MW_Breathing.description>Технобог следит за вами</MW_Breathing.description>
+  <MW_Breathing.stages.0.label>слабое усиление</MW_Breathing.stages.0.label>
+  <MW_Breathing.stages.1.label>незначительное усиление</MW_Breathing.stages.1.label>
+  <MW_Breathing.stages.2.label>среднее усиление</MW_Breathing.stages.2.label>
+  <MW_Breathing.stages.3.label>умеренное усиление</MW_Breathing.stages.3.label>
+  <MW_Breathing.stages.4.label>сильное усиление</MW_Breathing.stages.4.label>
+  <MW_Breathing.stages.5.label>слабое ослабление</MW_Breathing.stages.5.label>
+  <MW_Breathing.stages.6.label>незначительное ослабление</MW_Breathing.stages.6.label>
+  <MW_Breathing.stages.7.label>среднее ослабление</MW_Breathing.stages.7.label>
+  <MW_Breathing.stages.8.label>умеренное ослабление</MW_Breathing.stages.8.label>
+  <MW_Breathing.stages.9.label>сильное ослабление</MW_Breathing.stages.9.label>
+
+
+  <!-- BloodFiltration -->
+
+  <MW_Filtr.label>Лунное влияние (фильтрация крови)</MW_Filtr.label>
+  <MW_Filtr.description>Технобог следит за вами</MW_Filtr.description>
+  <MW_Filtr.stages.0.label>слабое усиление</MW_Filtr.stages.0.label>
+  <MW_Filtr.stages.1.label>незначительное усиление</MW_Filtr.stages.1.label>
+  <MW_Filtr.stages.2.label>среднее усиление</MW_Filtr.stages.2.label>
+  <MW_Filtr.stages.3.label>умеренное усиление</MW_Filtr.stages.3.label>
+  <MW_Filtr.stages.4.label>сильное усиление</MW_Filtr.stages.4.label>
+  <MW_Filtr.stages.5.label>слабое ослабление</MW_Filtr.stages.5.label>
+  <MW_Filtr.stages.6.label>незначительное ослабление</MW_Filtr.stages.6.label>
+  <MW_Filtr.stages.7.label>среднее ослабление</MW_Filtr.stages.7.label>
+  <MW_Filtr.stages.8.label>умеренное ослабление</MW_Filtr.stages.8.label>
+  <MW_Filtr.stages.9.label>сильное ослабление</MW_Filtr.stages.9.label>
+
+
+  <!-- BloodPumping -->
+
+  <MW_Pump.label>Лунное влияние (кровообращение)</MW_Pump.label>
+  <MW_Pump.description>Технобог следит за вами</MW_Pump.description>
+  <MW_Pump.stages.0.label>слабое усиление</MW_Pump.stages.0.label>
+  <MW_Pump.stages.1.label>незначительное усиление</MW_Pump.stages.1.label>
+  <MW_Pump.stages.2.label>среднее усиление</MW_Pump.stages.2.label>
+  <MW_Pump.stages.3.label>умеренное усиление</MW_Pump.stages.3.label>
+  <MW_Pump.stages.4.label>сильное усиление</MW_Pump.stages.4.label>
+  <MW_Pump.stages.5.label>слабое ослабление</MW_Pump.stages.5.label>
+  <MW_Pump.stages.6.label>незначительное ослабление</MW_Pump.stages.6.label>
+  <MW_Pump.stages.7.label>среднее ослабление</MW_Pump.stages.7.label>
+  <MW_Pump.stages.8.label>умеренное ослабление</MW_Pump.stages.8.label>
+  <MW_Pump.stages.9.label>сильное ослабление</MW_Pump.stages.9.label>
+
+
+  <!-- Metabolism -->
+
+  <MW_Metabolism.label>Лунное влияние (метаболизм)</MW_Metabolism.label>
+  <MW_Metabolism.description>Технобог следит за вами</MW_Metabolism.description>
+  <MW_Metabolism.stages.0.label>слабое усиление</MW_Metabolism.stages.0.label>
+  <MW_Metabolism.stages.1.label>незначительное усиление</MW_Metabolism.stages.1.label>
+  <MW_Metabolism.stages.2.label>среднее усиление</MW_Metabolism.stages.2.label>
+  <MW_Metabolism.stages.3.label>умеренное усиление</MW_Metabolism.stages.3.label>
+  <MW_Metabolism.stages.4.label>сильное усиление</MW_Metabolism.stages.4.label>
+  <MW_Metabolism.stages.5.label>слабое ослабление</MW_Metabolism.stages.5.label>
+  <MW_Metabolism.stages.6.label>незначительное ослабление</MW_Metabolism.stages.6.label>
+  <MW_Metabolism.stages.7.label>среднее ослабление</MW_Metabolism.stages.7.label>
+  <MW_Metabolism.stages.8.label>умеренное ослабление</MW_Metabolism.stages.8.label>
+  <MW_Metabolism.stages.9.label>сильное ослабление</MW_Metabolism.stages.9.label>
+
+
+  <!-- Rest -->
+
+  <MW_Rest.label>Лунное влияние (отдых)</MW_Rest.label>
+  <MW_Rest.description>Технобог следит за вами</MW_Rest.description>
+  <MW_Rest.stages.0.label>слабое усиление</MW_Rest.stages.0.label>
+  <MW_Rest.stages.1.label>незначительное усиление</MW_Rest.stages.1.label>
+  <MW_Rest.stages.2.label>среднее усиление</MW_Rest.stages.2.label>
+  <MW_Rest.stages.3.label>умеренное усиление</MW_Rest.stages.3.label>
+  <MW_Rest.stages.4.label>сильное усиление</MW_Rest.stages.4.label>
+  <MW_Rest.stages.5.label>слабое ослабление</MW_Rest.stages.5.label>
+  <MW_Rest.stages.6.label>незначительное ослабление</MW_Rest.stages.6.label>
+  <MW_Rest.stages.7.label>среднее ослабление</MW_Rest.stages.7.label>
+  <MW_Rest.stages.8.label>умеренное ослабление</MW_Rest.stages.8.label>
+  <MW_Rest.stages.9.label>сильное ослабление</MW_Rest.stages.9.label>
+
+
+  <!-- Food -->
+
+  <MW_Food.label>Лунное влияние (пищеварение)</MW_Food.label>
+  <MW_Food.description>Технобог следит за вами</MW_Food.description>
+  <MW_Food.stages.0.label>слабое усиление</MW_Food.stages.0.label>
+  <MW_Food.stages.1.label>незначительное усиление</MW_Food.stages.1.label>
+  <MW_Food.stages.2.label>среднее усиление</MW_Food.stages.2.label>
+  <MW_Food.stages.3.label>умеренное усиление</MW_Food.stages.3.label>
+  <MW_Food.stages.4.label>сильное усиление</MW_Food.stages.4.label>
+  <MW_Food.stages.5.label>слабое ослабление</MW_Food.stages.5.label>
+  <MW_Food.stages.6.label>незначительное ослабление</MW_Food.stages.6.label>
+  <MW_Food.stages.7.label>среднее ослабление</MW_Food.stages.7.label>
+  <MW_Food.stages.8.label>умеренное ослабление</MW_Food.stages.8.label>
+  <MW_Food.stages.9.label>сильное ослабление</MW_Food.stages.9.label>
+
+
+  <!-- Move -->
+
+  <MW_Move.label>Лунное влияние (передвижение)</MW_Move.label>
+  <MW_Move.description>Технобог следит за вами</MW_Move.description>
+  <MW_Move.stages.0.label>слабое усиление</MW_Move.stages.0.label>
+  <MW_Move.stages.1.label>незначительное усиление</MW_Move.stages.1.label>
+  <MW_Move.stages.2.label>среднее усиление</MW_Move.stages.2.label>
+  <MW_Move.stages.3.label>умеренное усиление</MW_Move.stages.3.label>
+  <MW_Move.stages.4.label>сильное усиление</MW_Move.stages.4.label>
+  <MW_Move.stages.5.label>слабое ослабление</MW_Move.stages.5.label>
+  <MW_Move.stages.6.label>незначительное ослабление</MW_Move.stages.6.label>
+  <MW_Move.stages.7.label>среднее ослабление</MW_Move.stages.7.label>
+  <MW_Move.stages.8.label>умеренное ослабление</MW_Move.stages.8.label>
+  <MW_Move.stages.9.label>сильное ослабление</MW_Move.stages.9.label>
+
+
+  <!-- Regeneration -->
+
+  <MW_Regeneration.label>Лунное влияние (регенерация)</MW_Regeneration.label>
+  <MW_Regeneration.description>Технобог следит за вами</MW_Regeneration.description>
+  <MW_Regeneration.stages.0.label>слабое усиление</MW_Regeneration.stages.0.label>
+  <MW_Regeneration.stages.1.label>незначительное усиление</MW_Regeneration.stages.1.label>
+  <MW_Regeneration.stages.2.label>среднее усиление</MW_Regeneration.stages.2.label>
+  <MW_Regeneration.stages.3.label>умеренное усиление</MW_Regeneration.stages.3.label>
+  <MW_Regeneration.stages.4.label>сильное усиление</MW_Regeneration.stages.4.label>
+  <MW_Regeneration.stages.5.label>слабое ослабление</MW_Regeneration.stages.5.label>
+  <MW_Regeneration.stages.6.label>незначительное ослабление</MW_Regeneration.stages.6.label>
+  <MW_Regeneration.stages.7.label>среднее ослабление</MW_Regeneration.stages.7.label>
+  <MW_Regeneration.stages.8.label>умеренное ослабление</MW_Regeneration.stages.8.label>
+  <MW_Regeneration.stages.9.label>сильное ослабление</MW_Regeneration.stages.9.label>
+
+
+  <!-- Research -->
+
+  <MW_Research.label>Лунное влияние (исследование)</MW_Research.label>
+  <MW_Research.description>Технобог следит за вами</MW_Research.description>
+  <MW_Research.stages.0.label>слабое усиление</MW_Research.stages.0.label>
+  <MW_Research.stages.1.label>незначительное усиление</MW_Research.stages.1.label>
+  <MW_Research.stages.2.label>среднее усиление</MW_Research.stages.2.label>
+  <MW_Research.stages.3.label>умеренное усиление</MW_Research.stages.3.label>
+  <MW_Research.stages.4.label>сильное усиление</MW_Research.stages.4.label>
+  <MW_Research.stages.5.label>слабое ослабление</MW_Research.stages.5.label>
+  <MW_Research.stages.6.label>незначительное ослабление</MW_Research.stages.6.label>
+  <MW_Research.stages.7.label>среднее ослабление</MW_Research.stages.7.label>
+  <MW_Research.stages.8.label>умеренное ослабление</MW_Research.stages.8.label>
+  <MW_Research.stages.9.label>сильное ослабление</MW_Research.stages.9.label>
+
+
+  <!-- Learning -->
+
+  <MW_Learning.label>Лунное влияние (обучение)</MW_Learning.label>
+  <MW_Learning.description>Технобог следит за вами</MW_Learning.description>
+  <MW_Learning.stages.0.label>слабое усиление</MW_Learning.stages.0.label>
+  <MW_Learning.stages.1.label>незначительное усиление</MW_Learning.stages.1.label>
+  <MW_Learning.stages.2.label>среднее усиление</MW_Learning.stages.2.label>
+  <MW_Learning.stages.3.label>умеренное усиление</MW_Learning.stages.3.label>
+  <MW_Learning.stages.4.label>сильное усиление</MW_Learning.stages.4.label>
+  <MW_Learning.stages.5.label>слабое ослабление</MW_Learning.stages.5.label>
+  <MW_Learning.stages.6.label>незначительное ослабление</MW_Learning.stages.6.label>
+  <MW_Learning.stages.7.label>среднее ослабление</MW_Learning.stages.7.label>
+  <MW_Learning.stages.8.label>умеренное ослабление</MW_Learning.stages.8.label>
+  <MW_Learning.stages.9.label>сильное ослабление</MW_Learning.stages.9.label>
+
+
+  <!-- Cook -->
+
+  <MW_Cook.label>Лунное влияние (готовка)</MW_Cook.label>
+  <MW_Cook.description>Технобог следит за вами</MW_Cook.description>
+  <MW_Cook.stages.0.label>слабое усиление</MW_Cook.stages.0.label>
+  <MW_Cook.stages.1.label>незначительное усиление</MW_Cook.stages.1.label>
+  <MW_Cook.stages.2.label>среднее усиление</MW_Cook.stages.2.label>
+  <MW_Cook.stages.3.label>умеренное усиление</MW_Cook.stages.3.label>
+  <MW_Cook.stages.4.label>сильное усиление</MW_Cook.stages.4.label>
+  <MW_Cook.stages.5.label>слабое ослабление</MW_Cook.stages.5.label>
+  <MW_Cook.stages.6.label>незначительное ослабление</MW_Cook.stages.6.label>
+  <MW_Cook.stages.7.label>среднее ослабление</MW_Cook.stages.7.label>
+  <MW_Cook.stages.8.label>умеренное ослабление</MW_Cook.stages.8.label>
+  <MW_Cook.stages.9.label>сильное ослабление</MW_Cook.stages.9.label>
+
+
+  <!-- Mining -->
+
+  <MW_Mining.label>Лунное влияние (шахтерское ремесло)</MW_Mining.label>
+  <MW_Mining.description>Технобог следит за вами</MW_Mining.description>
+  <MW_Mining.stages.0.label>слабое усиление</MW_Mining.stages.0.label>
+  <MW_Mining.stages.1.label>незначительное усиление</MW_Mining.stages.1.label>
+  <MW_Mining.stages.2.label>среднее усиление</MW_Mining.stages.2.label>
+  <MW_Mining.stages.3.label>умеренное усиление</MW_Mining.stages.3.label>
+  <MW_Mining.stages.4.label>сильное усиление</MW_Mining.stages.4.label>
+  <MW_Mining.stages.5.label>слабое ослабление</MW_Mining.stages.5.label>
+  <MW_Mining.stages.6.label>незначительное ослабление</MW_Mining.stages.6.label>
+  <MW_Mining.stages.7.label>среднее ослабление</MW_Mining.stages.7.label>
+  <MW_Mining.stages.8.label>умеренное ослабление</MW_Mining.stages.8.label>
+  <MW_Mining.stages.9.label>сильное ослабление</MW_Mining.stages.9.label>
+
+
+  <!-- Farming -->
+
+  <MW_Farming.label>Лунное влияние (фермерство)</MW_Farming.label>
+  <MW_Farming.description>Технобог следит за вами</MW_Farming.description>
+  <MW_Farming.stages.0.label>слабое усиление</MW_Farming.stages.0.label>
+  <MW_Farming.stages.1.label>незначительное усиление</MW_Farming.stages.1.label>
+  <MW_Farming.stages.2.label>среднее усиление</MW_Farming.stages.2.label>
+  <MW_Farming.stages.3.label>умеренное усиление</MW_Farming.stages.3.label>
+  <MW_Farming.stages.4.label>сильное усиление</MW_Farming.stages.4.label>
+  <MW_Farming.stages.5.label>слабое ослабление</MW_Farming.stages.5.label>
+  <MW_Farming.stages.6.label>незначительное ослабление</MW_Farming.stages.6.label>
+  <MW_Farming.stages.7.label>среднее ослабление</MW_Farming.stages.7.label>
+  <MW_Farming.stages.8.label>умеренное ослабление</MW_Farming.stages.8.label>
+  <MW_Farming.stages.9.label>сильное ослабление</MW_Farming.stages.9.label>
+
+
+  <!-- Medic -->
+
+  <MW_Medic.label>Лунное влияние (медицина)</MW_Medic.label>
+  <MW_Medic.description>Технобог следит за вами</MW_Medic.description>
+  <MW_Medic.stages.0.label>слабое усиление</MW_Medic.stages.0.label>
+  <MW_Medic.stages.1.label>незначительное усиление</MW_Medic.stages.1.label>
+  <MW_Medic.stages.2.label>среднее усиление</MW_Medic.stages.2.label>
+  <MW_Medic.stages.3.label>умеренное усиление</MW_Medic.stages.3.label>
+  <MW_Medic.stages.4.label>сильное усиление</MW_Medic.stages.4.label>
+  <MW_Medic.stages.5.label>слабое ослабление</MW_Medic.stages.5.label>
+  <MW_Medic.stages.6.label>незначительное ослабление</MW_Medic.stages.6.label>
+  <MW_Medic.stages.7.label>среднее ослабление</MW_Medic.stages.7.label>
+  <MW_Medic.stages.8.label>умеренное ослабление</MW_Medic.stages.8.label>
+  <MW_Medic.stages.9.label>сильное ослабление</MW_Medic.stages.9.label>
+
+
+  <!-- Builder -->
+
+  <MW_Builder.label>Лунное влияние (строительство)</MW_Builder.label>
+  <MW_Builder.description>Технобог следит за вами</MW_Builder.description>
+  <MW_Builder.stages.0.label>слабое усиление</MW_Builder.stages.0.label>
+  <MW_Builder.stages.1.label>незначительное усиление</MW_Builder.stages.1.label>
+  <MW_Builder.stages.2.label>среднее усиление</MW_Builder.stages.2.label>
+  <MW_Builder.stages.3.label>умеренное усиление</MW_Builder.stages.3.label>
+  <MW_Builder.stages.4.label>сильное усиление</MW_Builder.stages.4.label>
+  <MW_Builder.stages.5.label>слабое ослабление</MW_Builder.stages.5.label>
+  <MW_Builder.stages.6.label>незначительное ослабление</MW_Builder.stages.6.label>
+  <MW_Builder.stages.7.label>среднее ослабление</MW_Builder.stages.7.label>
+  <MW_Builder.stages.8.label>умеренное ослабление</MW_Builder.stages.8.label>
+  <MW_Builder.stages.9.label>сильное ослабление</MW_Builder.stages.9.label>
+
+
+  <!-- Cleaner -->
+
+  <MW_Cleaner.label>Лунное влияние (уборка)</MW_Cleaner.label>
+  <MW_Cleaner.description>Технобог следит за вами</MW_Cleaner.description>
+  <MW_Cleaner.stages.0.label>слабое усиление</MW_Cleaner.stages.0.label>
+  <MW_Cleaner.stages.1.label>незначительное усиление</MW_Cleaner.stages.1.label>
+  <MW_Cleaner.stages.2.label>среднее усиление</MW_Cleaner.stages.2.label>
+  <MW_Cleaner.stages.3.label>умеренное усиление</MW_Cleaner.stages.3.label>
+  <MW_Cleaner.stages.4.label>сильное усиление</MW_Cleaner.stages.4.label>
+  <MW_Cleaner.stages.5.label>слабое ослабление</MW_Cleaner.stages.5.label>
+  <MW_Cleaner.stages.6.label>незначительное ослабление</MW_Cleaner.stages.6.label>
+  <MW_Cleaner.stages.7.label>среднее ослабление</MW_Cleaner.stages.7.label>
+  <MW_Cleaner.stages.8.label>умеренное ослабление</MW_Cleaner.stages.8.label>
+  <MW_Cleaner.stages.9.label>сильное ослабление</MW_Cleaner.stages.9.label>
+
+
+  <!-- Crafter -->
+
+  <MW_Crafter.label>Лунное влияние (ремесло)</MW_Crafter.label>
+  <MW_Crafter.description>Технобог следит за вами</MW_Crafter.description>
+  <MW_Crafter.stages.0.label>слабое усиление</MW_Crafter.stages.0.label>
+  <MW_Crafter.stages.1.label>незначительное усиление</MW_Crafter.stages.1.label>
+  <MW_Crafter.stages.2.label>среднее усиление</MW_Crafter.stages.2.label>
+  <MW_Crafter.stages.3.label>умеренное усиление</MW_Crafter.stages.3.label>
+  <MW_Crafter.stages.4.label>сильное усиление</MW_Crafter.stages.4.label>
+  <MW_Crafter.stages.5.label>слабое ослабление</MW_Crafter.stages.5.label>
+  <MW_Crafter.stages.6.label>незначительное ослабление</MW_Crafter.stages.6.label>
+  <MW_Crafter.stages.7.label>среднее ослабление</MW_Crafter.stages.7.label>
+  <MW_Crafter.stages.8.label>умеренное ослабление</MW_Crafter.stages.8.label>
+  <MW_Crafter.stages.9.label>сильное ослабление</MW_Crafter.stages.9.label>
+
+
+  <!-- Carry -->
+
+  <MW_Carry.label>Лунное влияние (переноска)</MW_Carry.label>
+  <MW_Carry.description>Технобог следит за вами</MW_Carry.description>
+  <MW_Carry.stages.0.label>слабое усиление</MW_Carry.stages.0.label>
+  <MW_Carry.stages.1.label>незначительное усиление</MW_Carry.stages.1.label>
+  <MW_Carry.stages.2.label>среднее усиление</MW_Carry.stages.2.label>
+  <MW_Carry.stages.3.label>умеренное усиление</MW_Carry.stages.3.label>
+  <MW_Carry.stages.4.label>сильное усиление</MW_Carry.stages.4.label>
+  <MW_Carry.stages.5.label>слабое ослабление</MW_Carry.stages.5.label>
+  <MW_Carry.stages.6.label>незначительное ослабление</MW_Carry.stages.6.label>
+  <MW_Carry.stages.7.label>среднее ослабление</MW_Carry.stages.7.label>
+  <MW_Carry.stages.8.label>умеренное ослабление</MW_Carry.stages.8.label>
+  <MW_Carry.stages.9.label>сильное ослабление</MW_Carry.stages.9.label>
+
+
+  <!-- Caravan -->
+
+  <MW_Caravan.label>Лунное влияние (кочевничество)</MW_Caravan.label>
+  <MW_Caravan.description>Технобог следит за вами</MW_Caravan.description>
+  <MW_Caravan.stages.0.label>слабое усиление</MW_Caravan.stages.0.label>
+  <MW_Caravan.stages.1.label>незначительное усиление</MW_Caravan.stages.1.label>
+  <MW_Caravan.stages.2.label>среднее усиление</MW_Caravan.stages.2.label>
+  <MW_Caravan.stages.3.label>умеренное усиление</MW_Caravan.stages.3.label>
+  <MW_Caravan.stages.4.label>сильное усиление</MW_Caravan.stages.4.label>
+  <MW_Caravan.stages.5.label>слабое ослабление</MW_Caravan.stages.5.label>
+  <MW_Caravan.stages.6.label>незначительное ослабление</MW_Caravan.stages.6.label>
+  <MW_Caravan.stages.7.label>среднее ослабление</MW_Caravan.stages.7.label>
+  <MW_Caravan.stages.8.label>умеренное ослабление</MW_Caravan.stages.8.label>
+  <MW_Caravan.stages.9.label>сильное ослабление</MW_Caravan.stages.9.label>
+
+
+  <!-- Shoot -->
+
+  <MW_Shoot.label>Лунное влияние (стрельба)</MW_Shoot.label>
+  <MW_Shoot.description>Технобог следит за вами</MW_Shoot.description>
+  <MW_Shoot.stages.0.label>слабое усиление</MW_Shoot.stages.0.label>
+  <MW_Shoot.stages.1.label>незначительное усиление</MW_Shoot.stages.1.label>
+  <MW_Shoot.stages.2.label>среднее усиление</MW_Shoot.stages.2.label>
+  <MW_Shoot.stages.3.label>умеренное усиление</MW_Shoot.stages.3.label>
+  <MW_Shoot.stages.4.label>сильное усиление</MW_Shoot.stages.4.label>
+  <MW_Shoot.stages.5.label>слабое ослабление</MW_Shoot.stages.5.label>
+  <MW_Shoot.stages.6.label>незначительное ослабление</MW_Shoot.stages.6.label>
+  <MW_Shoot.stages.7.label>среднее ослабление</MW_Shoot.stages.7.label>
+  <MW_Shoot.stages.8.label>умеренное ослабление</MW_Shoot.stages.8.label>
+  <MW_Shoot.stages.9.label>сильное ослабление</MW_Shoot.stages.9.label>
+
+
+  <!-- Melee -->
+
+  <MW_Melee.label>Лунное влияние (ближний бой)</MW_Melee.label>
+  <MW_Melee.description>Технобог следит за вами</MW_Melee.description>
+  <MW_Melee.stages.0.label>слабое усиление</MW_Melee.stages.0.label>
+  <MW_Melee.stages.1.label>незначительное усиление</MW_Melee.stages.1.label>
+  <MW_Melee.stages.2.label>среднее усиление</MW_Melee.stages.2.label>
+  <MW_Melee.stages.3.label>умеренное усиление</MW_Melee.stages.3.label>
+  <MW_Melee.stages.4.label>сильное усиление</MW_Melee.stages.4.label>
+  <MW_Melee.stages.5.label>слабое ослабление</MW_Melee.stages.5.label>
+  <MW_Melee.stages.6.label>незначительное ослабление</MW_Melee.stages.6.label>
+  <MW_Melee.stages.7.label>среднее ослабление</MW_Melee.stages.7.label>
+  <MW_Melee.stages.8.label>умеренное ослабление</MW_Melee.stages.8.label>
+  <MW_Melee.stages.9.label>сильное ослабление</MW_Melee.stages.9.label>
+
+
+  <!-- Suppressability -->
+
+  <MW_Supp.label>Лунное влияние (подавление)</MW_Supp.label>
+  <MW_Supp.description>Технобог следит за вами</MW_Supp.description>
+  <MW_Supp.stages.0.label>слабое усиление</MW_Supp.stages.0.label>
+  <MW_Supp.stages.1.label>незначительное усиление</MW_Supp.stages.1.label>
+  <MW_Supp.stages.2.label>среднее усиление</MW_Supp.stages.2.label>
+  <MW_Supp.stages.3.label>умеренное усиление</MW_Supp.stages.3.label>
+  <MW_Supp.stages.4.label>сильное усиление</MW_Supp.stages.4.label>
+  <MW_Supp.stages.5.label>слабое ослабление</MW_Supp.stages.5.label>
+  <MW_Supp.stages.6.label>незначительное ослабление</MW_Supp.stages.6.label>
+  <MW_Supp.stages.7.label>среднее ослабление</MW_Supp.stages.7.label>
+  <MW_Supp.stages.8.label>умеренное ослабление</MW_Supp.stages.8.label>
+  <MW_Supp.stages.9.label>сильное ослабление</MW_Supp.stages.9.label>
+
+
+</LanguageData>

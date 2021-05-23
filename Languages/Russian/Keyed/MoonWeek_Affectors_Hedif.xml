@@ -1,44 +1,44 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-	
-    <!--Hediff-->
-    <MW_H_EffectHeader>Эффекты пешек</MW_H_EffectHeader>
-    <MW_H_ApplyEffectListLabel>Применяет эффекты</MW_H_ApplyEffectListLabel>
-    <MW_H_EffectPickRuleLabel>Применяется</MW_H_EffectPickRuleLabel>
 
-    <MW_H_PR_First>первый</MW_H_PR_First>
-    <MW_H_PR_Random>произвольный</MW_H_PR_Random>
-    <MW_H_PR_Scaled>в зависимости от</MW_H_PR_Scaled>
+  <!--Hediff-->
+  <MW_H_EffectHeader>Эффекты пешек</MW_H_EffectHeader>
+  <MW_H_ApplyEffectListLabel>Применяет эффекты</MW_H_ApplyEffectListLabel>
+  <MW_H_EffectPickRuleLabel>Применяется</MW_H_EffectPickRuleLabel>
 
-    <MW_H_ColonyAgeInDays>возраста колонии</MW_H_ColonyAgeInDays>
-    <MW_H_ColonyWealth>стоимости колонии</MW_H_ColonyWealth>
-    <MW_H_NumberOfColonists>количества колонистов</MW_H_NumberOfColonists>
-    <MW_H_RaidPower>силы рейда</MW_H_RaidPower>
-    <MW_H_GameDifficulty>сложности игры</MW_H_GameDifficulty>
+  <MW_H_PR_First>первый</MW_H_PR_First>
+  <MW_H_PR_Random>произвольный</MW_H_PR_Random>
+  <MW_H_PR_Scaled>в зависимости от</MW_H_PR_Scaled>
 
-    <MW_H_Affected>Подвержены</MW_H_Affected>
-    <MW_H_PPR_Random>случайно</MW_H_PPR_Random>
-    <MW_H_PPR_All>все</MW_H_PPR_All>
-    <MW_H_female>женщины</MW_H_female>
-    <MW_H_male>мужчины</MW_H_male>
-    <MW_H_every>женщины и мужчины</MW_H_every>
-    <MW_H_colonist>колонисты</MW_H_colonist>
-    <MW_H_non_colonist>не колонисты</MW_H_non_colonist>
-    <MW_H_animal>животные</MW_H_animal>
-    <MW_H_non_animal> не животные</MW_H_non_animal>
-    <MW_H_enemy>враги</MW_H_enemy>
-    <MW_H_non_enemy> не враги</MW_H_non_enemy>
-    <MW_H_mechanoids>механоиды</MW_H_mechanoids>
-    <MW_H_non_mechanoids>не механоиды</MW_H_non_mechanoids>
-    <MW_H_empty_label>пусто</MW_H_empty_label>
-    <MW_H_pawns_from_list>из списка</MW_H_pawns_from_list>
+  <MW_H_ColonyAgeInDays>возраста колонии</MW_H_ColonyAgeInDays>
+  <MW_H_ColonyWealth>стоимости колонии</MW_H_ColonyWealth>
+  <MW_H_NumberOfColonists>количества колонистов</MW_H_NumberOfColonists>
+  <MW_H_RaidPower>силы рейда</MW_H_RaidPower>
+  <MW_H_GameDifficulty>сложности игры</MW_H_GameDifficulty>
 
-    <MW_H_random_for_each>каждому произвольный</MW_H_random_for_each>
-    
-    <MW_H_Executes>Выполняется</MW_H_Executes>
-	<MW_H_Once>единожды</MW_H_Once>
-	<MW_H_EveryXHours>каждые</MW_H_EveryXHours>
-	<MW_H_hours>ч.</MW_H_hours>
-	<MW_H_Permanent>постоянно</MW_H_Permanent>
+  <MW_H_Affected>Подвержены</MW_H_Affected>
+  <MW_H_PPR_Random>случайно</MW_H_PPR_Random>
+  <MW_H_PPR_All>все</MW_H_PPR_All>
+  <MW_H_female>женщины</MW_H_female>
+  <MW_H_male>мужчины</MW_H_male>
+  <MW_H_every>женщины и мужчины</MW_H_every>
+  <MW_H_colonist>колонисты</MW_H_colonist>
+  <MW_H_non_colonist>не колонисты</MW_H_non_colonist>
+  <MW_H_animal>животные</MW_H_animal>
+  <MW_H_non_animal> не животные</MW_H_non_animal>
+  <MW_H_enemy>враги</MW_H_enemy>
+  <MW_H_non_enemy> не враги</MW_H_non_enemy>
+  <MW_H_mechanoids>механоиды</MW_H_mechanoids>
+  <MW_H_non_mechanoids>не механоиды</MW_H_non_mechanoids>
+  <MW_H_empty_label>пусто</MW_H_empty_label>
+  <MW_H_pawns_from_list>из списка</MW_H_pawns_from_list>
+
+  <MW_H_random_for_each>каждому произвольный</MW_H_random_for_each>
+
+  <MW_H_Executes>Выполняется</MW_H_Executes>
+  <MW_H_Once>единожды</MW_H_Once>
+  <MW_H_EveryXHours>каждые</MW_H_EveryXHours>
+  <MW_H_hours>ч.</MW_H_hours>
+  <MW_H_Permanent>постоянно</MW_H_Permanent>
 
 </LanguageData>
