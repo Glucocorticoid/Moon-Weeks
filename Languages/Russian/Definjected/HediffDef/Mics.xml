@@ -21,6 +21,11 @@
 
   <MW_Alpha.label>Альфа</MW_Alpha.label>
   <MW_Alpha.description>Се, гряду скоро...</MW_Alpha.description>
+  <MW_Alpha.stages.0.label>слабое усиление</MW_Alpha.stages.0.label>
+  <MW_Alpha.stages.1.label>незначительное усиление</MW_Alpha.stages.1.label>
+  <MW_Alpha.stages.2.label>среднее усиление</MW_Alpha.stages.2.label>
+  <MW_Alpha.stages.3.label>умеренное усиление</MW_Alpha.stages.3.label>
+  <MW_Alpha.stages.4.label>сильное усиление</MW_Alpha.stages.4.label>
 
 
 </LanguageData>

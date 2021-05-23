@@ -103,6 +103,7 @@
 		<stages>
 			<li>
 				<minSeverity>1</minSeverity>
+				<label>minor malice</label>
 				<becomeVisible>false</becomeVisible>
 				<statOffsets>
 					<PsychicSensitivity>0.1</PsychicSensitivity>
@@ -110,6 +111,7 @@
 			</li>
 			<li>
 				<minSeverity>2</minSeverity>
+				<label>major malice</label>
 				<becomeVisible>false</becomeVisible>
 				<statOffsets>
 					<PsychicSensitivity>0.3</PsychicSensitivity>
@@ -117,6 +119,7 @@
 			</li>
 			<li>
 				<minSeverity>3</minSeverity>
+				<label>minor boost</label>
 				<becomeVisible>false</becomeVisible>
 				<statOffsets>
 					<PsychicSensitivity>-0.1</PsychicSensitivity>
@@ -124,6 +127,7 @@
 			</li>
 			<li>
 				<minSeverity>4</minSeverity>
+				<label>major boost</label>
 				<becomeVisible>false</becomeVisible>
 				<statOffsets>
 					<PsychicSensitivity>-0.3</PsychicSensitivity>
