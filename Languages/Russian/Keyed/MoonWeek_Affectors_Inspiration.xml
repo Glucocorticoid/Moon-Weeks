@@ -1,35 +1,35 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-	
-    <!--Inspiration-->
-    <MW_I_EffectHeader>Эффекты воодушевления</MW_I_EffectHeader>
-    <MW_I_ApplyEffectListLabel>Применяет воодушевления</MW_I_ApplyEffectListLabel>
-    <MW_I_EffectPickRuleLabel>Применяется</MW_I_EffectPickRuleLabel>
 
-    <MW_I_PR_First>первое</MW_I_PR_First>
-    <MW_I_PR_Random>произвольное</MW_I_PR_Random>
-    <MW_I_PR_Scaled>в зависимости от</MW_I_PR_Scaled>
+  <!--Inspiration-->
+  <MW_I_EffectHeader>Эффекты воодушевления</MW_I_EffectHeader>
+  <MW_I_ApplyEffectListLabel>Применяет воодушевления</MW_I_ApplyEffectListLabel>
+  <MW_I_EffectPickRuleLabel>Применяется</MW_I_EffectPickRuleLabel>
 
-    <MW_I_ColonyAgeInDays>возраста колонии</MW_I_ColonyAgeInDays>
-    <MW_I_ColonyWealth>стоимости колонии</MW_I_ColonyWealth>
-    <MW_I_NumberOfColonists>количества колонистов</MW_I_NumberOfColonists>
-    <MW_I_RaidPower>силы рейда</MW_I_RaidPower>
-    <MW_I_GameDifficulty>сложности игры</MW_I_GameDifficulty>
+  <MW_I_PR_First>первое</MW_I_PR_First>
+  <MW_I_PR_Random>произвольное</MW_I_PR_Random>
+  <MW_I_PR_Scaled>в зависимости от</MW_I_PR_Scaled>
 
-    <MW_I_Affected>Подвержены</MW_I_Affected>
-    <MW_I_PPR_Random>случайно</MW_I_PPR_Random>
-    <MW_I_PPR_All>все</MW_I_PPR_All>
-    <MW_I_female>женщины</MW_I_female>
-    <MW_I_male>мужчины</MW_I_male>
-    <MW_I_every>мужчины и женщины</MW_I_every>
-    <MW_I_colonist>колонисты</MW_I_colonist>
+  <MW_I_ColonyAgeInDays>возраста колонии</MW_I_ColonyAgeInDays>
+  <MW_I_ColonyWealth>стоимости колонии</MW_I_ColonyWealth>
+  <MW_I_NumberOfColonists>количества колонистов</MW_I_NumberOfColonists>
+  <MW_I_RaidPower>силы рейда</MW_I_RaidPower>
+  <MW_I_GameDifficulty>сложности игры</MW_I_GameDifficulty>
 
-    <MW_I_random_for_each>каждому произвольное</MW_I_random_for_each>
+  <MW_I_Affected>Подвержены</MW_I_Affected>
+  <MW_I_PPR_Random>случайно</MW_I_PPR_Random>
+  <MW_I_PPR_All>все</MW_I_PPR_All>
+  <MW_I_female>женщины</MW_I_female>
+  <MW_I_male>мужчины</MW_I_male>
+  <MW_I_every>мужчины и женщины</MW_I_every>
+  <MW_I_colonist>колонисты</MW_I_colonist>
 
-    <MW_I_Executes>Выполняется</MW_I_Executes>
-	<MW_I_Once>единожды</MW_I_Once>
-	<MW_I_EveryXHours>каждые</MW_I_EveryXHours>
-	<MW_I_hours>ч.</MW_I_hours>
-	<MW_I_Permanent>постоянно</MW_I_Permanent>
+  <MW_I_random_for_each>каждому произвольное</MW_I_random_for_each>
+
+  <MW_I_Executes>Выполняется</MW_I_Executes>
+  <MW_I_Once>единожды</MW_I_Once>
+  <MW_I_EveryXHours>каждые</MW_I_EveryXHours>
+  <MW_I_hours>ч.</MW_I_hours>
+  <MW_I_Permanent>постоянно</MW_I_Permanent>
 
 </LanguageData>

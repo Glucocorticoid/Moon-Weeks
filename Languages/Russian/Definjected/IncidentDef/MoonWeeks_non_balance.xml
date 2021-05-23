@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MWIncident_Blank.label>Неделя {0} {1}</MWIncident_Blank.label>
+  <MWIncident_Blank.description>Вы видите странные символы на небе. Возможно, они как-то влияют на вашу жизнь.</MWIncident_Blank.description>
+
+  <MWIncident_Alpha.label>Альфа</MWIncident_Alpha.label>
+  <MWIncident_Alpha.description>Я есть Начало...</MWIncident_Alpha.description>
+
+  <MWIncident_Omega.label>Омега</MWIncident_Omega.label>
+  <MWIncident_Omega.description>И Я есть Конец.</MWIncident_Omega.description>
+
+  <MWIncident_Sniper.label>Покровительство храма Виндикар</MWIncident_Sniper.label>
+  <MWIncident_Sniper.description>На этой планете было обьявлено о временном покровительстве храмом Виндикар</MWIncident_Sniper.description>
+
+  <MWIncident_Dakka.label>Неделя {0} дакки</MWIncident_Dakka.label>
+  <MWIncident_Dakka.description>ВАМ НЕ НУЖНО БЫТЬ ХОРОШИМ СТРЕЛКОМ! ПРОСТО ВЫПУСКАЙТЕ БОЛЬШЕ ПУЛЬ!</MWIncident_Dakka.description>
+
+  <MWIncident_SpaceBattle.label>Неделя падения металлолома</MWIncident_SpaceBattle.label>
+  <MWIncident_SpaceBattle.description>Кажется, гравитация притянула остатки большой космической битвы.</MWIncident_SpaceBattle.description>
+
+  <MWIncident_Strange.label>Неделя {0} странностей</MWIncident_Strange.label>
+  <MWIncident_Strange.description>Кажется, что-то странное происходит в вашей колонии.</MWIncident_Strange.description>
+
+  <MWIncident_Nevada.label>Неделя боевого безумия</MWIncident_Nevada.label>
+  <MWIncident_Nevada.description>Кажется, реальность сломалась.</MWIncident_Nevada.description>
+
+  <MWIncident_Drunk.label>Неделя {0} загула</MWIncident_Drunk.label>
+  <MWIncident_Drunk.description>Кажется, с вашими врагами что-то не так, но вы не можете сказать, что именно.</MWIncident_Drunk.description>
+
+  <MWIncident_Plague.label>Неделя {0} поветрия</MWIncident_Plague.label>
+  <MWIncident_Plague.description>Кажется, с вашими врагами что-то не так, но вы не можете сказать, что именно.</MWIncident_Plague.description>
+
+</LanguageData>

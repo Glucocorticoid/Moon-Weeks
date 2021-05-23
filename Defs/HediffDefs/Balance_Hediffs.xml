@@ -16,11 +16,11 @@
 	<!--Work-->
 	<HediffDef ParentName="MW_BalanceHediff">
 		<defName>MW_Work</defName>
-		<label>Work</label>
+		<label>Moon work effect</label>
 		<stages>
 			<li>
 				<minSeverity>1</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial boost</label>
 				<capMods>
 					<li>
 						<capacity>Manipulation</capacity>
@@ -31,7 +31,7 @@
 			</li>
 			<li>
 				<minSeverity>2</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor boost</label>
 				<capMods>
 					<li>
 						<capacity>Manipulation</capacity>
@@ -41,7 +41,7 @@
 			</li>
 			<li>
 				<minSeverity>3</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate boost</label>
 				<capMods>
 					<li>
 						<capacity>Manipulation</capacity>
@@ -51,7 +51,7 @@
 			</li>
 			<li>
 				<minSeverity>4</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major boost</label>
 				<capMods>
 					<li>
 						<capacity>Manipulation</capacity>
@@ -61,7 +61,7 @@
 			</li>
 			<li>
 				<minSeverity>5</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme boost</label>
 				<capMods>
 					<li>
 						<capacity>Manipulation</capacity>
@@ -71,7 +71,7 @@
 			</li>
 			<li>
 				<minSeverity>6</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial malice</label>
 				<capMods>
 					<li>
 						<capacity>Manipulation</capacity>
@@ -81,7 +81,7 @@
 			</li>
 			<li>
 				<minSeverity>7</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor malice</label>
 				<capMods>
 					<li>
 						<capacity>Manipulation</capacity>
@@ -91,7 +91,7 @@
 			</li>
 			<li>
 				<minSeverity>8</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate malice</label>
 				<capMods>
 					<li>
 						<capacity>Manipulation</capacity>
@@ -101,7 +101,7 @@
 			</li>
 			<li>
 				<minSeverity>9</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major malice</label>
 				<capMods>
 					<li>
 						<capacity>Manipulation</capacity>
@@ -111,7 +111,7 @@
 			</li>
 			<li>
 				<minSeverity>10</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme malice</label>
 				<capMods>
 					<li>
 						<capacity>Manipulation</capacity>
@@ -124,11 +124,11 @@
 	<!--Consciousness-->
 	<HediffDef ParentName="MW_BalanceHediff">
 		<defName>MW_Consciousness</defName>
-		<label>Consciousness</label>
+		<label>Lunar consciousness effect</label>
 		<stages>
 			<li>
 				<minSeverity>1</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial boost</label>
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
@@ -138,7 +138,7 @@
 			</li>
 			<li>
 				<minSeverity>2</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor boost</label>
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
@@ -148,7 +148,7 @@
 			</li>
 			<li>
 				<minSeverity>3</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate boost</label>
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
@@ -158,7 +158,7 @@
 			</li>
 			<li>
 				<minSeverity>4</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major boost</label>
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
@@ -168,7 +168,7 @@
 			</li>
 			<li>
 				<minSeverity>5</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme boost</label>
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
@@ -178,7 +178,7 @@
 			</li>
 			<li>
 				<minSeverity>6</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial malice</label>
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
@@ -188,7 +188,7 @@
 			</li>
 			<li>
 				<minSeverity>7</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor malice</label>
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
@@ -198,7 +198,7 @@
 			</li>
 			<li>
 				<minSeverity>8</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate malice</label>
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
@@ -208,7 +208,7 @@
 			</li>
 			<li>
 				<minSeverity>9</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major malice</label>
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
@@ -218,7 +218,7 @@
 			</li>
 			<li>
 				<minSeverity>10</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme malice</label>
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
@@ -231,11 +231,11 @@
 	<!--Sight-->
 	<HediffDef ParentName="MW_BalanceHediff">
 		<defName>MW_Sight</defName>
-		<label>Sight</label>
+		<label>Lunar sight effect</label>
 		<stages>
 			<li>
 				<minSeverity>1</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial boost</label>
 				<capMods>
 					<li>
 						<capacity>Sight</capacity>
@@ -245,7 +245,7 @@
 			</li>
 			<li>
 				<minSeverity>2</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor boost</label>
 				<capMods>
 					<li>
 						<capacity>Sight</capacity>
@@ -255,7 +255,7 @@
 			</li>
 			<li>
 				<minSeverity>3</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate boost</label>
 				<capMods>
 					<li>
 						<capacity>Sight</capacity>
@@ -265,7 +265,7 @@
 			</li>
 			<li>
 				<minSeverity>4</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major boost</label>
 				<capMods>
 					<li>
 						<capacity>Sight</capacity>
@@ -275,7 +275,7 @@
 			</li>
 			<li>
 				<minSeverity>5</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme boost</label>
 				<capMods>
 					<li>
 						<capacity>Sight</capacity>
@@ -285,7 +285,7 @@
 			</li>
 			<li>
 				<minSeverity>6</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial malice</label>
 				<capMods>
 					<li>
 						<capacity>Sight</capacity>
@@ -295,7 +295,7 @@
 			</li>
 			<li>
 				<minSeverity>7</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor malice</label>
 				<capMods>
 					<li>
 						<capacity>Sight</capacity>
@@ -305,7 +305,7 @@
 			</li>
 			<li>
 				<minSeverity>8</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate malice</label>
 				<capMods>
 					<li>
 						<capacity>Sight</capacity>
@@ -315,7 +315,7 @@
 			</li>
 			<li>
 				<minSeverity>9</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major malice</label>
 				<capMods>
 					<li>
 						<capacity>Sight</capacity>
@@ -325,7 +325,7 @@
 			</li>
 			<li>
 				<minSeverity>10</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme malice</label>
 				<capMods>
 					<li>
 						<capacity>Sight</capacity>
@@ -338,11 +338,11 @@
 	<!--Breathing-->
 	<HediffDef ParentName="MW_BalanceHediff">
 		<defName>MW_Breathing</defName>
-		<label>Breathing</label>
+		<label>Lunar breathing effect</label>
 		<stages>
 			<li>
 				<minSeverity>1</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial boost</label>
 				<capMods>
 					<li>
 						<capacity>Breathing</capacity>
@@ -352,7 +352,7 @@
 			</li>
 			<li>
 				<minSeverity>2</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor boost</label>
 				<capMods>
 					<li>
 						<capacity>Breathing</capacity>
@@ -362,7 +362,7 @@
 			</li>
 			<li>
 				<minSeverity>3</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate boost</label>
 				<capMods>
 					<li>
 						<capacity>Breathing</capacity>
@@ -372,7 +372,7 @@
 			</li>
 			<li>
 				<minSeverity>4</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major boost</label>
 				<capMods>
 					<li>
 						<capacity>Breathing</capacity>
@@ -382,7 +382,7 @@
 			</li>
 			<li>
 				<minSeverity>5</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme boost</label>
 				<capMods>
 					<li>
 						<capacity>Breathing</capacity>
@@ -392,7 +392,7 @@
 			</li>
 			<li>
 				<minSeverity>6</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial malice</label>
 				<capMods>
 					<li>
 						<capacity>Breathing</capacity>
@@ -402,7 +402,7 @@
 			</li>
 			<li>
 				<minSeverity>7</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor malice</label>
 				<capMods>
 					<li>
 						<capacity>Breathing</capacity>
@@ -412,7 +412,7 @@
 			</li>
 			<li>
 				<minSeverity>8</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate malice</label>
 				<capMods>
 					<li>
 						<capacity>Breathing</capacity>
@@ -422,7 +422,7 @@
 			</li>
 			<li>
 				<minSeverity>9</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major malice</label>
 				<capMods>
 					<li>
 						<capacity>Breathing</capacity>
@@ -432,7 +432,7 @@
 			</li>
 			<li>
 				<minSeverity>10</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme malice</label>
 				<capMods>
 					<li>
 						<capacity>Breathing</capacity>
@@ -445,11 +445,11 @@
 	<!--BloodFiltration-->
 	<HediffDef ParentName="MW_BalanceHediff">
 		<defName>MW_Filtr</defName>
-		<label>Filtr</label>
+		<label>Lunar filtration effect</label>
 		<stages>
 			<li>
 				<minSeverity>1</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial boost</label>
 				<capMods>
 					<li>
 						<capacity>BloodFiltration</capacity>
@@ -459,7 +459,7 @@
 			</li>
 			<li>
 				<minSeverity>2</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor boost</label>
 				<capMods>
 					<li>
 						<capacity>BloodFiltration</capacity>
@@ -469,7 +469,7 @@
 			</li>
 			<li>
 				<minSeverity>3</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate boost</label>
 				<capMods>
 					<li>
 						<capacity>BloodFiltration</capacity>
@@ -479,7 +479,7 @@
 			</li>
 			<li>
 				<minSeverity>4</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major boost</label>
 				<capMods>
 					<li>
 						<capacity>BloodFiltration</capacity>
@@ -489,7 +489,7 @@
 			</li>
 			<li>
 				<minSeverity>5</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme boost</label>
 				<capMods>
 					<li>
 						<capacity>BloodFiltration</capacity>
@@ -499,7 +499,7 @@
 			</li>
 			<li>
 				<minSeverity>6</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial malice</label>
 				<capMods>
 					<li>
 						<capacity>BloodFiltration</capacity>
@@ -509,7 +509,7 @@
 			</li>
 			<li>
 				<minSeverity>7</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor malice</label>
 				<capMods>
 					<li>
 						<capacity>BloodFiltration</capacity>
@@ -519,7 +519,7 @@
 			</li>
 			<li>
 				<minSeverity>8</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate malice</label>
 				<capMods>
 					<li>
 						<capacity>BloodFiltration</capacity>
@@ -529,7 +529,7 @@
 			</li>
 			<li>
 				<minSeverity>9</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major malice</label>
 				<capMods>
 					<li>
 						<capacity>BloodFiltration</capacity>
@@ -539,7 +539,7 @@
 			</li>
 			<li>
 				<minSeverity>10</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme malice</label>
 				<capMods>
 					<li>
 						<capacity>BloodFiltration</capacity>
@@ -552,11 +552,11 @@
 	<!--BloodPumping-->
 	<HediffDef ParentName="MW_BalanceHediff">
 		<defName>MW_Pump</defName>
-		<label>Pump</label>
+		<label>Lunar blood pump effect</label>
 		<stages>
 			<li>
 				<minSeverity>1</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial boost</label>
 				<capMods>
 					<li>
 						<capacity>BloodPumping</capacity>
@@ -566,7 +566,7 @@
 			</li>
 			<li>
 				<minSeverity>2</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor boost</label>
 				<capMods>
 					<li>
 						<capacity>BloodPumping</capacity>
@@ -576,7 +576,7 @@
 			</li>
 			<li>
 				<minSeverity>3</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate boost</label>
 				<capMods>
 					<li>
 						<capacity>BloodPumping</capacity>
@@ -586,7 +586,7 @@
 			</li>
 			<li>
 				<minSeverity>4</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major boost</label>
 				<capMods>
 					<li>
 						<capacity>BloodPumping</capacity>
@@ -596,7 +596,7 @@
 			</li>
 			<li>
 				<minSeverity>5</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme boost</label>
 				<capMods>
 					<li>
 						<capacity>BloodPumping</capacity>
@@ -606,7 +606,7 @@
 			</li>
 			<li>
 				<minSeverity>6</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial malice</label>
 				<capMods>
 					<li>
 						<capacity>BloodPumping</capacity>
@@ -616,7 +616,7 @@
 			</li>
 			<li>
 				<minSeverity>7</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor malice</label>
 				<capMods>
 					<li>
 						<capacity>BloodPumping</capacity>
@@ -626,7 +626,7 @@
 			</li>
 			<li>
 				<minSeverity>8</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate malice</label>
 				<capMods>
 					<li>
 						<capacity>BloodPumping</capacity>
@@ -636,7 +636,7 @@
 			</li>
 			<li>
 				<minSeverity>9</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major malice</label>
 				<capMods>
 					<li>
 						<capacity>BloodPumping</capacity>
@@ -646,7 +646,7 @@
 			</li>
 			<li>
 				<minSeverity>10</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme malice</label>
 				<capMods>
 					<li>
 						<capacity>BloodPumping</capacity>
@@ -659,11 +659,11 @@
 	<!--Metabolism-->
 	<HediffDef ParentName="MW_BalanceHediff">
 		<defName>MW_Metabolism</defName>
-		<label>Metabolism</label>
+		<label>Lunar metabolism effect</label>
 		<stages>
 			<li>
 				<minSeverity>1</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial boost</label>
 				<capMods>
 					<li>
 						<capacity>Metabolism</capacity>
@@ -673,7 +673,7 @@
 			</li>
 			<li>
 				<minSeverity>2</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor boost</label>
 				<capMods>
 					<li>
 						<capacity>Metabolism</capacity>
@@ -683,7 +683,7 @@
 			</li>
 			<li>
 				<minSeverity>3</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate boost</label>
 				<capMods>
 					<li>
 						<capacity>Metabolism</capacity>
@@ -693,7 +693,7 @@
 			</li>
 			<li>
 				<minSeverity>4</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major boost</label>
 				<capMods>
 					<li>
 						<capacity>Metabolism</capacity>
@@ -703,7 +703,7 @@
 			</li>
 			<li>
 				<minSeverity>5</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme boost</label>
 				<capMods>
 					<li>
 						<capacity>Metabolism</capacity>
@@ -713,7 +713,7 @@
 			</li>
 			<li>
 				<minSeverity>6</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial malice</label>
 				<capMods>
 					<li>
 						<capacity>Metabolism</capacity>
@@ -723,7 +723,7 @@
 			</li>
 			<li>
 				<minSeverity>7</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor malice</label>
 				<capMods>
 					<li>
 						<capacity>Metabolism</capacity>
@@ -733,7 +733,7 @@
 			</li>
 			<li>
 				<minSeverity>8</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate malice</label>
 				<capMods>
 					<li>
 						<capacity>Metabolism</capacity>
@@ -743,7 +743,7 @@
 			</li>
 			<li>
 				<minSeverity>9</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major malice</label>
 				<capMods>
 					<li>
 						<capacity>Metabolism</capacity>
@@ -753,7 +753,7 @@
 			</li>
 			<li>
 				<minSeverity>10</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme malice</label>
 				<capMods>
 					<li>
 						<capacity>Metabolism</capacity>
@@ -766,11 +766,11 @@
 	<!--Rest-->
 	<HediffDef ParentName="MW_BalanceHediff">
 		<defName>MW_Rest</defName>
-		<label>Rest</label>
+		<label>Lunar rest effect</label>
 		<stages>
 			<li>
 				<minSeverity>1</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial boost</label>
 				<statOffsets>
 					<RestRateMultiplier>0.1</RestRateMultiplier>
 					<!--too big-->
@@ -778,63 +778,63 @@
 			</li>
 			<li>
 				<minSeverity>2</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor boost</label>
 				<statOffsets>
 					<RestRateMultiplier>0.15</RestRateMultiplier>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>3</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate boost</label>
 				<statOffsets>
 					<RestRateMultiplier>0.25</RestRateMultiplier>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>4</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major boost</label>
 				<statOffsets>
 					<RestRateMultiplier>0.3</RestRateMultiplier>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>5</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme boost</label>
 				<statOffsets>
 					<RestRateMultiplier>0.4</RestRateMultiplier>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>6</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial malice</label>
 				<statOffsets>
 					<RestRateMultiplier>-0.05</RestRateMultiplier>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>7</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor malice</label>
 				<statOffsets>
 					<RestRateMultiplier>-0.1</RestRateMultiplier>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>8</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate malice</label>
 				<statOffsets>
 					<RestRateMultiplier>-0.15</RestRateMultiplier>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>9</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major malice</label>
 				<statOffsets>
 					<RestRateMultiplier>-0.2</RestRateMultiplier>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>10</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme malice</label>
 				<statOffsets>
 					<RestRateMultiplier>-0.25</RestRateMultiplier>
 				</statOffsets>
@@ -844,56 +844,56 @@
 	<!--Food-->
 	<HediffDef ParentName="MW_BalanceHediff">
 		<defName>MW_Food</defName>
-		<label>Food</label>
+		<label>Lunar digestion effect</label>
 		<stages>
 			<li>
 				<minSeverity>1</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial boost</label>
 				<hungerRateFactorOffset>-0.1</hungerRateFactorOffset>
 			</li>
 			<li>
 				<minSeverity>2</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor boost</label>
 				<hungerRateFactorOffset>-0.15</hungerRateFactorOffset>
 			</li>
 			<li>
 				<minSeverity>3</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate boost</label>
 				<hungerRateFactorOffset>-0.25</hungerRateFactorOffset>
 			</li>
 			<li>
 				<minSeverity>4</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major boost</label>
 				<hungerRateFactorOffset>-0.3</hungerRateFactorOffset>
 			</li>
 			<li>
 				<minSeverity>5</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme boost</label>
 				<hungerRateFactorOffset>-0.4</hungerRateFactorOffset>
 			</li>
 			<li>
 				<minSeverity>6</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial malice</label>
 				<hungerRateFactorOffset>0.05</hungerRateFactorOffset>
 			</li>
 			<li>
 				<minSeverity>7</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor malice</label>
 				<hungerRateFactorOffset>0.1</hungerRateFactorOffset>
 			</li>
 			<li>
 				<minSeverity>8</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate malice</label>
 				<hungerRateFactorOffset>0.15</hungerRateFactorOffset>
 			</li>
 			<li>
 				<minSeverity>9</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major malice</label>
 				<hungerRateFactorOffset>0.2</hungerRateFactorOffset>
 			</li>
 			<li>
 				<minSeverity>10</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme malice</label>
 				<hungerRateFactorOffset>0.25</hungerRateFactorOffset>
 			</li>
 		</stages>
@@ -901,11 +901,11 @@
 	<!--Move-->
 	<HediffDef ParentName="MW_BalanceHediff">
 		<defName>MW_Move</defName>
-		<label>Move</label>
+		<label>Lunar move effect</label>
 		<stages>
 			<li>
 				<minSeverity>1</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial boost</label>
 				<capMods>
 					<li>
 						<capacity>Moving</capacity>
@@ -915,7 +915,7 @@
 			</li>
 			<li>
 				<minSeverity>2</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor boost</label>
 				<capMods>
 					<li>
 						<capacity>Moving</capacity>
@@ -925,7 +925,7 @@
 			</li>
 			<li>
 				<minSeverity>3</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate boost</label>
 				<capMods>
 					<li>
 						<capacity>Moving</capacity>
@@ -935,7 +935,7 @@
 			</li>
 			<li>
 				<minSeverity>4</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major boost</label>
 				<capMods>
 					<li>
 						<capacity>Moving</capacity>
@@ -945,7 +945,7 @@
 			</li>
 			<li>
 				<minSeverity>5</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme boost</label>
 				<capMods>
 					<li>
 						<capacity>Moving</capacity>
@@ -955,7 +955,7 @@
 			</li>
 			<li>
 				<minSeverity>6</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial malice</label>
 				<capMods>
 					<li>
 						<capacity>Moving</capacity>
@@ -965,7 +965,7 @@
 			</li>
 			<li>
 				<minSeverity>7</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor malice</label>
 				<capMods>
 					<li>
 						<capacity>Moving</capacity>
@@ -975,7 +975,7 @@
 			</li>
 			<li>
 				<minSeverity>8</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate malice</label>
 				<capMods>
 					<li>
 						<capacity>Moving</capacity>
@@ -985,7 +985,7 @@
 			</li>
 			<li>
 				<minSeverity>9</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major malice</label>
 				<capMods>
 					<li>
 						<capacity>Moving</capacity>
@@ -995,7 +995,7 @@
 			</li>
 			<li>
 				<minSeverity>10</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme malice</label>
 				<capMods>
 					<li>
 						<capacity>Moving</capacity>
@@ -1008,11 +1008,11 @@
 	<!--Regeneration-->
 	<HediffDef ParentName="MW_BalanceHediff">
 		<defName>MW_Regeneration</defName>
-		<label>Regeneration</label>
+		<label>Lunar regeneration effect</label>
 		<stages>
 			<li>
 				<minSeverity>1</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial boost</label>
 				<statOffsets>
 					<ImmunityGainSpeed>0.1</ImmunityGainSpeed>
 				</statOffsets>
@@ -1021,7 +1021,7 @@
 			</li>
 			<li>
 				<minSeverity>2</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor boost</label>
 				<statOffsets>
 					<ImmunityGainSpeed>0.15</ImmunityGainSpeed>
 				</statOffsets>
@@ -1030,7 +1030,7 @@
 			</li>
 			<li>
 				<minSeverity>3</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate boost</label>
 				<statOffsets>
 					<ImmunityGainSpeed>0.25</ImmunityGainSpeed>
 				</statOffsets>
@@ -1039,7 +1039,7 @@
 			</li>
 			<li>
 				<minSeverity>4</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major boost</label>
 				<statOffsets>
 					<ImmunityGainSpeed>0.3</ImmunityGainSpeed>
 				</statOffsets>
@@ -1048,7 +1048,7 @@
 			</li>
 			<li>
 				<minSeverity>5</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme boost</label>
 				<statOffsets>
 					<ImmunityGainSpeed>0.4</ImmunityGainSpeed>
 				</statOffsets>
@@ -1057,7 +1057,7 @@
 			</li>
 			<li>
 				<minSeverity>6</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial malice</label>
 				<statOffsets>
 					<ImmunityGainSpeed>-0.05</ImmunityGainSpeed>
 				</statOffsets>
@@ -1066,7 +1066,7 @@
 			</li>
 			<li>
 				<minSeverity>7</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor malice</label>
 				<statOffsets>
 					<ImmunityGainSpeed>-0.1</ImmunityGainSpeed>
 				</statOffsets>
@@ -1075,7 +1075,7 @@
 			</li>
 			<li>
 				<minSeverity>8</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate malice</label>
 				<statOffsets>
 					<ImmunityGainSpeed>-0.15</ImmunityGainSpeed>
 				</statOffsets>
@@ -1084,7 +1084,7 @@
 			</li>
 			<li>
 				<minSeverity>9</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major malice</label>
 				<statOffsets>
 					<ImmunityGainSpeed>-0.2</ImmunityGainSpeed>
 				</statOffsets>
@@ -1093,7 +1093,7 @@
 			</li>
 			<li>
 				<minSeverity>10</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme malice</label>
 				<statOffsets>
 					<ImmunityGainSpeed>-0.25</ImmunityGainSpeed>
 				</statOffsets>
@@ -1105,74 +1105,74 @@
 	<!--Research-->
 	<HediffDef ParentName="MW_BalanceHediff">
 		<defName>MW_Research</defName>
-		<label>Research</label>
+		<label>Lunar research effect</label>
 		<stages>
 			<li>
 				<minSeverity>1</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial boost</label>
 				<statOffsets>
 					<ResearchSpeed>0.1</ResearchSpeed>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>2</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor boost</label>
 				<statOffsets>
 					<ResearchSpeed>0.15</ResearchSpeed>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>3</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate boost</label>
 				<statOffsets>
 					<ResearchSpeed>0.25</ResearchSpeed>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>4</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major boost</label>
 				<statOffsets>
 					<ResearchSpeed>0.3</ResearchSpeed>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>5</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme boost</label>
 				<statOffsets>
 					<ResearchSpeed>0.4</ResearchSpeed>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>6</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial malice</label>
 				<statOffsets>
 					<ResearchSpeed>-0.05</ResearchSpeed>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>7</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor malice</label>
 				<statOffsets>
 					<ResearchSpeed>-0.1</ResearchSpeed>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>8</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate malice</label>
 				<statOffsets>
 					<ResearchSpeed>-0.15</ResearchSpeed>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>9</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major malice</label>
 				<statOffsets>
 					<ResearchSpeed>-0.2</ResearchSpeed>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>10</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme malice</label>
 				<statOffsets>
 					<ResearchSpeed>-0.25</ResearchSpeed>
 				</statOffsets>
@@ -1182,74 +1182,74 @@
 	<!--Learning-->
 	<HediffDef ParentName="MW_BalanceHediff">
 		<defName>MW_Learning</defName>
-		<label>Learning</label>
+		<label>Lunar learning effect</label>
 		<stages>
 			<li>
 				<minSeverity>1</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial boost</label>
 				<statOffsets>
 					<GlobalLearningFactor>0.1</GlobalLearningFactor>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>2</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor boost</label>
 				<statOffsets>
 					<GlobalLearningFactor>0.15</GlobalLearningFactor>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>3</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate boost</label>
 				<statOffsets>
 					<GlobalLearningFactor>0.25</GlobalLearningFactor>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>4</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major boost</label>
 				<statOffsets>
 					<GlobalLearningFactor>0.3</GlobalLearningFactor>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>5</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme boost</label>
 				<statOffsets>
 					<GlobalLearningFactor>0.4</GlobalLearningFactor>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>6</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial malice</label>
 				<statOffsets>
 					<GlobalLearningFactor>-0.05</GlobalLearningFactor>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>7</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor malice</label>
 				<statOffsets>
 					<GlobalLearningFactor>-0.1</GlobalLearningFactor>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>8</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate malice</label>
 				<statOffsets>
 					<GlobalLearningFactor>-0.15</GlobalLearningFactor>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>9</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major malice</label>
 				<statOffsets>
 					<GlobalLearningFactor>-0.2</GlobalLearningFactor>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>10</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme malice</label>
 				<statOffsets>
 					<GlobalLearningFactor>-0.25</GlobalLearningFactor>
 				</statOffsets>
@@ -1259,11 +1259,11 @@
 	<!--Cook-->
 	<HediffDef ParentName="MW_BalanceHediff">
 		<defName>MW_Cook</defName>
-		<label>Cook</label>
+		<label>Lunar cook effect</label>
 		<stages>
 			<li>
 				<minSeverity>1</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial boost</label>
 				<statOffsets>
 					<CookSpeed>1</CookSpeed>
 					<!--not a percent but a number, 1 poimt same as 1 cook lvl-->
@@ -1279,7 +1279,7 @@
 			</li>
 			<li>
 				<minSeverity>2</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor boost</label>
 				<statOffsets>
 					<CookSpeed>1</CookSpeed>
 					<FoodPoisonChance>-0.15</FoodPoisonChance>
@@ -1292,7 +1292,7 @@
 			</li>
 			<li>
 				<minSeverity>3</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate boost</label>
 				<statOffsets>
 					<CookSpeed>2</CookSpeed>
 					<FoodPoisonChance>-0.25</FoodPoisonChance>
@@ -1305,7 +1305,7 @@
 			</li>
 			<li>
 				<minSeverity>4</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major boost</label>
 				<statOffsets>
 					<CookSpeed>2</CookSpeed>
 					<FoodPoisonChance>-0.3</FoodPoisonChance>
@@ -1318,7 +1318,7 @@
 			</li>
 			<li>
 				<minSeverity>5</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme boost</label>
 				<statOffsets>
 					<CookSpeed>3</CookSpeed>
 					<FoodPoisonChance>-0.4</FoodPoisonChance>
@@ -1331,7 +1331,7 @@
 			</li>
 			<li>
 				<minSeverity>6</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial malice</label>
 				<statOffsets>
 					<FoodPoisonChance>0.05</FoodPoisonChance>
 					<DrugCookingSpeed>-0.05</DrugCookingSpeed>
@@ -1343,7 +1343,7 @@
 			</li>
 			<li>
 				<minSeverity>7</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor malice</label>
 				<statOffsets>
 					<CookSpeed>-1</CookSpeed>
 					<FoodPoisonChance>0.1</FoodPoisonChance>
@@ -1356,7 +1356,7 @@
 			</li>
 			<li>
 				<minSeverity>8</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate malice</label>
 				<statOffsets>
 					<CookSpeed>-1</CookSpeed>
 					<FoodPoisonChance>0.15</FoodPoisonChance>
@@ -1369,7 +1369,7 @@
 			</li>
 			<li>
 				<minSeverity>9</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major malice</label>
 				<statOffsets>
 					<CookSpeed>-1</CookSpeed>
 					<FoodPoisonChance>0.2</FoodPoisonChance>
@@ -1382,7 +1382,7 @@
 			</li>
 			<li>
 				<minSeverity>10</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme malice</label>
 				<statOffsets>
 					<CookSpeed>-2</CookSpeed>
 					<FoodPoisonChance>0.25</FoodPoisonChance>
@@ -1398,125 +1398,105 @@
 	<!--Mining-->
 	<HediffDef ParentName="MW_BalanceHediff">
 		<defName>MW_Mining</defName>
-		<label>Mining</label>
+		<label>Lunar mining effect</label>
 		<stages>
 			<li>
 				<minSeverity>1</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial boost</label>
 				<statOffsets>
 					<MiningSpeed>0.1</MiningSpeed>
 					<DeepDrillingSpeed>0.1</DeepDrillingSpeed>
 					<MiningYield>0.1</MiningYield>
-					<DiggingSpeed>0.1</DiggingSpeed>
-					<MiningYieldDigging>0.1</MiningYieldDigging>
 					<CollectingSpeed>0.1</CollectingSpeed>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>2</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor boost</label>
 				<statOffsets>
 					<MiningSpeed>0.15</MiningSpeed>
 					<DeepDrillingSpeed>0.15</DeepDrillingSpeed>
 					<MiningYield>0.15</MiningYield>
-					<DiggingSpeed>0.15</DiggingSpeed>
-					<MiningYieldDigging>0.15</MiningYieldDigging>
 					<CollectingSpeed>0.15</CollectingSpeed>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>3</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate boost</label>
 				<statOffsets>
 					<MiningSpeed>0.25</MiningSpeed>
 					<DeepDrillingSpeed>0.25</DeepDrillingSpeed>
 					<MiningYield>0.25</MiningYield>
-					<DiggingSpeed>0.25</DiggingSpeed>
-					<MiningYieldDigging>0.25</MiningYieldDigging>
 					<CollectingSpeed>0.25</CollectingSpeed>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>4</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major boost</label>
 				<statOffsets>
 					<MiningSpeed>0.3</MiningSpeed>
 					<DeepDrillingSpeed>0.3</DeepDrillingSpeed>
 					<MiningYield>0.3</MiningYield>
-					<DiggingSpeed>0.3</DiggingSpeed>
-					<MiningYieldDigging>0.3</MiningYieldDigging>
 					<CollectingSpeed>0.3</CollectingSpeed>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>5</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme boost</label>
 				<statOffsets>
 					<MiningSpeed>0.4</MiningSpeed>
 					<DeepDrillingSpeed>0.4</DeepDrillingSpeed>
 					<MiningYield>0.4</MiningYield>
-					<DiggingSpeed>0.4</DiggingSpeed>
-					<MiningYieldDigging>0.4</MiningYieldDigging>
 					<CollectingSpeed>0.4</CollectingSpeed>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>6</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial malice</label>
 				<statOffsets>
 					<MiningSpeed>-0.05</MiningSpeed>
 					<DeepDrillingSpeed>-0.05</DeepDrillingSpeed>
 					<MiningYield>-0.05</MiningYield>
-					<DiggingSpeed>-0.05</DiggingSpeed>
-					<MiningYieldDigging>-0.05</MiningYieldDigging>
 					<CollectingSpeed>-0.05</CollectingSpeed>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>7</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor malice</label>
 				<statOffsets>
 					<MiningSpeed>-0.1</MiningSpeed>
 					<DeepDrillingSpeed>-0.1</DeepDrillingSpeed>
 					<MiningYield>-0.1</MiningYield>
-					<DiggingSpeed>-0.1</DiggingSpeed>
-					<MiningYieldDigging>-0.1</MiningYieldDigging>
 					<CollectingSpeed>-0.1</CollectingSpeed>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>8</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate malice</label>
 				<statOffsets>
 					<MiningSpeed>-0.15</MiningSpeed>
 					<DeepDrillingSpeed>-0.15</DeepDrillingSpeed>
 					<MiningYield>-0.15</MiningYield>
-					<DiggingSpeed>-0.15</DiggingSpeed>
-					<MiningYieldDigging>-0.15</MiningYieldDigging>
 					<CollectingSpeed>-0.15</CollectingSpeed>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>9</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major malice</label>
 				<statOffsets>
 					<MiningSpeed>-0.2</MiningSpeed>
 					<DeepDrillingSpeed>-0.2</DeepDrillingSpeed>
 					<MiningYield>-0.2</MiningYield>
-					<DiggingSpeed>-0.2</DiggingSpeed>
-					<MiningYieldDigging>-0.2</MiningYieldDigging>
 					<CollectingSpeed>-0.2</CollectingSpeed>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>10</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme malice</label>
 				<statOffsets>
 					<MiningSpeed>-0.25</MiningSpeed>
 					<DeepDrillingSpeed>-0.25</DeepDrillingSpeed>
 					<MiningYield>-0.25</MiningYield>
-					<DiggingSpeed>-0.25</DiggingSpeed>
-					<MiningYieldDigging>-0.25</MiningYieldDigging>
 					<CollectingSpeed>-0.25</CollectingSpeed>
 				</statOffsets>
 			</li>
@@ -1525,15 +1505,12 @@
 	<!--Farming-->
 	<HediffDef ParentName="MW_BalanceHediff">
 		<defName>MW_Farming</defName>
-		<label>Farming</label>
+		<label>Lunar farming effect</label>
 		<stages>
 			<li>
 				<minSeverity>1</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial boost</label>
 				<statOffsets>
-					<PlantHarvestingSpeed>0.1</PlantHarvestingSpeed>
-					<PlantSowingSpeed>0.1</PlantSowingSpeed>
-					<TreeFellingSpeed>0.1</TreeFellingSpeed>
 					<PlantWorkSpeed>0.1</PlantWorkSpeed>
 					<PlantHarvestYield>0.1</PlantHarvestYield>
 					<AnimalGatherSpeed>0.1</AnimalGatherSpeed>
@@ -1544,11 +1521,8 @@
 			</li>
 			<li>
 				<minSeverity>2</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor boost</label>
 				<statOffsets>
-					<PlantHarvestingSpeed>0.15</PlantHarvestingSpeed>
-					<PlantSowingSpeed>0.15</PlantSowingSpeed>
-					<TreeFellingSpeed>0.15</TreeFellingSpeed>
 					<PlantWorkSpeed>0.15</PlantWorkSpeed>
 					<PlantHarvestYield>0.15</PlantHarvestYield>
 					<AnimalGatherSpeed>0.15</AnimalGatherSpeed>
@@ -1559,11 +1533,8 @@
 			</li>
 			<li>
 				<minSeverity>3</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate boost</label>
 				<statOffsets>
-					<PlantHarvestingSpeed>0.25</PlantHarvestingSpeed>
-					<PlantSowingSpeed>0.25</PlantSowingSpeed>
-					<TreeFellingSpeed>0.25</TreeFellingSpeed>
 					<PlantWorkSpeed>0.25</PlantWorkSpeed>
 					<PlantHarvestYield>0.25</PlantHarvestYield>
 					<AnimalGatherSpeed>0.25</AnimalGatherSpeed>
@@ -1574,11 +1545,8 @@
 			</li>
 			<li>
 				<minSeverity>4</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major boost</label>
 				<statOffsets>
-					<PlantHarvestingSpeed>0.3</PlantHarvestingSpeed>
-					<PlantSowingSpeed>0.3</PlantSowingSpeed>
-					<TreeFellingSpeed>0.3</TreeFellingSpeed>
 					<PlantWorkSpeed>0.3</PlantWorkSpeed>
 					<PlantHarvestYield>0.3</PlantHarvestYield>
 					<AnimalGatherSpeed>0.3</AnimalGatherSpeed>
@@ -1589,11 +1557,8 @@
 			</li>
 			<li>
 				<minSeverity>5</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme boost</label>
 				<statOffsets>
-					<PlantHarvestingSpeed>0.4</PlantHarvestingSpeed>
-					<PlantSowingSpeed>0.4</PlantSowingSpeed>
-					<TreeFellingSpeed>0.4</TreeFellingSpeed>
 					<PlantWorkSpeed>0.4</PlantWorkSpeed>
 					<PlantHarvestYield>0.4</PlantHarvestYield>
 					<AnimalGatherSpeed>0.4</AnimalGatherSpeed>
@@ -1604,11 +1569,8 @@
 			</li>
 			<li>
 				<minSeverity>6</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial malice</label>
 				<statOffsets>
-					<PlantHarvestingSpeed>-0.05</PlantHarvestingSpeed>
-					<PlantSowingSpeed>-0.05</PlantSowingSpeed>
-					<TreeFellingSpeed>-0.05</TreeFellingSpeed>
 					<PlantWorkSpeed>-0.05</PlantWorkSpeed>
 					<PlantHarvestYield>-0.05</PlantHarvestYield>
 					<AnimalGatherSpeed>-0.05</AnimalGatherSpeed>
@@ -1619,11 +1581,8 @@
 			</li>
 			<li>
 				<minSeverity>7</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor malice</label>
 				<statOffsets>
-					<PlantHarvestingSpeed>-0.1</PlantHarvestingSpeed>
-					<PlantSowingSpeed>-0.1</PlantSowingSpeed>
-					<TreeFellingSpeed>-0.1</TreeFellingSpeed>
 					<PlantWorkSpeed>-0.1</PlantWorkSpeed>
 					<PlantHarvestYield>-0.1</PlantHarvestYield>
 					<AnimalGatherSpeed>-0.1</AnimalGatherSpeed>
@@ -1634,11 +1593,8 @@
 			</li>
 			<li>
 				<minSeverity>8</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate malice</label>
 				<statOffsets>
-					<PlantHarvestingSpeed>-0.15</PlantHarvestingSpeed>
-					<PlantSowingSpeed>-0.15</PlantSowingSpeed>
-					<TreeFellingSpeed>-0.15</TreeFellingSpeed>
 					<PlantWorkSpeed>-0.15</PlantWorkSpeed>
 					<PlantHarvestYield>-0.15</PlantHarvestYield>
 					<AnimalGatherSpeed>-0.15</AnimalGatherSpeed>
@@ -1649,11 +1605,8 @@
 			</li>
 			<li>
 				<minSeverity>9</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major malice</label>
 				<statOffsets>
-					<PlantHarvestingSpeed>-0.2</PlantHarvestingSpeed>
-					<PlantSowingSpeed>-0.2</PlantSowingSpeed>
-					<TreeFellingSpeed>-0.2</TreeFellingSpeed>
 					<PlantWorkSpeed>-0.2</PlantWorkSpeed>
 					<PlantHarvestYield>-0.2</PlantHarvestYield>
 					<AnimalGatherSpeed>-0.2</AnimalGatherSpeed>
@@ -1664,11 +1617,8 @@
 			</li>
 			<li>
 				<minSeverity>10</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme malice</label>
 				<statOffsets>
-					<PlantHarvestingSpeed>-0.25</PlantHarvestingSpeed>
-					<PlantSowingSpeed>-0.25</PlantSowingSpeed>
-					<TreeFellingSpeed>-0.25</TreeFellingSpeed>
 					<PlantWorkSpeed>-0.25</PlantWorkSpeed>
 					<PlantHarvestYield>-0.25</PlantHarvestYield>
 					<AnimalGatherSpeed>-0.25</AnimalGatherSpeed>
@@ -1682,11 +1632,11 @@
 	<!--Medic-->
 	<HediffDef ParentName="MW_BalanceHediff">
 		<defName>MW_Medic</defName>
-		<label>Medic</label>
+		<label>Lunar medic effect</label>
 		<stages>
 			<li>
 				<minSeverity>1</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial boost</label>
 				<statOffsets>
 					<MedicalTendSpeed>0.1</MedicalTendSpeed>
 					<MedicalTendQuality>0.1</MedicalTendQuality>
@@ -1696,7 +1646,7 @@
 			</li>
 			<li>
 				<minSeverity>2</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor boost</label>
 				<statOffsets>
 					<MedicalTendSpeed>0.15</MedicalTendSpeed>
 					<MedicalTendQuality>0.15</MedicalTendQuality>
@@ -1706,7 +1656,7 @@
 			</li>
 			<li>
 				<minSeverity>3</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate boost</label>
 				<statOffsets>
 					<MedicalTendSpeed>0.25</MedicalTendSpeed>
 					<MedicalTendQuality>0.25</MedicalTendQuality>
@@ -1716,7 +1666,7 @@
 			</li>
 			<li>
 				<minSeverity>4</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major boost</label>
 				<statOffsets>
 					<MedicalTendSpeed>0.3</MedicalTendSpeed>
 					<MedicalTendQuality>0.3</MedicalTendQuality>
@@ -1726,7 +1676,7 @@
 			</li>
 			<li>
 				<minSeverity>5</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme boost</label>
 				<statOffsets>
 					<MedicalTendSpeed>0.4</MedicalTendSpeed>
 					<MedicalTendQuality>0.4</MedicalTendQuality>
@@ -1736,7 +1686,7 @@
 			</li>
 			<li>
 				<minSeverity>6</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial malice</label>
 				<statOffsets>
 					<MedicalTendSpeed>-0.05</MedicalTendSpeed>
 					<MedicalTendQuality>-0.05</MedicalTendQuality>
@@ -1746,7 +1696,7 @@
 			</li>
 			<li>
 				<minSeverity>7</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor malice</label>
 				<statOffsets>
 					<MedicalTendSpeed>-0.1</MedicalTendSpeed>
 					<MedicalTendQuality>-0.1</MedicalTendQuality>
@@ -1756,7 +1706,7 @@
 			</li>
 			<li>
 				<minSeverity>8</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate malice</label>
 				<statOffsets>
 					<MedicalTendSpeed>-0.15</MedicalTendSpeed>
 					<MedicalTendQuality>-0.15</MedicalTendQuality>
@@ -1766,7 +1716,7 @@
 			</li>
 			<li>
 				<minSeverity>9</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major malice</label>
 				<statOffsets>
 					<MedicalTendSpeed>-0.2</MedicalTendSpeed>
 					<MedicalTendQuality>-0.2</MedicalTendQuality>
@@ -1776,7 +1726,7 @@
 			</li>
 			<li>
 				<minSeverity>10</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme malice</label>
 				<statOffsets>
 					<MedicalTendSpeed>-0.25</MedicalTendSpeed>
 					<MedicalTendQuality>-0.25</MedicalTendQuality>
@@ -1789,11 +1739,11 @@
 	<!--Builder-->
 	<HediffDef ParentName="MW_BalanceHediff">
 		<defName>MW_Builder</defName>
-		<label>Builder</label>
+		<label>Lunar builder effect</label>
 		<stages>
 			<li>
 				<minSeverity>1</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial boost</label>
 				<statOffsets>
 					<SmoothingSpeed>0.1</SmoothingSpeed>
 					<ConstructionSpeed>0.1</ConstructionSpeed>
@@ -1802,7 +1752,7 @@
 			</li>
 			<li>
 				<minSeverity>2</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor boost</label>
 				<statOffsets>
 					<SmoothingSpeed>0.15</SmoothingSpeed>
 					<ConstructionSpeed>0.15</ConstructionSpeed>
@@ -1811,7 +1761,7 @@
 			</li>
 			<li>
 				<minSeverity>3</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate boost</label>
 				<statOffsets>
 					<SmoothingSpeed>0.25</SmoothingSpeed>
 					<ConstructionSpeed>0.25</ConstructionSpeed>
@@ -1820,7 +1770,7 @@
 			</li>
 			<li>
 				<minSeverity>4</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major boost</label>
 				<statOffsets>
 					<SmoothingSpeed>0.3</SmoothingSpeed>
 					<ConstructionSpeed>0.3</ConstructionSpeed>
@@ -1829,7 +1779,7 @@
 			</li>
 			<li>
 				<minSeverity>5</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme boost</label>
 				<statOffsets>
 					<SmoothingSpeed>0.4</SmoothingSpeed>
 					<ConstructionSpeed>0.4</ConstructionSpeed>
@@ -1838,7 +1788,7 @@
 			</li>
 			<li>
 				<minSeverity>6</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial malice</label>
 				<statOffsets>
 					<SmoothingSpeed>-0.05</SmoothingSpeed>
 					<ConstructionSpeed>-0.05</ConstructionSpeed>
@@ -1847,7 +1797,7 @@
 			</li>
 			<li>
 				<minSeverity>7</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor malice</label>
 				<statOffsets>
 					<SmoothingSpeed>-0.1</SmoothingSpeed>
 					<ConstructionSpeed>-0.1</ConstructionSpeed>
@@ -1856,7 +1806,7 @@
 			</li>
 			<li>
 				<minSeverity>8</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate malice</label>
 				<statOffsets>
 					<SmoothingSpeed>-0.15</SmoothingSpeed>
 					<ConstructionSpeed>-0.15</ConstructionSpeed>
@@ -1865,7 +1815,7 @@
 			</li>
 			<li>
 				<minSeverity>9</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major malice</label>
 				<statOffsets>
 					<SmoothingSpeed>-0.2</SmoothingSpeed>
 					<ConstructionSpeed>-0.2</ConstructionSpeed>
@@ -1874,7 +1824,7 @@
 			</li>
 			<li>
 				<minSeverity>10</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme malice</label>
 				<statOffsets>
 					<SmoothingSpeed>-0.25</SmoothingSpeed>
 					<ConstructionSpeed>-0.25</ConstructionSpeed>
@@ -1886,74 +1836,74 @@
 	<!--Cleaner-->
 	<HediffDef ParentName="MW_BalanceHediff">
 		<defName>MW_Cleaner</defName>
-		<label>Cleaner</label>
+		<label>Lunar cleaner effect</label>
 		<stages>
 			<li>
 				<minSeverity>1</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial boost</label>
 				<statOffsets>
 					<CleaningSpeed>0.1</CleaningSpeed>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>2</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor boost</label>
 				<statOffsets>
 					<CleaningSpeed>0.15</CleaningSpeed>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>3</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate boost</label>
 				<statOffsets>
 					<CleaningSpeed>0.25</CleaningSpeed>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>4</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major boost</label>
 				<statOffsets>
 					<CleaningSpeed>0.3</CleaningSpeed>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>5</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme boost</label>
 				<statOffsets>
 					<CleaningSpeed>0.4</CleaningSpeed>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>6</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial malice</label>
 				<statOffsets>
 					<CleaningSpeed>-0.05</CleaningSpeed>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>7</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor malice</label>
 				<statOffsets>
 					<CleaningSpeed>-0.1</CleaningSpeed>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>8</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate malice</label>
 				<statOffsets>
 					<CleaningSpeed>-0.15</CleaningSpeed>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>9</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major malice</label>
 				<statOffsets>
 					<CleaningSpeed>-0.2</CleaningSpeed>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>10</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme malice</label>
 				<statOffsets>
 					<CleaningSpeed>-0.25</CleaningSpeed>
 				</statOffsets>
@@ -1963,11 +1913,11 @@
 	<!--Crafter-->
 	<HediffDef ParentName="MW_BalanceHediff">
 		<defName>MW_Crafter</defName>
-		<label>Crafter</label>
+		<label>Lunar craft effect</label>
 		<stages>
 			<li>
 				<minSeverity>1</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial boost</label>
 				<statOffsets>
 					<SmeltingSpeed>0.1</SmeltingSpeed>
 					<GeneralLaborSpeed>0.1</GeneralLaborSpeed>
@@ -1980,7 +1930,7 @@
 			</li>
 			<li>
 				<minSeverity>2</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor boost</label>
 				<statOffsets>
 					<SmeltingSpeed>0.15</SmeltingSpeed>
 					<GeneralLaborSpeed>0.15</GeneralLaborSpeed>
@@ -1993,7 +1943,7 @@
 			</li>
 			<li>
 				<minSeverity>3</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate boost</label>
 				<statOffsets>
 					<SmeltingSpeed>0.25</SmeltingSpeed>
 					<GeneralLaborSpeed>0.25</GeneralLaborSpeed>
@@ -2006,7 +1956,7 @@
 			</li>
 			<li>
 				<minSeverity>4</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major boost</label>
 				<statOffsets>
 					<SmeltingSpeed>0.3</SmeltingSpeed>
 					<GeneralLaborSpeed>0.3</GeneralLaborSpeed>
@@ -2019,7 +1969,7 @@
 			</li>
 			<li>
 				<minSeverity>5</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme boost</label>
 				<statOffsets>
 					<SmeltingSpeed>0.4</SmeltingSpeed>
 					<GeneralLaborSpeed>0.4</GeneralLaborSpeed>
@@ -2032,7 +1982,7 @@
 			</li>
 			<li>
 				<minSeverity>6</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial malice</label>
 				<statOffsets>
 					<SmeltingSpeed>-0.05</SmeltingSpeed>
 					<GeneralLaborSpeed>-0.05</GeneralLaborSpeed>
@@ -2045,7 +1995,7 @@
 			</li>
 			<li>
 				<minSeverity>7</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor malice</label>
 				<statOffsets>
 					<SmeltingSpeed>-0.1</SmeltingSpeed>
 					<GeneralLaborSpeed>-0.1</GeneralLaborSpeed>
@@ -2058,7 +2008,7 @@
 			</li>
 			<li>
 				<minSeverity>8</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate malice</label>
 				<statOffsets>
 					<SmeltingSpeed>-0.15</SmeltingSpeed>
 					<GeneralLaborSpeed>-0.15</GeneralLaborSpeed>
@@ -2071,7 +2021,7 @@
 			</li>
 			<li>
 				<minSeverity>9</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major malice</label>
 				<statOffsets>
 					<SmeltingSpeed>-0.2</SmeltingSpeed>
 					<GeneralLaborSpeed>-0.2</GeneralLaborSpeed>
@@ -2084,7 +2034,7 @@
 			</li>
 			<li>
 				<minSeverity>10</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme malice</label>
 				<statOffsets>
 					<SmeltingSpeed>-0.25</SmeltingSpeed>
 					<GeneralLaborSpeed>-0.25</GeneralLaborSpeed>
@@ -2100,11 +2050,11 @@
 	<!--Carry-->
 	<HediffDef ParentName="MW_BalanceHediff">
 		<defName>MW_Carry</defName>
-		<label>Carry</label>
+		<label>Lunar carry effect</label>
 		<stages>
 			<li>
 				<minSeverity>1</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial boost</label>
 				<statOffsets>
 					<CarryWeight>0.1</CarryWeight>
 					<CarryBulk>0.1</CarryBulk>
@@ -2112,7 +2062,7 @@
 			</li>
 			<li>
 				<minSeverity>2</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor boost</label>
 				<statOffsets>
 					<CarryWeight>0.15</CarryWeight>
 					<CarryBulk>0.15</CarryBulk>
@@ -2120,7 +2070,7 @@
 			</li>
 			<li>
 				<minSeverity>3</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate boost</label>
 				<statOffsets>
 					<CarryWeight>0.25</CarryWeight>
 					<CarryBulk>0.25</CarryBulk>
@@ -2128,7 +2078,7 @@
 			</li>
 			<li>
 				<minSeverity>4</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major boost</label>
 				<statOffsets>
 					<CarryWeight>0.3</CarryWeight>
 					<CarryBulk>0.3</CarryBulk>
@@ -2136,7 +2086,7 @@
 			</li>
 			<li>
 				<minSeverity>5</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme boost</label>
 				<statOffsets>
 					<CarryWeight>0.4</CarryWeight>
 					<CarryBulk>0.4</CarryBulk>
@@ -2144,7 +2094,7 @@
 			</li>
 			<li>
 				<minSeverity>6</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial malice</label>
 				<statOffsets>
 					<CarryWeight>-0.05</CarryWeight>
 					<CarryBulk>-0.05</CarryBulk>
@@ -2152,7 +2102,7 @@
 			</li>
 			<li>
 				<minSeverity>7</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor malice</label>
 				<statOffsets>
 					<CarryWeight>-0.1</CarryWeight>
 					<CarryBulk>-0.1</CarryBulk>
@@ -2160,7 +2110,7 @@
 			</li>
 			<li>
 				<minSeverity>8</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate malice</label>
 				<statOffsets>
 					<CarryWeight>-0.15</CarryWeight>
 					<CarryBulk>-0.15</CarryBulk>
@@ -2168,7 +2118,7 @@
 			</li>
 			<li>
 				<minSeverity>9</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major malice</label>
 				<statOffsets>
 					<CarryWeight>-0.2</CarryWeight>
 					<CarryBulk>-0.2</CarryBulk>
@@ -2176,7 +2126,7 @@
 			</li>
 			<li>
 				<minSeverity>10</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme malice</label>
 				<statOffsets>
 					<CarryWeight>-0.25</CarryWeight>
 					<CarryBulk>-0.25</CarryBulk>
@@ -2187,11 +2137,11 @@
 	<!--Caravan-->
 	<HediffDef ParentName="MW_BalanceHediff">
 		<defName>MW_Caravan</defName>
-		<label>Caravan</label>
+		<label>Lunar caravan effect</label>
 		<stages>
 			<li>
 				<minSeverity>1</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial boost</label>
 				<statOffsets>
 					<WornBulk>0.1</WornBulk>
 					<Bulk>0.1</Bulk>
@@ -2202,7 +2152,7 @@
 			</li>
 			<li>
 				<minSeverity>2</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor boost</label>
 				<statOffsets>
 					<WornBulk>0.15</WornBulk>
 					<Bulk>0.15</Bulk>
@@ -2213,7 +2163,7 @@
 			</li>
 			<li>
 				<minSeverity>3</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate boost</label>
 				<statOffsets>
 					<WornBulk>0.25</WornBulk>
 					<Bulk>0.25</Bulk>
@@ -2224,7 +2174,7 @@
 			</li>
 			<li>
 				<minSeverity>4</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major boost</label>
 				<statOffsets>
 					<WornBulk>0.3</WornBulk>
 					<Bulk>0.3</Bulk>
@@ -2235,7 +2185,7 @@
 			</li>
 			<li>
 				<minSeverity>5</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme boost</label>
 				<statOffsets>
 					<WornBulk>0.4</WornBulk>
 					<Bulk>0.4</Bulk>
@@ -2246,7 +2196,7 @@
 			</li>
 			<li>
 				<minSeverity>6</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial malice</label>
 				<statOffsets>
 					<WornBulk>-0.05</WornBulk>
 					<Bulk>-0.05</Bulk>
@@ -2257,7 +2207,7 @@
 			</li>
 			<li>
 				<minSeverity>7</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor malice</label>
 				<statOffsets>
 					<WornBulk>-0.1</WornBulk>
 					<Bulk>-0.1</Bulk>
@@ -2268,7 +2218,7 @@
 			</li>
 			<li>
 				<minSeverity>8</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate malice</label>
 				<statOffsets>
 					<WornBulk>-0.15</WornBulk>
 					<Bulk>-0.15</Bulk>
@@ -2279,7 +2229,7 @@
 			</li>
 			<li>
 				<minSeverity>9</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major malice</label>
 				<statOffsets>
 					<WornBulk>-0.2</WornBulk>
 					<Bulk>-0.2</Bulk>
@@ -2290,7 +2240,7 @@
 			</li>
 			<li>
 				<minSeverity>10</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme malice</label>
 				<statOffsets>
 					<WornBulk>-0.25</WornBulk>
 					<Bulk>-0.25</Bulk>
@@ -2304,11 +2254,11 @@
 	<!--Shoot-->
 	<HediffDef ParentName="MW_BalanceHediff">
 		<defName>MW_Shoot</defName>
-		<label>Shoot</label>
+		<label>Lunar shooting effect</label>
 		<stages>
 			<li>
 				<minSeverity>1</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial boost</label>
 				<statOffsets>
 					<AimingAccuracy>0.1</AimingAccuracy>
 					<ReloadSpeed>0.1</ReloadSpeed>
@@ -2317,7 +2267,7 @@
 			</li>
 			<li>
 				<minSeverity>2</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor boost</label>
 				<statOffsets>
 					<AimingAccuracy>0.15</AimingAccuracy>
 					<ReloadSpeed>0.15</ReloadSpeed>
@@ -2326,7 +2276,7 @@
 			</li>
 			<li>
 				<minSeverity>3</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate boost</label>
 				<statOffsets>
 					<AimingAccuracy>0.25</AimingAccuracy>
 					<ReloadSpeed>0.25</ReloadSpeed>
@@ -2335,7 +2285,7 @@
 			</li>
 			<li>
 				<minSeverity>4</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major boost</label>
 				<statOffsets>
 					<AimingAccuracy>0.3</AimingAccuracy>
 					<ReloadSpeed>0.3</ReloadSpeed>
@@ -2344,7 +2294,7 @@
 			</li>
 			<li>
 				<minSeverity>5</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme boost</label>
 				<statOffsets>
 					<AimingAccuracy>0.4</AimingAccuracy>
 					<ReloadSpeed>0.4</ReloadSpeed>
@@ -2353,7 +2303,7 @@
 			</li>
 			<li>
 				<minSeverity>6</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial malice</label>
 				<statOffsets>
 					<AimingAccuracy>-0.05</AimingAccuracy>
 					<ReloadSpeed>-0.05</ReloadSpeed>
@@ -2362,7 +2312,7 @@
 			</li>
 			<li>
 				<minSeverity>7</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor malice</label>
 				<statOffsets>
 					<AimingAccuracy>-0.1</AimingAccuracy>
 					<ReloadSpeed>-0.1</ReloadSpeed>
@@ -2371,7 +2321,7 @@
 			</li>
 			<li>
 				<minSeverity>8</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate malice</label>
 				<statOffsets>
 					<AimingAccuracy>-0.15</AimingAccuracy>
 					<ReloadSpeed>-0.15</ReloadSpeed>
@@ -2380,7 +2330,7 @@
 			</li>
 			<li>
 				<minSeverity>9</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major malice</label>
 				<statOffsets>
 					<AimingAccuracy>-0.2</AimingAccuracy>
 					<ReloadSpeed>-0.2</ReloadSpeed>
@@ -2389,7 +2339,7 @@
 			</li>
 			<li>
 				<minSeverity>10</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme malice</label>
 				<statOffsets>
 					<AimingAccuracy>-0.25</AimingAccuracy>
 					<ReloadSpeed>-0.25</ReloadSpeed>
@@ -2401,11 +2351,11 @@
 	<!--Melee-->
 	<HediffDef ParentName="MW_BalanceHediff">
 		<defName>MW_Melee</defName>
-		<label>Melee</label>
+		<label>Lunar melee effect</label>
 		<stages>
 			<li>
 				<minSeverity>1</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial boost</label>
 				<statOffsets>
 					<MeleeArmorPenetration>0.1</MeleeArmorPenetration>
 					<MeleeCritChance>0.1</MeleeCritChance>
@@ -2415,7 +2365,7 @@
 			</li>
 			<li>
 				<minSeverity>2</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor boost</label>
 				<statOffsets>
 					<MeleeArmorPenetration>0.15</MeleeArmorPenetration>
 					<MeleeCritChance>0.15</MeleeCritChance>
@@ -2425,7 +2375,7 @@
 			</li>
 			<li>
 				<minSeverity>3</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate boost</label>
 				<statOffsets>
 					<MeleeArmorPenetration>0.25</MeleeArmorPenetration>
 					<MeleeCritChance>0.25</MeleeCritChance>
@@ -2435,7 +2385,7 @@
 			</li>
 			<li>
 				<minSeverity>4</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major boost</label>
 				<statOffsets>
 					<MeleeArmorPenetration>0.3</MeleeArmorPenetration>
 					<MeleeCritChance>0.3</MeleeCritChance>
@@ -2445,7 +2395,7 @@
 			</li>
 			<li>
 				<minSeverity>5</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme boost</label>
 				<statOffsets>
 					<MeleeArmorPenetration>0.4</MeleeArmorPenetration>
 					<MeleeCritChance>0.4</MeleeCritChance>
@@ -2455,7 +2405,7 @@
 			</li>
 			<li>
 				<minSeverity>6</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial malice</label>
 				<statOffsets>
 					<MeleeArmorPenetration>-0.05</MeleeArmorPenetration>
 					<MeleeCritChance>-0.05</MeleeCritChance>
@@ -2465,7 +2415,7 @@
 			</li>
 			<li>
 				<minSeverity>7</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor malice</label>
 				<statOffsets>
 					<MeleeArmorPenetration>-0.1</MeleeArmorPenetration>
 					<MeleeCritChance>-0.1</MeleeCritChance>
@@ -2475,7 +2425,7 @@
 			</li>
 			<li>
 				<minSeverity>8</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate malice</label>
 				<statOffsets>
 					<MeleeArmorPenetration>-0.15</MeleeArmorPenetration>
 					<MeleeCritChance>-0.15</MeleeCritChance>
@@ -2485,7 +2435,7 @@
 			</li>
 			<li>
 				<minSeverity>9</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major malice</label>
 				<statOffsets>
 					<MeleeArmorPenetration>-0.2</MeleeArmorPenetration>
 					<MeleeCritChance>-0.2</MeleeCritChance>
@@ -2495,7 +2445,7 @@
 			</li>
 			<li>
 				<minSeverity>10</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme malice</label>
 				<statOffsets>
 					<MeleeArmorPenetration>-0.25</MeleeArmorPenetration>
 					<MeleeCritChance>-0.25</MeleeCritChance>
@@ -2508,74 +2458,74 @@
 	<!--Suppressability-->
 	<HediffDef ParentName="MW_BalanceHediff">
 		<defName>MW_Supp</defName>
-		<label>Supp</label>
+		<label>Lunar suppressability effect</label>
 		<stages>
 			<li>
 				<minSeverity>1</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial boost</label>
 				<statOffsets>
 					<Suppressability>0.1</Suppressability>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>2</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor boost</label>
 				<statOffsets>
 					<Suppressability>0.15</Suppressability>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>3</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate boost</label>
 				<statOffsets>
 					<Suppressability>0.25</Suppressability>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>4</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major boost</label>
 				<statOffsets>
 					<Suppressability>0.3</Suppressability>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>5</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme boost</label>
 				<statOffsets>
 					<Suppressability>0.4</Suppressability>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>6</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>trivial malice</label>
 				<statOffsets>
 					<Suppressability>-0.05</Suppressability>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>7</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>minor malice</label>
 				<statOffsets>
 					<Suppressability>-0.1</Suppressability>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>8</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>moderate malice</label>
 				<statOffsets>
 					<Suppressability>-0.15</Suppressability>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>9</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>major malice</label>
 				<statOffsets>
 					<Suppressability>-0.2</Suppressability>
 				</statOffsets>
 			</li>
 			<li>
 				<minSeverity>10</minSeverity>
-				<becomeVisible>false</becomeVisible>
+				<label>extreme malice</label>
 				<statOffsets>
 					<Suppressability>-0.25</Suppressability>
 				</statOffsets>

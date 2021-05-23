@@ -20,10 +20,9 @@
 		</comps>
 		<stages>
 			<li>
-				<becomeVisible>false</becomeVisible>
 				<painFactor>0</painFactor>
 				<statOffsets>
-					<IncomingDamageFactor>-0.8</IncomingDamageFactor>
+					<IncomingDamageFactor>-0.45</IncomingDamageFactor>
 				</statOffsets>
 			</li>
 		</stages>
@@ -48,11 +47,10 @@
 		</comps>
 		<stages>
 			<li>
-				<becomeVisible>false</becomeVisible>
 				<painFactor>0</painFactor>
 				<statOffsets>
-					<ArmorRating_Sharp>10</ArmorRating_Sharp>
-					<ArmorRating_Blunt>10</ArmorRating_Blunt>
+					<ArmorRating_Sharp>5</ArmorRating_Sharp>
+					<ArmorRating_Blunt>5</ArmorRating_Blunt>
 					<AimingDelayFactor>-0.5</AimingDelayFactor>
 					<ReloadSpeed>-0.5</ReloadSpeed>
 					<AimingAccuracy>-0.5</AimingAccuracy>
@@ -80,7 +78,6 @@
 		</comps>
 		<stages>
 			<li>
-				<becomeVisible>false</becomeVisible>
 				<painFactor>0</painFactor>
 				<statOffsets>
 					<MoveSpeed>4</MoveSpeed>
@@ -92,7 +89,7 @@
 	<HediffDef>
 		<defName>MW_Sanford</defName>
 		<label>Spirit of Sandford</label>
-		<description>You feel the spirit of Sandford inside your mind. It grants you a great meele skills against A.A.H.W</description>
+		<description>You feel the spirit of Sandford inside your mind. It grants you a great meele skills against A.A.H.W.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<isBad>false</isBad>
 		<comps>
@@ -109,7 +106,6 @@
 		</comps>
 		<stages>
 			<li>
-				<becomeVisible>false</becomeVisible>
 				<painFactor>0.4</painFactor>
 				<statOffsets>
 					<MoveSpeed>4</MoveSpeed>
@@ -125,7 +121,7 @@
 	<HediffDef>
 		<defName>MW_Deimos</defName>
 		<label>Spirit of Deimos</label>
-		<description>You feel the spirit of Deimos inside your mind. It grants you a great gunslinger skills against A.A.H.W</description>
+		<description>You feel the spirit of Deimos inside your mind. It grants you a great gunslinger skills against A.A.H.W.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<isBad>false</isBad>
 		<comps>
@@ -142,7 +138,6 @@
 		</comps>
 		<stages>
 			<li>
-				<becomeVisible>false</becomeVisible>
 				<statOffsets>
 					<MoveSpeed>1</MoveSpeed>
 					<AimingDelayFactor>-0.5</AimingDelayFactor>
@@ -155,7 +150,7 @@
 	<HediffDef>
 		<defName>MW_Hank</defName>
 		<label>Spirit of Hank</label>
-		<description>You feel the spirit of Hank inside your mind. It grants you a great battle skills against A.A.H.W</description>
+		<description>You feel the spirit of Hank inside your mind. It grants you a great battle skills against A.A.H.W.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<isBad>false</isBad>
 		<comps>
@@ -172,7 +167,6 @@
 		</comps>
 		<stages>
 			<li>
-				<becomeVisible>false</becomeVisible>
 				<painFactor>0.2</painFactor>
 				<statOffsets>
 					<MoveSpeed>2</MoveSpeed>

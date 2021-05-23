@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <MayWorks.label>Улучшение работы</MayWorks.label>
@@ -7,5 +7,6 @@
   <MayWorks.stages.1.label>Работать - здорово!</MayWorks.stages.1.label>
   <MayWorks.stages.2.label>Работа! Работка! Работочка!</MayWorks.stages.2.label>
   <MayWorks.stages.3.label>ЧЕЛОВЕК-МАШИНА!</MayWorks.stages.3.label>
+
 
 </LanguageData>

@@ -1,16 +1,14 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <MayWorkThought.stages.0.label>работать - здорово</MayWorkThought.stages.0.label>
   <MayWorkThought.stages.0.description>мне нравится делать вещи</MayWorkThought.stages.0.description>
-
   <MayWorkThought.stages.1.label>ударный труд</MayWorkThought.stages.1.label>
   <MayWorkThought.stages.1.description>отличный день чтобы хорошенько поработать</MayWorkThought.stages.1.description>
-
   <MayWorkThought.stages.2.label>опять работать</MayWorkThought.stages.2.label>
   <MayWorkThought.stages.2.description>я устаю от всего этого труда</MayWorkThought.stages.2.description>
-
   <MayWorkThought.stages.3.label>ненавижу эту неделю</MayWorkThought.stages.3.label>
   <MayWorkThought.stages.3.description>вся неделя должна быть выходными, а не вот этим всем</MayWorkThought.stages.3.description>
+
 
 </LanguageData>
