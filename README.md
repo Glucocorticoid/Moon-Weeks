@@ -12,6 +12,4 @@ Each week can:
 - change map plant and animal density
 - start other events and weeks.
 
-
-
- 
+![Pic](https://user-images.githubusercontent.com/34233184/119275270-b5cab900-bc1c-11eb-9f5c-fb01a9e37245.jpg)
