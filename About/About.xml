@@ -6,6 +6,7 @@
 	<supportedVersions>
 		<li>1.2</li>
 	</supportedVersions>
+	<url>https://github.com/Glucocorticoid/Moon-Weeks</url>
 
 	<modDependencies>
 		<li>
@@ -19,5 +20,13 @@
 	<incompatibleWith>
 	</incompatibleWith>
 
-	<description>Weekly events.</description>
+	<description>
+	[РУССКИЙ]
+	В эпоху технического прогресса и научного знания, люди по прежнему остаются суеверными. Иррациональный страх заставляет их поверить во влияние далёких планет на повседневную жизнь. Вера в символы, составленные из звёзд на ночном небе, способна привести к ужасающим последствиям.
+	
+	[ENGLISH]
+	In an era of technological progress and scientific knowledge, people are still superstitious. Irrational fear leads them to believe in the influence of distant planets on everyday life. Belief in symbols composed of stars in the night sky can have dire consequences. 
+	
+	Special thanks to GuardianDLL (https://github.com/GuardianDll). He did a great job with a ton of xml. Praise him. 
+	</description>
 </ModMetaData>

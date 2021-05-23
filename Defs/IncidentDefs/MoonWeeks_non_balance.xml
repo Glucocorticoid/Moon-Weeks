@@ -349,7 +349,7 @@
 								<effectDef>AccidentalExplosion</effectDef>
 								<procChance>0.25</procChance>
 							</li>
-							<li>
+							<li MayRequire="Dubwise.Rimatomics">
 								<effectDef>notNothing</effectDef>
 								<procChance>0.45</procChance>
 							</li>
