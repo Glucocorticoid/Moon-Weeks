@@ -188,6 +188,7 @@
 		<stages>
 			<li>
 				<minSeverity>1</minSeverity>
+				<label>trivial boost</label>
 				<becomeVisible>false</becomeVisible>
 				<statOffsets>
 					<WorkSpeedGlobal>0.2</WorkSpeedGlobal>
@@ -195,6 +196,7 @@
 			</li>
 			<li>
 				<minSeverity>2</minSeverity>
+				<label>minor boost</label>
 				<becomeVisible>false</becomeVisible>
 				<statOffsets>
 					<WorkSpeedGlobal>0.3</WorkSpeedGlobal>
@@ -202,6 +204,7 @@
 			</li>
 			<li>
 				<minSeverity>3</minSeverity>
+				<label>moderate boost</label>
 				<becomeVisible>false</becomeVisible>
 				<statOffsets>
 					<WorkSpeedGlobal>0.5</WorkSpeedGlobal>
@@ -209,6 +212,7 @@
 			</li>
 			<li>
 				<minSeverity>4</minSeverity>
+				<label>major boost</label>
 				<becomeVisible>false</becomeVisible>
 				<statOffsets>
 					<WorkSpeedGlobal>0.6</WorkSpeedGlobal>
@@ -216,6 +220,7 @@
 			</li>
 			<li>
 				<minSeverity>5</minSeverity>
+				<label>extreme boost</label>
 				<becomeVisible>false</becomeVisible>
 				<statOffsets>
 					<WorkSpeedGlobal>0.8</WorkSpeedGlobal>
