@@ -3,19 +3,19 @@
 
   <MW_Sniper.label>Лунное влияние (точность)</MW_Sniper.label>
   <MW_Sniper.description>Технобог следит за вами</MW_Sniper.description>
-  <MW_Sniper.stages.0.label>слабое усиление</MW_Sniper.stages.0.label>
-  <MW_Sniper.stages.1.label>незначительное усиление</MW_Sniper.stages.1.label>
+  <MW_Sniper.stages.0.label>начальное усиление</MW_Sniper.stages.0.label>
+  <MW_Sniper.stages.1.label>слабое усиление</MW_Sniper.stages.1.label>
   <MW_Sniper.stages.2.label>среднее усиление</MW_Sniper.stages.2.label>
-  <MW_Sniper.stages.3.label>умеренное усиление</MW_Sniper.stages.3.label>
-  <MW_Sniper.stages.4.label>сильное усиление</MW_Sniper.stages.4.label>
+  <MW_Sniper.stages.3.label>сильное усиление</MW_Sniper.stages.3.label>
+  <MW_Sniper.stages.4.label>экстремальное усиление</MW_Sniper.stages.4.label>
 
   <MW_Dakka.label>Лунное влияние (скорострельность)</MW_Dakka.label>
   <MW_Dakka.description>Технобог следит за вами</MW_Dakka.description>
-  <MW_Dakka.stages.0.label>слабое усиление</MW_Dakka.stages.0.label>
-  <MW_Dakka.stages.1.label>незначительное усиление</MW_Dakka.stages.1.label>
+  <MW_Dakka.stages.0.label>начальное усиление</MW_Dakka.stages.0.label>
+  <MW_Dakka.stages.1.label>слабое усиление</MW_Dakka.stages.1.label>
   <MW_Dakka.stages.2.label>среднее усиление</MW_Dakka.stages.2.label>
-  <MW_Dakka.stages.3.label>умеренное усиление</MW_Dakka.stages.3.label>
-  <MW_Dakka.stages.4.label>сильное усиление</MW_Dakka.stages.4.label>
+  <MW_Dakka.stages.3.label>сильное усиление</MW_Dakka.stages.3.label>
+  <MW_Dakka.stages.4.label>экстремальное усиление</MW_Dakka.stages.4.label>
 
   <MW_Sensivity.label>Лунное влияние (чувствительность)</MW_Sensivity.label>
   <MW_Sensivity.description>Технобог следит за вами</MW_Sensivity.description>
