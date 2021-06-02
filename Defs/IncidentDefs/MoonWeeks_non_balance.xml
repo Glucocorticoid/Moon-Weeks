@@ -472,6 +472,19 @@
 			<li Class="MoonWeeks.WeekParams">
 				<weekDurationInDays>7</weekDurationInDays>
 				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Incident">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>55</reApplyEveryXHours>
+						<eventDefs>
+							<li>
+								<effectDef>RaidEnemy</effectDef>
+							</li>
+							<li>
+								<effectDef>RaidEnemyDesperate</effectDef>
+							</li>
+						</eventDefs>
+						<pickRule>Random</pickRule>
+					</li>
 					<li Class="MoonWeeks.WeekAffector_Hediff">
 						<excecutionType>EveryXHours</excecutionType>
 						<reApplyEveryXHours>55</reApplyEveryXHours>
@@ -519,19 +532,6 @@
 						<pawnPickRule>All</pawnPickRule>
 						<delayInTicks>10</delayInTicks>
 					</li>
-					<li Class="MoonWeeks.WeekAffector_Incident">
-						<excecutionType>EveryXHours</excecutionType>
-						<reApplyEveryXHours>55</reApplyEveryXHours>
-						<eventDefs>
-							<li>
-								<effectDef>RaidEnemy</effectDef>
-							</li>
-							<li>
-								<effectDef>RaidEnemyDesperate</effectDef>
-							</li>
-						</eventDefs>
-						<pickRule>Random</pickRule>
-					</li>
 				</affectors>
 			</li>
 		</modExtensions>
@@ -566,120 +566,12 @@
 								<stage>1</stage>
 							</li>
 							<li>
-								<effectDef>Pneumonia</effectDef>
-								<stage>1</stage>
-							</li>
-							<li>
-								<effectDef>Coronavirus</effectDef>
-								<stage>1</stage>
-							</li>
-							<li>
-								<effectDef>Flu</effectDef>
-								<stage>1</stage>
-							</li>
-							<li>
-								<effectDef>Malaria</effectDef>
-								<stage>1</stage>
-							</li>
-						</effectDefs>
-						<isAffectEnemies>true</isAffectEnemies>
-						<pawnPickRule>Random</pawnPickRule>
-						<delayInTicks>10</delayInTicks>
-					</li>
-					<li Class="MoonWeeks.WeekAffector_Hediff">
-						<excecutionType>EveryXHours</excecutionType>
-						<reApplyEveryXHours>52</reApplyEveryXHours>
-						<effectDefs>
-							<li>
-								<effectDef>Ebola</effectDef>
-								<stage>1</stage>
-							</li>
-							<li>
-								<effectDef>Pneumonia</effectDef>
-								<stage>1</stage>
-							</li>
-							<li>
-								<effectDef>Coronavirus</effectDef>
-								<stage>1</stage>
-							</li>
-							<li>
-								<effectDef>Flu</effectDef>
-								<stage>1</stage>
-							</li>
-							<li>
-								<effectDef>Malaria</effectDef>
-								<stage>1</stage>
-							</li>
-						</effectDefs>
-						<isAffectEnemies>true</isAffectEnemies>
-						<pawnPickRule>Random</pawnPickRule>
-						<delayInTicks>10</delayInTicks>
-					</li>
-					<li Class="MoonWeeks.WeekAffector_Hediff">
-						<excecutionType>EveryXHours</excecutionType>
-						<reApplyEveryXHours>52</reApplyEveryXHours>
-						<effectDefs>
-							<li>
-								<effectDef>Ebola</effectDef>
-								<stage>1</stage>
-							</li>
-							<li>
-								<effectDef>Pneumonia</effectDef>
-								<stage>1</stage>
-							</li>
-							<li>
-								<effectDef>Coronavirus</effectDef>
-								<stage>1</stage>
-							</li>
-							<li>
-								<effectDef>Flu</effectDef>
-								<stage>1</stage>
-							</li>
-							<li>
-								<effectDef>Malaria</effectDef>
-								<stage>1</stage>
-							</li>
-						</effectDefs>
-						<isAffectEnemies>true</isAffectEnemies>
-						<pawnPickRule>Random</pawnPickRule>
-						<delayInTicks>10</delayInTicks>
-					</li>
-					<li Class="MoonWeeks.WeekAffector_Hediff">
-						<excecutionType>EveryXHours</excecutionType>
-						<reApplyEveryXHours>52</reApplyEveryXHours>
-						<effectDefs>
-							<li>
-								<effectDef>Ebola</effectDef>
-								<stage>1</stage>
-							</li>
-							<li>
-								<effectDef>Pneumonia</effectDef>
-								<stage>1</stage>
-							</li>
-							<li>
-								<effectDef>Coronavirus</effectDef>
-								<stage>1</stage>
-							</li>
-							<li>
-								<effectDef>Flu</effectDef>
-								<stage>1</stage>
-							</li>
-							<li>
-								<effectDef>Malaria</effectDef>
-								<stage>1</stage>
-							</li>
-						</effectDefs>
-						<isAffectEnemies>true</isAffectEnemies>
-						<pawnPickRule>Random</pawnPickRule>
-						<delayInTicks>10</delayInTicks>
-					</li>
-					<li Class="MoonWeeks.WeekAffector_Hediff">
-						<excecutionType>EveryXHours</excecutionType>
-						<reApplyEveryXHours>52</reApplyEveryXHours>
-						<effectDefs>
-							<li>
 								<effectDef>Ebola</effectDef>
 								<stage>2</stage>
+							</li>
+							<li>
+								<effectDef>Pneumonia</effectDef>
+								<stage>1</stage>
 							</li>
 							<li>
 								<effectDef>Pneumonia</effectDef>
@@ -687,7 +579,15 @@
 							</li>
 							<li>
 								<effectDef>Coronavirus</effectDef>
-								<stage>3</stage>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>Coronavirus</effectDef>
+								<stage>2</stage>
+							</li>
+							<li>
+								<effectDef>Flu</effectDef>
+								<stage>1</stage>
 							</li>
 							<li>
 								<effectDef>Flu</effectDef>
@@ -695,11 +595,17 @@
 							</li>
 							<li>
 								<effectDef>Malaria</effectDef>
-								<stage>3</stage>
+								<stage>1</stage>
+							</li>
+							<li>
+								<effectDef>Malaria</effectDef>
+								<stage>2</stage>
 							</li>
 						</effectDefs>
 						<isAffectEnemies>true</isAffectEnemies>
-						<pawnPickRule>Random</pawnPickRule>
+						<applyRandomForEachPawn>True</applyRandomForEachPawn>
+						<pickRule>Random</pickRule>
+						<pawnPickRule>All</pawnPickRule>
 						<delayInTicks>10</delayInTicks>
 					</li>
 				</affectors>
