@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThoughtDef>
+    <defName>MayWorkThought</defName>
+    <showBubble>false</showBubble>
+    <durationDays>1.0</durationDays>
+    <stackLimit>1</stackLimit>
+    <stackedEffectMultiplier>1</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>nice work</label>
+		    <description>i like to do things</description>
+        <baseMoodEffect>7</baseMoodEffect>
+      </li>
+      <li>
+        <label>impactful labor</label>
+		    <description>nice day to hard work</description>
+        <baseMoodEffect>14</baseMoodEffect>
+      </li>
+      <li>
+        <label>work, again</label>
+		    <description>i am tired with all this labor</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+       <li>
+        <label>hate this week</label>
+		    <description>this whole week should be a holiday, not a work!</description>
+        <baseMoodEffect>-9</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+    <ThoughtDef>
+    <defName>GoldenWeekThought</defName>
+    <showBubble>false</showBubble>
+    <durationDays>1.0</durationDays>
+    <stackLimit>1</stackLimit>
+    <stackedEffectMultiplier>1</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>carefree time</label>
+		    <description>i don't have to think about anything</description>
+        <baseMoodEffect>11</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>
