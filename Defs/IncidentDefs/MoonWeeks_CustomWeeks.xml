@@ -236,4 +236,115 @@
         </modExtensions>
 	</IncidentDef>
 
+	<IncidentDef>
+		<defName>MW_EndOfGame</defName>
+		<label>End of game</label>
+		<description>Untranslated description</description>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>MoonWeeks.IncidentWorker_WeekStarts</workerClass>
+		<baseChance>0.001</baseChance>
+		<pointsScaleable>true</pointsScaleable>
+		<earliestDay>320</earliestDay>
+		<minPopulation>3</minPopulation>
+		<minRefireDays>120</minRefireDays>
+		<letterDef>NegativeEvent</letterDef>	
+        <modExtensions>
+            <li Class="MoonWeeks.WeekParams">
+				<weekDurationInDays>7</weekDurationInDays>
+				<weekKind>Bad</weekKind>
+				<affectors>
+					<li Class="MoonWeeks.WeekAffector_Incident">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>12</reApplyEveryXHours>
+						<delayInTicks>2500</delayInTicks>
+						<eventDefs>
+							<li>
+								<effectDef>BoulderMassHit</effectDef>
+							</li>
+							<li>
+								<effectDef>NuclearFallout</effectDef>
+							</li>
+							<li>
+								<effectDef>EnemyShip</effectDef>
+							</li>
+							<li>
+								<effectDef>Disease_Plague</effectDef>
+							</li>
+							<li>
+								<effectDef>GeoStorm</effectDef>
+							</li>
+						</eventDefs>
+						<pickRule>Random</pickRule>
+					</li>
+
+					<li Class="MoonWeeks.WeekAffector_Thought">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>10~14</reApplyEveryXHours>
+						<effectDefs>
+							<li>
+								<effectDef>GoldenWeekThought</effectDef>
+								<stage>0</stage>
+							</li>
+						</effectDefs>
+						<isAffectColonists>true</isAffectColonists>
+						<pawnPickRule>All</pawnPickRule>
+					</li>
+
+					<li Class="MoonWeeks.WeekAffector_MentalBreak">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>18~24</reApplyEveryXHours>
+						<effectDefs>
+							<li>
+								<effectDef>Binging_Food</effectDef>
+							</li>
+							<li>
+								<effectDef>Binging_DrugMajor</effectDef>
+							</li>
+							<li>
+								<effectDef>Wander_OwnRoom</effectDef>
+							</li>
+							<li>
+								<effectDef>Compulsion</effectDef>
+							</li>
+						</effectDefs>
+						<pawnPickRule>Random</pawnPickRule>
+						<pickRule>Random</pickRule>
+						<isAffectColonists>true</isAffectColonists>
+					</li>
+
+					<li Class="MoonWeeks.WeekAffector_Trait">
+						<excecutionType>EveryXHours</excecutionType>
+						<reApplyEveryXHours>22~26</reApplyEveryXHours>
+						<effectDefs>
+							<li>
+								<effectDef>Kind</effectDef>
+								<procChance>0.08</procChance>
+							</li>
+							<li>
+								<effectDef>Ascetic</effectDef>
+								<degree>0</degree>
+								<procChance>0.04</procChance>
+							</li>
+							<li>
+								<effectDef>Gourmand</effectDef>
+								<procChance>0.03</procChance>
+							</li>
+							<li>
+								<effectDef>EatingSpeed</effectDef>
+								<procChance>0.02</procChance>
+							</li>
+						</effectDefs>
+						<pickRule>Random</pickRule>
+						<pawnPickRule>Random</pawnPickRule>
+						<isAffectColonists>true</isAffectColonists>
+					</li>
+
+				</affectors>
+            </li>
+        </modExtensions>
+	</IncidentDef>
+
 </Defs>
